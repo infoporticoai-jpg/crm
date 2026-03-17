@@ -52,9 +52,10 @@ model Company {
   // Billing (Stripe)
   stripeCustomerId      String?
   stripeSubscriptionId  String?
+  stripePriceId         String?
   subscriptionStatus    String? // "active" | "trialing" | "past_due" | "canceled"
   subscriptionPlan      String? // "starter" | "growth" | "custom"
-  subscriptionPeriodEnd DateTime?
+  currentPeriodEnd      DateTime?
 
   // Status
   status String @default("active") // "active" | "pending" | "suspended"
@@ -225,8 +226,8 @@ model Job {
   customerId String?
   customer   Customer? @relation(fields: [customerId], references: [id])
 
-  technicianId String?
-  technician   Technician? @relation(fields: [technicianId], references: [id])
+  assignedTechnicianId String?
+  assignedTechnician   Technician? @relation(fields: [assignedTechnicianId], references: [id])
 
   appointments Appointment[]
   invoices     Invoice[]
@@ -264,15 +265,16 @@ model Quote {
 }
 
 model Invoice {
-  id        String    @id @default(cuid())
-  lineItems String    @default("[]") // JSON
-  subtotal  Float     @default(0)
-  tax       Float     @default(0)
-  total     Float     @default(0)
-  status    String    @default("draft") // "draft" | "sent" | "paid" | "overdue" | "cancelled"
-  dueDate   DateTime?
-  paidDate  DateTime?
-  notes     String?
+  id            String    @id @default(cuid())
+  invoiceNumber String?   // Auto-generated: "0001", "0002", etc.
+  lineItems     String    @default("[]") // JSON: [{description, quantity, unitPrice}]
+  subtotal      Float     @default(0)
+  tax           Float     @default(0)
+  total         Float     @default(0)
+  status        String    @default("draft") // "draft" | "sent" | "paid" | "overdue" | "cancelled"
+  dueDate       DateTime?
+  paidAt        DateTime?
+  notes         String?
 
   companyId String
   company   Company @relation(fields: [companyId], references: [id], onDelete: Cascade)
@@ -316,6 +318,7 @@ model Technician {
   email          String?
   certifications String? @default("[]") // JSON array
   hourlyRate     Float?
+  isActive       Boolean @default(true)
 
   companyId String
   company   Company @relation(fields: [companyId], references: [id], onDelete: Cascade)
