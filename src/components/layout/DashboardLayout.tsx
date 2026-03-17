@@ -7,15 +7,15 @@ import { useSession, signOut } from "next-auth/react";
 import {
   LayoutDashboard, Phone, CalendarDays, Users, Briefcase, FileText, Receipt,
   DollarSign, Shield, BarChart3, Wallet, TrendingUp, Settings, UserPlus,
-  Hammer, Building2, CreditCard, ScrollText, Megaphone, Bell, Menu, X,
+  Hammer, Layers, Building2, CreditCard, ScrollText, Megaphone, Bell, Menu, X,
   LogOut, User, ChevronDown,
 } from "lucide-react";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuSeparator, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 import { Button } from "@/components/ui/button";
 
 const LABELS = {
-  en: { dashboard: "Dashboard", calls: "Calls", calendar: "Calendar", customers: "Customers", jobs: "Jobs", quotes: "Quotes", invoices: "Invoices", costs: "Costs", insurance: "Insurance", analytics: "Analytics", payroll: "Payroll", revenueRecovery: "Revenue Recovery", settings: "Settings", team: "Team", flooring: "Flooring", companies: "Companies", billing: "Billing", logs: "Logs", broadcast: "Broadcast", admin: "Admin", profile: "Profile", logout: "Log out" },
-  fr: { dashboard: "Tableau de bord", calls: "Appels", calendar: "Calendrier", customers: "Clients", jobs: "Travaux", quotes: "Soumissions", invoices: "Factures", costs: "Couts", insurance: "Assurances", analytics: "Analytiques", payroll: "Paie", revenueRecovery: "Recouvrement", settings: "Parametres", team: "Equipe", flooring: "Planchers", companies: "Entreprises", billing: "Facturation", logs: "Journaux", broadcast: "Diffusion", admin: "Admin", profile: "Profil", logout: "Deconnexion" },
+  en: { dashboard: "Dashboard", calls: "Calls", calendar: "Calendar", customers: "Customers", jobs: "Jobs", quotes: "Quotes", invoices: "Invoices", costs: "Costs", insurance: "Insurance", analytics: "Analytics", payroll: "Payroll", revenueRecovery: "Revenue Recovery", settings: "Settings", team: "Team", flooring: "Flooring", tapis: "Tapis", companies: "Companies", billing: "Billing", logs: "Logs", broadcast: "Broadcast", admin: "Admin", profile: "Profile", logout: "Log out" },
+  fr: { dashboard: "Tableau de bord", calls: "Appels", calendar: "Calendrier", customers: "Clients", jobs: "Travaux", quotes: "Soumissions", invoices: "Factures", costs: "Couts", insurance: "Assurances", analytics: "Analytiques", payroll: "Paie", revenueRecovery: "Recouvrement", settings: "Parametres", team: "Equipe", flooring: "Planchers", tapis: "Tapis", companies: "Entreprises", billing: "Facturation", logs: "Journaux", broadcast: "Diffusion", admin: "Admin", profile: "Profil", logout: "Deconnexion" },
 };
 
 interface NavItem { href: string; label: string; icon: React.ElementType }
@@ -43,6 +43,7 @@ export default function DashboardLayout({ title, children }: { title: string; ch
     { href: "/settings", label: t.settings, icon: Settings },
     { href: "/team", label: t.team, icon: UserPlus },
     { href: "/flooring", label: t.flooring, icon: Hammer },
+    { href: "/tapis", label: t.tapis, icon: Layers },
   ];
 
   const adminNav: NavItem[] = [

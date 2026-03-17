@@ -1,0 +1,8682 @@
+[
+  {
+    "name": "0690-ET",
+    "addresses": [
+      "Lilo"
+    ],
+    "contacts": [
+      "7h30-11h",
+      "7-9-h30"
+    ],
+    "emails": [
+      "cse@residencelilo.com"
+    ],
+    "cities": [
+      "105, boul. Don Quichotte"
+    ]
+  },
+  {
+    "name": "0743-ET",
+    "addresses": [
+      "Collège Stanislas"
+    ],
+    "contacts": [
+      "7h30",
+      "12h-13h30"
+    ],
+    "emails": [
+      "sylvie.marie@stanislas.qc.ca"
+    ],
+    "cities": [
+      "780, boul. Dollard"
+    ]
+  },
+  {
+    "name": "0749-ET",
+    "addresses": [
+      "ACT (Fermé de 12h à 13h30)8 :30 et 17 :00"
+    ],
+    "contacts": [],
+    "emails": [
+      "ITaillon@actactuaires.com"
+    ],
+    "cities": [
+      "1950  Maurice Gauvin"
+    ]
+  },
+  {
+    "name": "0782-ET",
+    "addresses": [
+      "Bernard et Brassard #300"
+    ],
+    "contacts": [
+      "16h-16h45",
+      "14h30-15h"
+    ],
+    "emails": [
+      "Gpicard@bernard-brassard.com"
+    ],
+    "cities": [
+      "2265, boul. Fernand-Lafontaine"
+    ]
+  },
+  {
+    "name": "0786-ET",
+    "addresses": [
+      "Clinique Uniderma"
+    ],
+    "contacts": [
+      "11h-13h30",
+      "12h-16h"
+    ],
+    "emails": [
+      "drejodoin@uniderma.ca"
+    ],
+    "cities": [
+      "1575, boul. de l'Avenir"
+    ]
+  },
+  {
+    "name": "0812-ET",
+    "addresses": [
+      "LE Sanctuaire,  phase 4"
+    ],
+    "contacts": [
+      "14h-17h",
+      "12h-17"
+    ],
+    "emails": [
+      "6111duboise@hotmail.ca"
+    ],
+    "cities": [
+      "6111, du Boisé"
+    ]
+  },
+  {
+    "name": "0841-ET",
+    "addresses": [
+      "M9 Prince (solution Condo)"
+    ],
+    "contacts": [],
+    "emails": [
+      "jennifer.allen@solutioncondo.com"
+    ],
+    "cities": [
+      "80, rue Prince"
+    ]
+  },
+  {
+    "name": "0869-ET",
+    "addresses": [
+      "Le William"
+    ],
+    "contacts": [
+      "11-13h30",
+      "12h30-15h30"
+    ],
+    "emails": [
+      "antoine.portelance@solutioncondo.com"
+    ],
+    "cities": [
+      "1811, rue William"
+    ]
+  },
+  {
+    "name": "0894-ET",
+    "addresses": [
+      "Jardins Millen"
+    ],
+    "contacts": [
+      "7h30-9h30"
+    ],
+    "emails": [
+      "dg@lesjardinsmillen.com"
+    ],
+    "cities": [
+      "10800, ave Millen"
+    ]
+  },
+  {
+    "name": "0908-ET",
+    "addresses": [
+      "Tours Frontenac"
+    ],
+    "contacts": [
+      "7h30-9h",
+      "8h30-9h30"
+    ],
+    "emails": [
+      "jffournier@g3p.ca",
+      "gsantopietro@g3p.ca"
+    ],
+    "cities": [
+      "1850, rue Bercy"
+    ]
+  },
+  {
+    "name": "0909-ET",
+    "addresses": [
+      "SFM"
+    ],
+    "contacts": [
+      "16-17h",
+      "16h-17h"
+    ],
+    "emails": [
+      "steve.colpron@sfm.ca"
+    ],
+    "cities": [
+      "325, boul. Bouchard"
+    ]
+  },
+  {
+    "name": "0948-ET",
+    "addresses": [
+      "Place des Tourelles I, Boisbriand"
+    ],
+    "contacts": [
+      "15h45-16h45",
+      "12h-13h30"
+    ],
+    "emails": [
+      "mclavoie@alcovicapital.com"
+    ],
+    "cities": [
+      "3655, des Grandes Tourelles"
+    ]
+  },
+  {
+    "name": "0955-ET",
+    "addresses": [
+      "Résidence LE22"
+    ],
+    "contacts": [
+      "12h-17h",
+      "10h-12h30"
+    ],
+    "emails": [
+      "cse@residencele22.com"
+    ],
+    "cities": [
+      "4400, rue Jean-Talon Est"
+    ]
+  },
+  {
+    "name": "0957-ET",
+    "addresses": [
+      "Complexe Louis-R Renaud",
+      "Complexe Louis-R. Renaud"
+    ],
+    "contacts": [
+      "7h30",
+      "12h-14h"
+    ],
+    "emails": [
+      "gpomerleau@alcovicapital.com",
+      "mclavoie@alcovicapital.com"
+    ],
+    "cities": [
+      "2905, Louis-R. Renaud",
+      "2905, place Louis-R. renaud"
+    ]
+  },
+  {
+    "name": "0958-ET",
+    "addresses": [
+      "1200 de Maisonneuve o"
+    ],
+    "contacts": [],
+    "emails": [
+      "gestion1200@sequoias.ca"
+    ],
+    "cities": [
+      "1200, de Maisonneuve O"
+    ]
+  },
+  {
+    "name": "0959-ET",
+    "addresses": [
+      "1210 de Maisonneuve o."
+    ],
+    "contacts": [],
+    "emails": [
+      "gestion1200@sequoias.ca"
+    ],
+    "cities": [
+      "1210, de Maisonneuve O"
+    ]
+  },
+  {
+    "name": "0960-ET",
+    "addresses": [
+      "Résidence Station Est"
+    ],
+    "contacts": [
+      "7h30-10h30",
+      "12h30-14h30"
+    ],
+    "emails": [
+      "cse@residencestationest.com"
+    ],
+    "cities": [
+      "4800 rue Contrecoeur, Montréal"
+    ]
+  },
+  {
+    "name": "0961-ET",
+    "addresses": [
+      "Lightspeed"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "7000, rue St-Antoine Est"
+    ]
+  },
+  {
+    "name": "0962-ET",
+    "addresses": [
+      "1600 Rene Levesque O"
+    ],
+    "contacts": [
+      "18h-21h"
+    ],
+    "emails": [
+      "Clemence.Cabanis@bgo.com"
+    ],
+    "cities": [
+      "1600 Rene Levesque O"
+    ]
+  },
+  {
+    "name": "0963-ET",
+    "addresses": [
+      "1616 Rene Levesque O"
+    ],
+    "contacts": [
+      "18h-21h"
+    ],
+    "emails": [
+      "Clemence.Cabanis@bgo.com"
+    ],
+    "cities": [
+      "1616 Rene Levesque O"
+    ]
+  },
+  {
+    "name": "0964-ET",
+    "addresses": [
+      "Centre de médecine sportive"
+    ],
+    "contacts": [
+      "9h-10h",
+      "11h30-13h"
+    ],
+    "emails": [
+      "sergemorin@cmslaval.com"
+    ],
+    "cities": [
+      "4650, desserte S, Autoroute 440"
+    ]
+  },
+  {
+    "name": "0966-ET",
+    "addresses": [
+      "950 Beaumont"
+    ],
+    "contacts": [
+      "14h30-17h",
+      "12h-17h"
+    ],
+    "emails": [
+      "Carole Castilloux <ccastilloux@alcovicapital.com>"
+    ],
+    "cities": [
+      "950, rue Beaumont"
+    ]
+  },
+  {
+    "name": "0967-ET",
+    "addresses": [
+      "Centre Culturel Notre Dame de Grâce"
+    ],
+    "contacts": [
+      "8h30"
+    ],
+    "emails": [
+      "irinel-maria.stingaciu@montreal.ca;noella.tetreault@montreal.ca"
+    ],
+    "cities": [
+      "6400, ave Monkland"
+    ]
+  },
+  {
+    "name": "0968-ET",
+    "addresses": [
+      "Clinique Chirurgicale de Laval"
+    ],
+    "contacts": [
+      "10h-11h",
+      "13h-14h"
+    ],
+    "emails": [
+      "sergemorin@cmslaval.com"
+    ],
+    "cities": [
+      "4650, desserte S, Autoroute 440"
+    ]
+  },
+  {
+    "name": "0969-ET",
+    "addresses": [
+      "Les Pignons sur le Fleuve"
+    ],
+    "contacts": [],
+    "emails": [
+      "administration2@immoplex.com"
+    ],
+    "cities": [
+      "8065, rue St-Laurent"
+    ]
+  },
+  {
+    "name": "0970-ET",
+    "addresses": [
+      "Les Jardins Windsor"
+    ],
+    "contacts": [
+      "11-12h30",
+      "10h-12h"
+    ],
+    "emails": [
+      "gestionmtl4@gestactif.com; guy.gervais@gmail.com"
+    ],
+    "cities": [
+      "651, rue de la Montagne"
+    ]
+  },
+  {
+    "name": "0971-ET",
+    "addresses": [
+      "Résidence du marché"
+    ],
+    "contacts": [],
+    "emails": [
+      "cse@lesresidencesdumarche.com"
+    ],
+    "cities": [
+      "25, rue du Marché"
+    ]
+  },
+  {
+    "name": "0972-ET",
+    "addresses": [
+      "DLM - Plaza",
+      "CLSC Plaza"
+    ],
+    "contacts": [],
+    "emails": [
+      "lesley.findlay.ccomtl@ssss.gouv.qc.ca"
+    ],
+    "cities": [
+      "6600, ch. De la Côte des Neiges",
+      "5700, ch. Côte des Neiges"
+    ]
+  },
+  {
+    "name": "0976-ET",
+    "addresses": [
+      "Dr.Lacoste, 3e étage"
+    ],
+    "contacts": [
+      "13h15-14h45"
+    ],
+    "emails": [
+      "louisphilippe.lebire@gmail.com, genevievechaput@videotron.ca"
+    ],
+    "cities": [
+      "3333, 100e Avenue"
+    ]
+  },
+  {
+    "name": "0977-ET",
+    "addresses": [
+      "Dr. Barolet, 2e étage"
+    ],
+    "contacts": [
+      "15h-16h"
+    ],
+    "emails": [
+      "info@cliniquedrdanielbarolet.com"
+    ],
+    "cities": [
+      "3333, 100e Avenue"
+    ]
+  },
+  {
+    "name": "0979-ET",
+    "addresses": [
+      "Le Seva"
+    ],
+    "contacts": [
+      "11h30-13h30",
+      "11h30-14h30"
+    ],
+    "emails": [
+      "cse@residenceseva.com"
+    ],
+    "cities": [
+      "300, rue de Sarcelle"
+    ]
+  },
+  {
+    "name": "0981-ET",
+    "addresses": [
+      "Traditours"
+    ],
+    "contacts": [
+      "11h-13h30",
+      "12h-16h"
+    ],
+    "emails": [
+      "info@traditours.com"
+    ],
+    "cities": [
+      "1575, de l'Avenir"
+    ]
+  },
+  {
+    "name": "0982-ET",
+    "addresses": [
+      "L'Image d'Outremont"
+    ],
+    "contacts": [
+      "7h-12h",
+      "7h30-10h30"
+    ],
+    "emails": [
+      "cse@limagedoutremont.com"
+    ],
+    "cities": [
+      "1040, ave Rockland"
+    ]
+  },
+  {
+    "name": "1, Westmount Square, bureau 2000",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [
+      "ENTRE 6H00 ET 7H00 LE MATIN (confirmé pour le 2 avril)"
+    ],
+    "emails": [],
+    "cities": [
+      "avr. 2"
+    ]
+  },
+  {
+    "name": "100 rue Louis Lévesque, Otterburn",
+    "addresses": [
+      "100 rue Louis Lévesque, Otterburn"
+    ],
+    "contacts": [
+      "Pierre Picard"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "100-40 rue St-Sylvestre, Longueuil",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "10002-G",
+    "addresses": [
+      "Le Boréa"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "61, 54e Avenue Est"
+    ]
+  },
+  {
+    "name": "1001 robert Bourassa",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "1001 Robert-Bourassa",
+    "addresses": [
+      "1001, Robert-Bourassa, Montréal",
+      "1001 Robert Bourassa, Montréal",
+      "1001 Robert-Bourassa"
+    ],
+    "contacts": [
+      "Shona Tep"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "1001 Robert-Bourrassa",
+    "addresses": [
+      "700, rue de la Gauchetière"
+    ],
+    "contacts": [
+      "Shona Thep"
+    ],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "1001-ET",
+    "addresses": [
+      "Édifice E"
+    ],
+    "contacts": [
+      "11h30-13h",
+      "15h30-17h"
+    ],
+    "emails": [
+      "dbourgault@e-propri-gestion.com"
+    ],
+    "cities": [
+      "3310, 100e Avenue"
+    ]
+  },
+  {
+    "name": "10011 boul. Pie IX",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [
+      "À CANCELER"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "1002, rue Sherbrooke O., Suite 2000",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "avr. 16"
+    ]
+  },
+  {
+    "name": "1003-ET",
+    "addresses": [
+      "Promenade du Parc"
+    ],
+    "contacts": [
+      "13h-15h",
+      "13h15-14h15"
+    ],
+    "emails": [
+      "lpepin@laucandrique.ca",
+      "lespromenadesduparc@laucandrique.net"
+    ],
+    "cities": [
+      "1920, rue Adoncour"
+    ]
+  },
+  {
+    "name": "10030-G",
+    "addresses": [
+      "Globule quartier 10/30"
+    ],
+    "contacts": [],
+    "emails": [
+      "Steve.Lessard@hema-quebec.qc.ca"
+    ],
+    "cities": [
+      "9370, boul. Leduc"
+    ]
+  },
+  {
+    "name": "1010 Sherbrooke Est",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "avr. 7"
+    ]
+  },
+  {
+    "name": "10144-G",
+    "addresses": [
+      "CHU STE-JUSTINE"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "5750, chemin Hudson"
+    ]
+  },
+  {
+    "name": "10171-G",
+    "addresses": [
+      "425 de Maisonneuve O"
+    ],
+    "contacts": [],
+    "emails": [
+      "alxandre.michaud@lotusimm.com"
+    ],
+    "cities": [
+      "425, de Maisonneuve O"
+    ]
+  },
+  {
+    "name": "10182-G",
+    "addresses": [
+      "Ville de Pointe-Claire - CSOU"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "230 boul. Brunswick"
+    ]
+  },
+  {
+    "name": "10203-F",
+    "addresses": [
+      "Éolia"
+    ],
+    "contacts": [],
+    "emails": [
+      "sgomez@devimco.com"
+    ],
+    "cities": [
+      "625, de l'Équinoxe"
+    ]
+  },
+  {
+    "name": "10204-F",
+    "addresses": [
+      "Luméo"
+    ],
+    "contacts": [],
+    "emails": [
+      "sgomez@devimco.com"
+    ],
+    "cities": [
+      "205, de l'Équinoxe"
+    ]
+  },
+  {
+    "name": "10224-F",
+    "addresses": [
+      "BASS 2 et 3"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "1400, Ottawa"
+    ]
+  },
+  {
+    "name": "10251-F",
+    "addresses": [
+      "Le Solano"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "859 de la Commune"
+    ]
+  },
+  {
+    "name": "1030 Rue Lionel-Daunais, Boucherville, QC J4B 0L",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "105, boul. Don Quichotte",
+    "addresses": [
+      "Île Perrot"
+    ],
+    "contacts": [
+      "ENLÈVEMENT ET DISPOSITION DU TAPIS (installation neuve à l'automne)"
+    ],
+    "emails": [],
+    "cities": [
+      "avr. 18"
+    ]
+  },
+  {
+    "name": "105, St-Jacques O",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "avr. 23"
+    ]
+  },
+  {
+    "name": "1058-ET",
+    "addresses": [
+      "L'Avantage"
+    ],
+    "contacts": [],
+    "emails": [
+      "cse@residencelavantage.com"
+    ],
+    "cities": [
+      "8855, boul. Leduc"
+    ]
+  },
+  {
+    "name": "1061-ET",
+    "addresses": [
+      "6000 Deacon"
+    ],
+    "contacts": [
+      "14h-17h",
+      "15h30-17h"
+    ],
+    "emails": [
+      "info@6000deacon.ca"
+    ],
+    "cities": [
+      "6000 ch. Deacon"
+    ]
+  },
+  {
+    "name": "1067-ET",
+    "addresses": [
+      "Résidence Ora"
+    ],
+    "contacts": [],
+    "emails": [
+      "cse@residenceora.com"
+    ],
+    "cities": [
+      "1580, rue Jacques-Casault"
+    ]
+  },
+  {
+    "name": "1068-ET",
+    "addresses": [
+      "Banque de Montréal"
+    ],
+    "contacts": [
+      "16h-21h",
+      "11-16h"
+    ],
+    "emails": [
+      "Vincent.Blais@bgis.com"
+    ],
+    "cities": [
+      "129 St-Jacques O"
+    ]
+  },
+  {
+    "name": "1069-ET",
+    "addresses": [
+      "Édifice 105 St-Jacques O"
+    ],
+    "contacts": [
+      "16h-21h",
+      "11-16h"
+    ],
+    "emails": [
+      "Vincent.Blais@bgis.com"
+    ],
+    "cities": [
+      "105, St-Jacques O"
+    ]
+  },
+  {
+    "name": "1070-ET",
+    "addresses": [
+      "BMO"
+    ],
+    "contacts": [
+      "16h-21h",
+      "11-16h"
+    ],
+    "emails": [
+      "Vincent.Blais@bgis.com"
+    ],
+    "cities": [
+      "119, St- Jacques O"
+    ]
+  },
+  {
+    "name": "1100 av Des canadiens",
+    "addresses": [
+      "Montreal"
+    ],
+    "contacts": [
+      "ENLÈVEMENT ET DISPOSITION DU TAPIS RDC SEULEMENT (installation neuve à l'automne)"
+    ],
+    "emails": [],
+    "cities": [
+      "avr. 13"
+    ]
+  },
+  {
+    "name": "1103-ET",
+    "addresses": [
+      "Agence Spaciale  Canadienne"
+    ],
+    "contacts": [
+      "16h-21h",
+      "15h30-21h"
+    ],
+    "emails": [
+      "Benoit.Hache@asc-csa.gc.ca;mathieu.gamache2@canada.ca",
+      "Benoit.Hache@asc-csa.gc.ca;mathieu.gamache@asc-csa.gc.ca"
+    ],
+    "cities": [
+      "6767. route de l'aéroport"
+    ]
+  },
+  {
+    "name": "1115 St-Antoine",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "avr. 13"
+    ]
+  },
+  {
+    "name": "1115, St-Antoine , 17e et 18e étages",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "avr. 13"
+    ]
+  },
+  {
+    "name": "1138-ET",
+    "addresses": [
+      "Carmichael"
+    ],
+    "contacts": [
+      "7h30-8h30",
+      "10h30-11h30"
+    ],
+    "emails": [
+      "bfahey@carmichael-eng.ca"
+    ],
+    "cities": [
+      "3822, ave de Courtrai"
+    ]
+  },
+  {
+    "name": "115 Saint-Antoine",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [
+      "Installation des carpettes au 5e étage (faire attention au sens de la carpette)"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "1151-ET",
+    "addresses": [
+      "1565 de l'Avenir"
+    ],
+    "contacts": [
+      "11-13h60",
+      "12h-16h"
+    ],
+    "emails": [
+      "cathyboucher@groupechameleon.ca"
+    ],
+    "cities": [
+      "1565, de l'Avenir"
+    ]
+  },
+  {
+    "name": "1152-ET",
+    "addresses": [
+      "1555 de l'Avenir"
+    ],
+    "contacts": [
+      "11-13h60",
+      "12h-16h"
+    ],
+    "emails": [
+      "cathyboucher@groupechameleon.ca"
+    ],
+    "cities": [
+      "1555, de l'Avenir"
+    ]
+  },
+  {
+    "name": "1153-ET",
+    "addresses": [
+      "1575 de l'Avenir"
+    ],
+    "contacts": [
+      "11-13h60",
+      "12h-16h"
+    ],
+    "emails": [
+      "cathyboucher@groupechameleon.ca"
+    ],
+    "cities": [
+      "1575, de l'Avenir"
+    ]
+  },
+  {
+    "name": "1155, rue Metcalfe",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "avr. 25"
+    ]
+  },
+  {
+    "name": "1155, rue Metcalfe, Montréal",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [
+      "NETTOYAGE ET ENTREPOSAGE DU RDC SEULEMENT",
+      "Les étages sont entreposés au 24e étage"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "1159-ET",
+    "addresses": [
+      "M9 - Phase 4"
+    ],
+    "contacts": [
+      "11h30-12h30",
+      "12-13h"
+    ],
+    "emails": [
+      "operations@domis.ca",
+      "dmac@gestior.com"
+    ],
+    "cities": [
+      "888 rue Wellington"
+    ]
+  },
+  {
+    "name": "1165-ET",
+    "addresses": [
+      "Northcrest - SDC6301"
+    ],
+    "contacts": [
+      "11h30-13h30",
+      "7h-11h"
+    ],
+    "emails": [
+      "gestionnaire@syndicatnorthcrest.ca"
+    ],
+    "cities": [
+      "6301 rue Northcrest"
+    ]
+  },
+  {
+    "name": "1166-ET",
+    "addresses": [
+      "Northcrest - SDC6300"
+    ],
+    "contacts": [
+      "11-13h30",
+      "13h30-15h"
+    ],
+    "emails": [
+      "gestionnaire@syndicatnorthcrest.ca"
+    ],
+    "cities": [
+      "6300 rue Northcrest"
+    ]
+  },
+  {
+    "name": "1169-ET",
+    "addresses": [
+      "Le Windsor"
+    ],
+    "contacts": [
+      "16h-21h",
+      "17-21h"
+    ],
+    "emails": [
+      "Lucie.Richard@bentallgreenoak.com"
+    ],
+    "cities": [
+      "1170, rue Peel"
+    ]
+  },
+  {
+    "name": "1170, rue Peel",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [
+      "SVP communiquer avec la sécurité au 514-917-5139 à votre arrivéeDeux cases du stationnement intérieur seront mises à disposition pour la récupération des tapis.\nHauteur MAXIMALE 6’9’’"
+    ],
+    "emails": [],
+    "cities": [
+      "avr. 17"
+    ]
+  },
+  {
+    "name": "1170-ET",
+    "addresses": [
+      "SDC Union sur le Parc"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "2000, Rene Levesque"
+    ]
+  },
+  {
+    "name": "1171-ET",
+    "addresses": [
+      "Gameloft"
+    ],
+    "contacts": [],
+    "emails": [
+      "laura.cougoulat@gameloft.com"
+    ],
+    "cities": [
+      "7250, rue Marconi"
+    ]
+  },
+  {
+    "name": "1175-ET",
+    "addresses": [
+      "Allied - Atlantic"
+    ],
+    "contacts": [
+      "14-15h",
+      "14h-15h"
+    ],
+    "emails": [
+      "lbeaulieu@alliedreit.com"
+    ],
+    "cities": [
+      "400, rue Atlantic"
+    ]
+  },
+  {
+    "name": "1180 Rue du Sussex, Montréal",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "1180-ET",
+    "addresses": [
+      "Allied - Viger"
+    ],
+    "contacts": [
+      "16h-21h",
+      "17-21h"
+    ],
+    "emails": [
+      "dmartos@alliedreit.com"
+    ],
+    "cities": [
+      "425, Viger Ouest"
+    ]
+  },
+  {
+    "name": "1181-ET",
+    "addresses": [
+      "Ville de Montréal"
+    ],
+    "contacts": [
+      "15h30-17h"
+    ],
+    "emails": [
+      "jean-marc.ouellet@montreal.ca; marc-andre.lecuyer@montreal.ca"
+    ],
+    "cities": [
+      "3705, rue Saint-Patrick"
+    ]
+  },
+  {
+    "name": "1182-ET",
+    "addresses": [
+      "Tour Deloitte"
+    ],
+    "contacts": [
+      "12-21h",
+      "11h-21h"
+    ],
+    "emails": [
+      "simon.paquet@cadillacfairview.com"
+    ],
+    "cities": [
+      "1115 St-Antoine"
+    ]
+  },
+  {
+    "name": "1183-ET",
+    "addresses": [
+      "Gare Windsor"
+    ],
+    "contacts": [
+      "15h-21h",
+      "15-21h"
+    ],
+    "emails": [
+      "simon.paquet@cadillacfairview.com"
+    ],
+    "cities": [
+      "1100 av Des canadiens"
+    ]
+  },
+  {
+    "name": "1184-ET",
+    "addresses": [
+      "Le Savignon"
+    ],
+    "contacts": [
+      "7h30-10h30",
+      "8h15-10h45"
+    ],
+    "emails": [
+      "cse@lesavignon.com"
+    ],
+    "cities": [
+      "3111, rue Victoria"
+    ]
+  },
+  {
+    "name": "1185-ET",
+    "addresses": [
+      "Bella Vista Phase II"
+    ],
+    "contacts": [
+      "15h-16h",
+      "13h-14h"
+    ],
+    "emails": [
+      "bellavista3625@in.upperbee.com"
+    ],
+    "cities": [
+      "3625, rue Jean Gascon"
+    ]
+  },
+  {
+    "name": "1186-ET",
+    "addresses": [
+      "Bella Vista Phase I"
+    ],
+    "contacts": [
+      "16h-17h",
+      "12h-13h"
+    ],
+    "emails": [
+      "jp@bv3655.ca"
+    ],
+    "cities": [
+      "3655, rue Jean-Gascon"
+    ]
+  },
+  {
+    "name": "1187-ET",
+    "addresses": [
+      "Garderies Les Bambins Bricoleurs"
+    ],
+    "contacts": [],
+    "emails": [
+      "khadijadarid@gmail.com"
+    ],
+    "cities": [
+      "5101, rue Beaubien Est"
+    ]
+  },
+  {
+    "name": "1189-ET",
+    "addresses": [
+      "Musée Pointe-à-Callière"
+    ],
+    "contacts": [
+      "18h-21h",
+      "11h-14h"
+    ],
+    "emails": [
+      "Isabelle.Vermette@gdi.com"
+    ],
+    "cities": [
+      "350, Place Royale"
+    ]
+  },
+  {
+    "name": "119, St- Jacques O",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "avr. 23"
+    ]
+  },
+  {
+    "name": "11900 Rue de l'avenir, Mirabel Québec J7J, Canada)",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "1192-ET",
+    "addresses": [
+      "Précivision"
+    ],
+    "contacts": [],
+    "emails": [
+      "precivisionbrossard@gmail.com"
+    ],
+    "cities": [
+      "5155, Grande-Allée"
+    ]
+  },
+  {
+    "name": "1195-ET",
+    "addresses": [
+      "Cloria Vallée du Richelieu"
+    ],
+    "contacts": [
+      "12h-13h",
+      "7h30-9h"
+    ],
+    "emails": [
+      "normandstdenis@cloriacite.ca"
+    ],
+    "cities": [
+      "4305, chemin du Crépuscule"
+    ]
+  },
+  {
+    "name": "1196-ET",
+    "addresses": [
+      "SDC La chancellerie du Vieux-Montréal"
+    ],
+    "contacts": [
+      "8h30-10h30",
+      "11h30-15h30"
+    ],
+    "emails": [
+      "gnuckle@lecsor.com"
+    ],
+    "cities": [
+      "460, rue du Champ de Mars"
+    ]
+  },
+  {
+    "name": "1197-ET",
+    "addresses": [
+      "CPE Coeur de l'Île"
+    ],
+    "contacts": [
+      "13h30-14h30",
+      "8h30-9h30"
+    ],
+    "emails": [
+      "craymond@cpeile.com"
+    ],
+    "cities": [
+      "2830, rue Gilford"
+    ]
+  },
+  {
+    "name": "1198-ET",
+    "addresses": [
+      "FADOQ"
+    ],
+    "contacts": [],
+    "emails": [
+      "adjadmin@fadoqmtl.org"
+    ],
+    "cities": [
+      "7537, rue St-Hubert"
+    ]
+  },
+  {
+    "name": "1200 du Tremblay",
+    "addresses": [
+      "Longueuil"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "avr. 10"
+    ]
+  },
+  {
+    "name": "1200 rue Drummond",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "avr. 10"
+    ]
+  },
+  {
+    "name": "1201-ET",
+    "addresses": [
+      "Usine Atwater"
+    ],
+    "contacts": [
+      "11h30-15h30",
+      "11h-15h30"
+    ],
+    "emails": [
+      "jean-marc.ouellet@montreal.ca"
+    ],
+    "cities": [
+      "999, rue Dupuis"
+    ]
+  },
+  {
+    "name": "1202-ET",
+    "addresses": [
+      "SDC Alinéa"
+    ],
+    "contacts": [
+      "9h45-10h45",
+      "15h30-17h"
+    ],
+    "emails": [
+      "daniela.ndao@solutioncondo.com"
+    ],
+    "cities": [
+      "10011 boul. Pie IX"
+    ]
+  },
+  {
+    "name": "1204-ET",
+    "addresses": [
+      "SDC Union sur le Parc Phase II"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "2020, Rene Levesque"
+    ]
+  },
+  {
+    "name": "1205-ET",
+    "addresses": [
+      "Ordre des dentistes du Québec - suite 1640"
+    ],
+    "contacts": [
+      "11h-13h",
+      "15h-16h"
+    ],
+    "emails": [
+      "marie-eve.lapointe@odq.qc.ca"
+    ],
+    "cities": [
+      "200, René-Levesque O",
+      "800, René Levesque O"
+    ]
+  },
+  {
+    "name": "1206-ET",
+    "addresses": [
+      "TMX   Toujours après 17h"
+    ],
+    "contacts": [
+      "11-12h"
+    ],
+    "emails": [
+      "karine.despins@tmx.com"
+    ],
+    "cities": [
+      "1115, St-Antoine , 17e et 18e étages"
+    ]
+  },
+  {
+    "name": "1207-ET",
+    "addresses": [
+      "Uvée- Optométriste de Quartier"
+    ],
+    "contacts": [
+      "11h-12h",
+      "15h-16h"
+    ],
+    "emails": [
+      "alex-anne.harvey@uvee.ca"
+    ],
+    "cities": [
+      "1668, rue Laurier Est"
+    ]
+  },
+  {
+    "name": "1209-ET",
+    "addresses": [
+      "Résidence Vast (tapis pluie?)"
+    ],
+    "contacts": [
+      "10h15-11h45",
+      "9h30-11h30"
+    ],
+    "emails": [
+      "cse@residencevast.com"
+    ],
+    "cities": [
+      "300, rue de Murano"
+    ]
+  },
+  {
+    "name": "1210, rue Jeanne-Mance, Montréal",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [
+      "Au 1210, vous pouvez vous stationner en face s’il y a de la place ou au débarcadère à l’arrière. Juste demandé au portier de vous guider."
+    ],
+    "emails": [],
+    "cities": [
+      "avr. 19"
+    ]
+  },
+  {
+    "name": "1211-ET",
+    "addresses": [
+      "1310 Ontario Est"
+    ],
+    "contacts": [
+      "7h30-8h30",
+      "13h"
+    ],
+    "emails": [
+      "info@constructionmarcan.com"
+    ],
+    "cities": [
+      "1310, rue Ontario Est"
+    ]
+  },
+  {
+    "name": "1212-ET",
+    "addresses": [
+      "Ste-Justine (tapis d'hiver)"
+    ],
+    "contacts": [],
+    "emails": [
+      "Martin.lesage.hsj@ssss.gouv.qc.ca"
+    ],
+    "cities": [
+      "5750, chemin Hudson"
+    ]
+  },
+  {
+    "name": "1213-ET",
+    "addresses": [
+      "Centre d'intégration Scolaire"
+    ],
+    "contacts": [
+      "11h-12h"
+    ],
+    "emails": [
+      "ychouinard@cisi.qc.ca"
+    ],
+    "cities": [
+      "8844, rue Notre-Dame Est"
+    ]
+  },
+  {
+    "name": "1222-ET",
+    "addresses": [
+      "Gowling WLG (Tuile)"
+    ],
+    "contacts": [
+      "18h-20h"
+    ],
+    "emails": [
+      "Gaetan.Void@gowlingwlg.com"
+    ],
+    "cities": [
+      "1, Place Ville-Marie, 37e etage"
+    ]
+  },
+  {
+    "name": "1227-ET",
+    "addresses": [
+      "Édifice SunLife  21e étage",
+      "Sunlife"
+    ],
+    "contacts": [
+      "18h-21h",
+      "11-21h",
+      "?? à neuf"
+    ],
+    "emails": [
+      "Lucie.Richard@bentallgreenoak.com"
+    ],
+    "cities": [
+      "1155, rue Metcalfe"
+    ]
+  },
+  {
+    "name": "1229-ET",
+    "addresses": [
+      "Le Boréa"
+    ],
+    "contacts": [
+      "14h-16h",
+      "12h-13h30"
+    ],
+    "emails": [
+      "cse@residenceborea.com"
+    ],
+    "cities": [
+      "61 54e avenue Est"
+    ]
+  },
+  {
+    "name": "1230-ET",
+    "addresses": [
+      "Bédard Ressources #310"
+    ],
+    "contacts": [
+      "10h",
+      "11h-13h30"
+    ],
+    "emails": [
+      "melissa@bedardressources.com"
+    ],
+    "cities": [
+      "1575, boul. de l'Avenir"
+    ]
+  },
+  {
+    "name": "1231-ET",
+    "addresses": [
+      "Le Maritime"
+    ],
+    "contacts": [
+      "16h-17h"
+    ],
+    "emails": [
+      "maritime1@videotron.ca"
+    ],
+    "cities": [
+      "3040, boul. Lévesque Ouest"
+    ]
+  },
+  {
+    "name": "1232-ET",
+    "addresses": [
+      "Vacances Sunwing"
+    ],
+    "contacts": [
+      "10h45-1145",
+      "15h-16h"
+    ],
+    "emails": [
+      "juliench06@gmail.com",
+      "jchar@sunwing.ca"
+    ],
+    "cities": [
+      "3105 Place Louis R-Renaud"
+    ]
+  },
+  {
+    "name": "1233-ET",
+    "addresses": [
+      "Sunwing"
+    ],
+    "contacts": [
+      "14h-15h",
+      "9h45-10h45"
+    ],
+    "emails": [
+      "juliench06@gmail.com",
+      "jchar@sunwing.ca"
+    ],
+    "cities": [
+      "3105 Place Louis R-Renaud"
+    ]
+  },
+  {
+    "name": "1234-ET",
+    "addresses": [
+      "SDC du Boisé de la Colline"
+    ],
+    "contacts": [
+      "9h-10h",
+      "12h-13h30"
+    ],
+    "emails": [
+      "conseilbdc@gmail.com"
+    ],
+    "cities": [
+      "24, rue Bates"
+    ]
+  },
+  {
+    "name": "1236-ET",
+    "addresses": [
+      "SDC Children Est/West"
+    ],
+    "contacts": [
+      "12h30-17"
+    ],
+    "emails": [
+      "francis.borris@solutioncondo.com"
+    ],
+    "cities": []
+  },
+  {
+    "name": "1237-ET",
+    "addresses": [
+      "SDC Children Est/West"
+    ],
+    "contacts": [
+      "7h30-12h"
+    ],
+    "emails": [
+      "francis.borris@solutioncondo.com"
+    ],
+    "cities": [
+      "2300 rue Tupper"
+    ]
+  },
+  {
+    "name": "1238-ET",
+    "addresses": [
+      "SDC 2910 Edouard Montpetit",
+      "Cours Centrale Phase 2"
+    ],
+    "contacts": [
+      "14h-15h",
+      "10h30-11h30"
+    ],
+    "emails": [
+      "sslax@hotmail.com"
+    ],
+    "cities": [
+      "2910, Edouard Montpetit"
+    ]
+  },
+  {
+    "name": "1239-ET",
+    "addresses": [
+      "CHSLD Dr. Chevrier"
+    ],
+    "contacts": [
+      "15h30-17h",
+      "14h45-15h45"
+    ],
+    "emails": [
+      "jeanyvesmartin04@hotmail.com"
+    ],
+    "cities": [
+      "700, rue Docteur Chevrier"
+    ]
+  },
+  {
+    "name": "1241-ET",
+    "addresses": [
+      "Clinique Nord, 1e étage"
+    ],
+    "contacts": [],
+    "emails": [
+      "akuah@cliniquenord.com; Chems Diouri <chems@cliniquenord.com>1291"
+    ],
+    "cities": [
+      "3333, 100e Avenue"
+    ]
+  },
+  {
+    "name": "1242-ET",
+    "addresses": [
+      "Enfance pour Tous"
+    ],
+    "contacts": [],
+    "emails": [
+      "roselyne.malo-harel@enfancepourtous.ca"
+    ],
+    "cities": [
+      "13950 rue de la Chapelle"
+    ]
+  },
+  {
+    "name": "1243-ET",
+    "addresses": [
+      "Allied Properties"
+    ],
+    "contacts": [
+      "11h30-12h30",
+      "15h30-16h30"
+    ],
+    "emails": [
+      "dercolano@alliedreit.com"
+    ],
+    "cities": [
+      "755, rue Berri"
+    ]
+  },
+  {
+    "name": "1244-ET",
+    "addresses": [
+      "Clinique MedNam 3e"
+    ],
+    "contacts": [],
+    "emails": [
+      "patricia.rochette@cliniquemednam.com"
+    ],
+    "cities": [
+      "2000 rue Notre-Dame"
+    ]
+  },
+  {
+    "name": "1245, rue Bleury, Montréal",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "avr. 19"
+    ]
+  },
+  {
+    "name": "1245-ET",
+    "addresses": [
+      "Héma-Québec"
+    ],
+    "contacts": [
+      "13h30-14h30",
+      "14h-15h30"
+    ],
+    "emails": [
+      "JeanGauthier.Kouadjo@hema-quebec.qc.ca"
+    ],
+    "cities": [
+      "16 993 Transcanadienne"
+    ]
+  },
+  {
+    "name": "1246-ET",
+    "addresses": [
+      "Cité Médicale Lachine"
+    ],
+    "contacts": [],
+    "emails": [
+      "patricia.rochette@cliniquemednam.com"
+    ],
+    "cities": [
+      "2600, rue Victoria"
+    ]
+  },
+  {
+    "name": "1247-ET",
+    "addresses": [
+      "TAK Phase 6"
+    ],
+    "contacts": [
+      "14h30-15h30",
+      "9h45-10h45"
+    ],
+    "emails": [
+      "quentin.plachta@solutioncondo.com"
+    ],
+    "cities": [
+      "4801, 2e avenue"
+    ]
+  },
+  {
+    "name": "1249-ET",
+    "addresses": [
+      "Le W phase V"
+    ],
+    "contacts": [
+      "11-12h"
+    ],
+    "emails": [
+      "pcebuc@immoplex.com"
+    ],
+    "cities": [
+      "1228, rue Basssin"
+    ]
+  },
+  {
+    "name": "1250-ET",
+    "addresses": [
+      "Regard en Elle"
+    ],
+    "contacts": [],
+    "emails": [
+      "directricegenerale@regardenelle.org"
+    ],
+    "cities": [
+      "180, rue Lacombe",
+      "70, Cherrier"
+    ]
+  },
+  {
+    "name": "1251-ET",
+    "addresses": [
+      "Facility Tour Deloitte"
+    ],
+    "contacts": [
+      "13-14h",
+      "11h30-15h",
+      "13-15h"
+    ],
+    "emails": [
+      "jvenne@deloitte.ca"
+    ],
+    "cities": [
+      "115 Saint-Antoine"
+    ]
+  },
+  {
+    "name": "1259-ET",
+    "addresses": [
+      "SDC Le Canal 2"
+    ],
+    "contacts": [],
+    "emails": [
+      "maxime@gestiongriffin.com"
+    ],
+    "cities": [
+      "1450, rue Island"
+    ]
+  },
+  {
+    "name": "1263-ET",
+    "addresses": [
+      "TAK phase 1"
+    ],
+    "contacts": [
+      "11h30-13h30",
+      "7h30-8h30"
+    ],
+    "emails": [
+      "quentin.plachta@solutioncondo.com"
+    ],
+    "cities": [
+      "4820, 4e Avenue"
+    ]
+  },
+  {
+    "name": "1264-ET",
+    "addresses": [
+      "Héma-Québec, 4045, Côte-Vertu"
+    ],
+    "contacts": [
+      "11h-12h30"
+    ],
+    "emails": [
+      "steve.lessard@hema-quebec.qc.ca"
+    ],
+    "cities": [
+      "4045, Côte-Vertu"
+    ]
+  },
+  {
+    "name": "1265-ET",
+    "addresses": [
+      "Héma-Québec - Sherbrooke Est"
+    ],
+    "contacts": [
+      "7h30-8h30"
+    ],
+    "emails": [
+      "JeanGauthier.Kouadjo@hema-quebec.qc.ca"
+    ],
+    "cities": [
+      "7275, rue Sherbrooke Est"
+    ]
+  },
+  {
+    "name": "1266-ET",
+    "addresses": [
+      "Héma-Québec"
+    ],
+    "contacts": [
+      "15h-16h"
+    ],
+    "emails": [
+      "JeanGauthier.Kouadjo@hema-quebec.qc.ca"
+    ],
+    "cities": [
+      "1600, boul. le Corbusier"
+    ]
+  },
+  {
+    "name": "1267-ET",
+    "addresses": [
+      "Héma-Québec, Dix-30 -  #30"
+    ],
+    "contacts": [
+      "16h-17h"
+    ],
+    "emails": [
+      "JeanGauthier.Kouadjo@hema-quebec.qc.ca"
+    ],
+    "cities": [
+      "9370, boul. Leduc"
+    ]
+  },
+  {
+    "name": "1268-ET",
+    "addresses": [
+      "Héma-Québec  - Place du Commerce"
+    ],
+    "contacts": [
+      "16h-17h"
+    ],
+    "emails": [
+      "JeanGauthier.Kouadjo@hema-quebec.qc.ca"
+    ],
+    "cities": [
+      "7, Place du Commerce"
+    ]
+  },
+  {
+    "name": "1270-ET",
+    "addresses": [
+      "Héma-Québec"
+    ],
+    "contacts": [
+      "14h30-15h30",
+      "14h-15h"
+    ],
+    "emails": [
+      "JeanGauthier.Kouadjo@hema-quebec.qc.ca"
+    ],
+    "cities": [
+      "7, boul. des Promenades"
+    ]
+  },
+  {
+    "name": "1271, rue Van Horne",
+    "addresses": [
+      "Outremont"
+    ],
+    "contacts": [
+      "Catherine Durand à la réception de la clinique.\nLe code des portes est  1-3-4"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "1273-ET",
+    "addresses": [
+      "Complexe Guy Favreau"
+    ],
+    "contacts": [
+      "11h-21h",
+      "rdc 16h-21h"
+    ],
+    "emails": [
+      "Tristan.Comtois@bgis.com"
+    ],
+    "cities": [
+      "200, René-Levesque O"
+    ]
+  },
+  {
+    "name": "1274-ET",
+    "addresses": [
+      "1010 Sherbrooke O."
+    ],
+    "contacts": [
+      "17h-21h",
+      "17-21h"
+    ],
+    "emails": [
+      "dercolano@alliedreit.com,amonteiro@alliedreit.com"
+    ],
+    "cities": [
+      "1010, rue Sherbrooke Ouest"
+    ]
+  },
+  {
+    "name": "1276-ET",
+    "addresses": [
+      "SDC 1800 Angrignon"
+    ],
+    "contacts": [
+      "14h30-15h30",
+      "14h-15h30"
+    ],
+    "emails": [
+      "minacio@immoplex.com"
+    ],
+    "cities": [
+      "1800 Angrignon"
+    ]
+  },
+  {
+    "name": "1279-ET",
+    "addresses": [
+      "Académie Lavalloise"
+    ],
+    "contacts": [
+      "11h30-13h30",
+      "7h30-10h30"
+    ],
+    "emails": [
+      "anthony.lacopo@academielavalloise.com"
+    ],
+    "cities": [
+      "5290, boul. des Laurentides"
+    ]
+  },
+  {
+    "name": "1280-ET",
+    "addresses": [
+      "SSENSE"
+    ],
+    "contacts": [
+      "7h30-8h15"
+    ],
+    "emails": [
+      "clement.cousin@ssense.com"
+    ],
+    "cities": [
+      "418, St-Sulpice"
+    ]
+  },
+  {
+    "name": "1282-ET",
+    "addresses": [
+      "Transition Centre-Sud"
+    ],
+    "contacts": [
+      "16h-17h"
+    ],
+    "emails": [
+      "jdeslauriers@transitioncentresud.ca"
+    ],
+    "cities": [
+      "1819, boul. Rosemont"
+    ]
+  },
+  {
+    "name": "1283-ET",
+    "addresses": [
+      "SDC La Tannerie"
+    ],
+    "contacts": [
+      "15h",
+      "11h30-12h30"
+    ],
+    "emails": [
+      "administration@lefite.com",
+      "SyndicatTannerie@in.condoweb.app,Gestion.lefite@in.condoweb.app"
+    ],
+    "cities": [
+      "680 de Courcelle"
+    ]
+  },
+  {
+    "name": "1284-ET",
+    "addresses": [
+      "Esplanade Cartier Phase 1"
+    ],
+    "contacts": [
+      "11-13h30",
+      "11h-14h30"
+    ],
+    "emails": [
+      "sebastien.righi@solutioncondo.com"
+    ],
+    "cities": [
+      "2120, rue Ste-Catherine Est"
+    ]
+  },
+  {
+    "name": "1285, St-Jacques",
+    "addresses": [
+      "Montreal"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "avr. 17"
+    ]
+  },
+  {
+    "name": "1285-ET",
+    "addresses": [
+      "Esplanade Cartier Phase 2"
+    ],
+    "contacts": [
+      "13h30-16h",
+      "7h30-11h"
+    ],
+    "emails": [
+      "sebastien.righi@solutioncondo.com"
+    ],
+    "cities": [
+      "2180, rue Ste-Catherine Est"
+    ]
+  },
+  {
+    "name": "1286-ET",
+    "addresses": [
+      "CEOM (suite 100-145)"
+    ],
+    "contacts": [
+      "8h30-9h",
+      "10h30-11h30"
+    ],
+    "emails": [
+      "sergemorin@cmslaval.com"
+    ],
+    "cities": [
+      "4650, desserte S, Autoroute 440"
+    ]
+  },
+  {
+    "name": "1287-ET",
+    "addresses": [
+      "Édifice à bureaux (Expos)"
+    ],
+    "contacts": [
+      "15h-15h30",
+      "16h45-17h30"
+    ],
+    "emails": [
+      "gcote@prio.ca"
+    ],
+    "cities": [
+      "2265, Fernand-Lafontaine"
+    ]
+  },
+  {
+    "name": "1288-ET",
+    "addresses": [
+      "CHSLD Val des Brises"
+    ],
+    "contacts": [
+      "16h-17h",
+      "14h-15h"
+    ],
+    "emails": [
+      "mclavoie@alcovicapital.com"
+    ],
+    "cities": [
+      "3155, boul. Michel-Ange"
+    ]
+  },
+  {
+    "name": "1289-ET",
+    "addresses": [
+      "5790 Rembrandt"
+    ],
+    "contacts": [],
+    "emails": [
+      "remb5790@gmail.com"
+    ],
+    "cities": [
+      "5790, ave Rembrandt"
+    ]
+  },
+  {
+    "name": "129 St-Jacques O",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "avr. 23"
+    ]
+  },
+  {
+    "name": "1290-ET",
+    "addresses": [
+      "Coop Montagne verte"
+    ],
+    "contacts": [
+      "14h-15h",
+      "11h30-12h30"
+    ],
+    "emails": [
+      "entretien@coopmontagneverte.com"
+    ],
+    "cities": [
+      "1285, St-Jacques"
+    ]
+  },
+  {
+    "name": "1291-ET",
+    "addresses": [
+      "Cité Angus Phase II"
+    ],
+    "contacts": [],
+    "emails": [
+      "benjamin.combeaud@solutioncondo.com;kevin.dujardin@solutioncondo.com"
+    ],
+    "cities": [
+      "4240, Auguste-Frigon"
+    ]
+  },
+  {
+    "name": "1292-ET",
+    "addresses": [
+      "Héritage du Plateau"
+    ],
+    "contacts": [
+      "12h45",
+      "10h-12h"
+    ],
+    "emails": [
+      "dg@heritageplateau.com;maintenance@heritageplateau.com"
+    ],
+    "cities": [
+      "310, rue Rachel Est"
+    ]
+  },
+  {
+    "name": "1294-ET",
+    "addresses": [
+      "Les Cours d'Outremont"
+    ],
+    "contacts": [
+      "14h-15h",
+      "10h30-11h30"
+    ],
+    "emails": [
+      "lescoursoutremont@in.condoweb.app",
+      "lescoursoutremont@sequoias.ca"
+    ],
+    "cities": [
+      "970, ave McEachran"
+    ]
+  },
+  {
+    "name": "1295-ET",
+    "addresses": [
+      "I am Gold"
+    ],
+    "contacts": [],
+    "emails": [
+      "chantal_levesque@iamgold.com"
+    ],
+    "cities": [
+      "2000 rue de l'Éclipse, 5e étage"
+    ]
+  },
+  {
+    "name": "1300 rue Olier, Montréal",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "1304-ET",
+    "addresses": [
+      "Clinique Quatuor MD - 27e étage"
+    ],
+    "contacts": [
+      "13H00"
+    ],
+    "emails": [
+      "thomasg@quatuormd.com"
+    ],
+    "cities": [
+      "800 rue du Square Victoria"
+    ]
+  },
+  {
+    "name": "1306-ET",
+    "addresses": [
+      "SDC 6150 du Boisé"
+    ],
+    "contacts": [
+      "7h-17h",
+      "7h45-13h45"
+    ],
+    "emails": [
+      "6150duboise@bellnet.ca"
+    ],
+    "cities": [
+      "6150 du Boisé"
+    ]
+  },
+  {
+    "name": "1307-ET",
+    "addresses": [
+      "1001 Robert-Bourrassa"
+    ],
+    "contacts": [
+      "9nov  11h-21h",
+      "11-21h"
+    ],
+    "emails": [
+      "step@alliedreit.com"
+    ],
+    "cities": [
+      "700, rue de la Gauchetière"
+    ]
+  },
+  {
+    "name": "1308-ET",
+    "addresses": [
+      "Manuvie"
+    ],
+    "contacts": [
+      "2 nov 11h-21h",
+      "11-21h"
+    ],
+    "emails": [
+      "sylvain.cote@jll.com"
+    ],
+    "cities": [
+      "900 de Maisonneuve O"
+    ]
+  },
+  {
+    "name": "1309-ET",
+    "addresses": [
+      "upa longeuil",
+      "CRÉDIT NETTOYAGE ENTREPOSAGE UPA"
+    ],
+    "contacts": [
+      "11h-16h",
+      "15h-21h"
+    ],
+    "emails": [
+      "hcharbonneau@upa.qc.ca"
+    ],
+    "cities": [
+      "555, boul. Roland-Therrien",
+      "555, boul. Rolan-Therrien"
+    ]
+  },
+  {
+    "name": "1310, rue Ontario Est",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "1310-ET",
+    "addresses": [
+      "Residence du Marché"
+    ],
+    "contacts": [
+      "13h30-15h30"
+    ],
+    "emails": [
+      "cse@lesresidencesdumarche.com, dg@lesresidencesdumarche.com"
+    ],
+    "cities": [
+      "25, rue du Marché"
+    ]
+  },
+  {
+    "name": "1311-ET",
+    "addresses": [
+      "Caserne place d'Youville"
+    ],
+    "contacts": [
+      "18h-21h",
+      "11-16h"
+    ],
+    "emails": [
+      "Sandra.Lopez@gdi.com; Francisco.Meneses@gdi.com"
+    ],
+    "cities": [
+      "335 Place d'Youville, Montréal"
+    ]
+  },
+  {
+    "name": "1312-ET",
+    "addresses": [
+      "Place Victoria"
+    ],
+    "contacts": [
+      "11-21h",
+      "13H00"
+    ],
+    "emails": [
+      "jtousignant@groupepetra.com"
+    ],
+    "cities": [
+      "800, rue du Square Victoria"
+    ]
+  },
+  {
+    "name": "1313-ET",
+    "addresses": [
+      "Le Nordelec"
+    ],
+    "contacts": [
+      "16h-21h",
+      "17-21h"
+    ],
+    "emails": [
+      "jcampbell@alliedreit.com"
+    ],
+    "cities": [
+      "1751, rue Richardson"
+    ]
+  },
+  {
+    "name": "1314-ET",
+    "addresses": [
+      "Cloria cité"
+    ],
+    "contacts": [
+      "8-9h30"
+    ],
+    "emails": [
+      "nancycanuel@cloriacite.ca"
+    ],
+    "cities": [
+      "3475, Montée Gagnon"
+    ]
+  },
+  {
+    "name": "1315-ET",
+    "addresses": [
+      "CPE Pierre-Boucher"
+    ],
+    "contacts": [
+      "13h30-14h30",
+      "11h30-12h30",
+      "12h-13h30"
+    ],
+    "emails": [
+      "Jacynthe.Dagenais@cpepierreboucher.com"
+    ],
+    "cities": [
+      "1450 Curé-Poirier E",
+      "1200 du Tremblay"
+    ]
+  },
+  {
+    "name": "1316-ET",
+    "addresses": [
+      "Novartis"
+    ],
+    "contacts": [
+      "13h-16h30",
+      "14h30-17h"
+    ],
+    "emails": [
+      "michel.guerin@novartis.com"
+    ],
+    "cities": [
+      "700 rue St-Hubert, Montréal"
+    ]
+  },
+  {
+    "name": "1317-ET",
+    "addresses": [
+      "Allied - 700 rue St-Hubert"
+    ],
+    "contacts": [
+      "13h-14h30",
+      "11h30-13h"
+    ],
+    "emails": [
+      "dercolano@alliedreit.com"
+    ],
+    "cities": [
+      "700 rue St-Hubert, Montréal"
+    ]
+  },
+  {
+    "name": "1318-ET",
+    "addresses": [
+      "7227 boul. Newman SDC"
+    ],
+    "contacts": [
+      "11h30-14h",
+      "11h-14h"
+    ],
+    "emails": [
+      "quentin.plachta@solutioncondo.com"
+    ],
+    "cities": [
+      "7227 boul. Newman"
+    ]
+  },
+  {
+    "name": "1319-ET",
+    "addresses": [
+      "Club MAA"
+    ],
+    "contacts": [
+      "14h30-17h",
+      "15h30"
+    ],
+    "emails": [
+      "dabreu@clubsportifmaa.com;pblanchet@clubsportifmaa.com"
+    ],
+    "cities": [
+      "2070, rue Peel, Montréal"
+    ]
+  },
+  {
+    "name": "1320-ET",
+    "addresses": [
+      "WADA"
+    ],
+    "contacts": [
+      "11h-21h",
+      "11 - 13h30"
+    ],
+    "emails": [
+      "mariela.rolon@wada-ama-org",
+      "mariela.rolon@wada-ama.org / corposvcs@wada-ama.org"
+    ],
+    "cities": [
+      "800 du Square Victoria, 16e et 17e étages"
+    ]
+  },
+  {
+    "name": "1321-ET",
+    "addresses": [
+      "Gestion Sandanna"
+    ],
+    "contacts": [
+      "13h-15h30",
+      "14-16h"
+    ],
+    "emails": [
+      "nbecot@peloquinkattan.com"
+    ],
+    "cities": [
+      "1, Westmount Square, bureau 2000"
+    ]
+  },
+  {
+    "name": "1322-ET",
+    "addresses": [
+      "Ortho-Laval - Dr. Jean-Marc Dumoulin"
+    ],
+    "contacts": [
+      "11h-13h30",
+      "12h16h"
+    ],
+    "emails": [
+      "lrivard@ortholaval.com"
+    ],
+    "cities": [
+      "1575 boul. de l'Avenir, 3e étage"
+    ]
+  },
+  {
+    "name": "1323-ET",
+    "addresses": [
+      "Bibliotheque Maisonneuve"
+    ],
+    "contacts": [
+      "10h-11h30",
+      "9-10h"
+    ],
+    "emails": [
+      "marie-eve.leprohon@montreal.ca"
+    ],
+    "cities": [
+      "4120, Ontario Est"
+    ]
+  },
+  {
+    "name": "1324-ET",
+    "addresses": [
+      "Quartier Mont Saint-Hilaire"
+    ],
+    "contacts": [
+      "11h30-14h",
+      "8h-10h"
+    ],
+    "emails": [
+      "dg@lequartiermontsainthilaire.com"
+    ],
+    "cities": [
+      "330, Honorious-Charbonneau"
+    ]
+  },
+  {
+    "name": "1327-ET",
+    "addresses": [
+      "CCRL Laurentides"
+    ],
+    "contacts": [
+      "14h30",
+      "12h15-13h15"
+    ],
+    "emails": [
+      "mgbeaudry@ccrlaurentides.com"
+    ],
+    "cities": [
+      "325 Rue du Docteur-Charles-Léonard,"
+    ]
+  },
+  {
+    "name": "1328-ET",
+    "addresses": [
+      "KOTV"
+    ],
+    "contacts": [
+      "15h",
+      "11h30-13h"
+    ],
+    "emails": [
+      "imartin@kotv.ca"
+    ],
+    "cities": [
+      "300, Place Charles-Lemoyne, bureau 200"
+    ]
+  },
+  {
+    "name": "1329-ET",
+    "addresses": [
+      "UV Quartier Villeray"
+    ],
+    "contacts": [
+      "12h",
+      "11-12h"
+    ],
+    "emails": [
+      "olivier.parenteau@uvee.ca"
+    ],
+    "cities": [
+      "682, rue Jarry Est"
+    ]
+  },
+  {
+    "name": "1330-ET",
+    "addresses": [
+      "Académie de Danse de Montréal"
+    ],
+    "contacts": [
+      "10-11h"
+    ],
+    "emails": [
+      "jeffdichter1@gmail.com"
+    ],
+    "cities": [
+      "8265 Boul. Langelier"
+    ]
+  },
+  {
+    "name": "1331-ET",
+    "addresses": [
+      "LDC Logistics"
+    ],
+    "contacts": [
+      "14h-15h30"
+    ],
+    "emails": [
+      "okovalska@MetroSCG.com"
+    ],
+    "cities": [
+      "1002, rue Sherbrooke O., Suite 2000"
+    ]
+  },
+  {
+    "name": "1333-ET",
+    "addresses": [
+      "West Spa (+pas mettre sur facture Salon Augustin - )"
+    ],
+    "contacts": [
+      "15h30-17h"
+    ],
+    "emails": [
+      "nemco@bell.net"
+    ],
+    "cities": [
+      "4655 Boul St-Jean, suite 202, D.D.O."
+    ]
+  },
+  {
+    "name": "1420 boulevard Mont-Royal",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "1440 rue Peel, Montréal",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "1450 Curé-Poirier E",
+    "addresses": [
+      "Longueuil"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "avr. 10"
+    ]
+  },
+  {
+    "name": "1455 32e avenue Lachine, Québec",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "1460 Mont-Royal Est, Montréal",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "1500 rue Montgolfièr",
+    "addresses": [
+      "Laval"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "1520, ave des Lumières local 15,",
+    "addresses": [
+      "Brossard"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "avr. 25"
+    ]
+  },
+  {
+    "name": "155 boulevard St-Rose, Laval",
+    "addresses": [
+      "Laval"
+    ],
+    "contacts": [
+      "Entrée 10,11, 12 et tapis devant les casiers seulement"
+    ],
+    "emails": [],
+    "cities": [
+      "avr. 11"
+    ]
+  },
+  {
+    "name": "1555, boul. de l'Avenir, Laval",
+    "addresses": [
+      "Laval"
+    ],
+    "contacts": [
+      "Cathy: 450-436-8985"
+    ],
+    "emails": [],
+    "cities": [
+      "avr. 17"
+    ]
+  },
+  {
+    "name": "1565, boul. de l'Avenir, Laval",
+    "addresses": [
+      "Laval"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "avr. 17"
+    ]
+  },
+  {
+    "name": "1575 boul. de l'Avenir, 3e étage",
+    "addresses": [
+      "Laval"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "avr. 17"
+    ]
+  },
+  {
+    "name": "1575, boul. de l'Avenir",
+    "addresses": [
+      "Laval"
+    ],
+    "contacts": [
+      "Stationnement Oui : Christiane (514) 261-1067",
+      "450 629-3375 sera sur place à partir de 7h"
+    ],
+    "emails": [],
+    "cities": [
+      "avr. 17"
+    ]
+  },
+  {
+    "name": "1575, boul. de l'Avenir, Laval",
+    "addresses": [
+      "Laval"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "avr. 17"
+    ]
+  },
+  {
+    "name": "1575, de l'Avenir",
+    "addresses": [
+      "Laval"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "avr. 17"
+    ]
+  },
+  {
+    "name": "16 993 Transcanadienne",
+    "addresses": [
+      "Kirkland"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "avr. 18"
+    ]
+  },
+  {
+    "name": "1600, boul. le Corbusier",
+    "addresses": [
+      "Laval"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "mai 9"
+    ]
+  },
+  {
+    "name": "1650 Place de l'Acadie Montréal",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "1668, rue Laurier Est",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "mai 15"
+    ]
+  },
+  {
+    "name": "17 rue de l'Industrie, Saint-Rémi",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "1751, rue Richardson",
+    "addresses": [],
+    "contacts": [
+      "***NE PAS ENLEVER LES TAPIS D'ASCENSEURS A-B ET F-G"
+    ],
+    "emails": [],
+    "cities": [
+      "avr. 4"
+    ]
+  },
+  {
+    "name": "1800 Angrignon",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [
+      "514 922 6174. appeler Michel pour le code"
+    ],
+    "emails": [],
+    "cities": [
+      "6 mai"
+    ]
+  },
+  {
+    "name": "1811, rue William",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "mai 22"
+    ]
+  },
+  {
+    "name": "1819, boul. Rosemont",
+    "addresses": [
+      "Montréal-Est"
+    ],
+    "contacts": [
+      "jour et heure exacte  a venir"
+    ],
+    "emails": [],
+    "cities": [
+      "1 mai"
+    ]
+  },
+  {
+    "name": "1850, rue Bercy",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "1920, rue Adoncour",
+    "addresses": [
+      "Longueuil"
+    ],
+    "contacts": [
+      "André Bissonnette 450-649-0648 ou Denise Leroux 514-795-4064"
+    ],
+    "emails": [],
+    "cities": [
+      "avr. 26"
+    ]
+  },
+  {
+    "name": "200, René-Levesque O",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [
+      "***tapis asc2 tour west absent ainsi que les 2 ascenseurs pour stationnement ***"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "200-63 rue des Brésoles, Montréal",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "2070 rue Marie-Victorin",
+    "addresses": [
+      "Longueuil"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "avr. 10"
+    ]
+  },
+  {
+    "name": "2070, rue Peel",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [
+      "Si possible, semaine du 7 avril entre 8h et 11h"
+    ],
+    "emails": [],
+    "cities": [
+      "avr. 16"
+    ]
+  },
+  {
+    "name": "2120, rue Ste-Catherine Est",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [
+      "LAISSEZ SUR PLACE LES TAPIS EN CARREAUX"
+    ],
+    "emails": [],
+    "cities": [
+      "6 mai"
+    ]
+  },
+  {
+    "name": "2141, rue Léger, Lasalle",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "2151, rue Léger, Lasalle",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "2180, rue Ste-Catherine Est",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [
+      "LAISSEZ SUR PLACE LES TAPIS EN CARREAUX"
+    ],
+    "emails": [],
+    "cities": [
+      "6 mai"
+    ]
+  },
+  {
+    "name": "2265, boul. Fernand-Lafontaine",
+    "addresses": [
+      "Longueuil"
+    ],
+    "contacts": [
+      "NE PAS FACTURER LE CLIENT POUR LE PLANCHER DE BOIS ABÎMER"
+    ],
+    "emails": [],
+    "cities": [
+      "avr. 10"
+    ]
+  },
+  {
+    "name": "2265, Fernand-Lafontaine",
+    "addresses": [
+      "Longueuil"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "avr. 10"
+    ]
+  },
+  {
+    "name": "23293550 tapis de Novia ,",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "24, rue Bates",
+    "addresses": [
+      "Outremont"
+    ],
+    "contacts": [
+      "Choucri Craissati 514-236-5515: stationnement OUI"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "2400, rue des Nations, Saint-Laurent",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "mai 8"
+    ]
+  },
+  {
+    "name": "25, rue du Marché",
+    "addresses": [
+      "Ste-Thérèse"
+    ],
+    "contacts": [
+      "contacter Louis Philippe ou Yvon : 450-433-6544"
+    ],
+    "emails": [],
+    "cities": [
+      "avr. 11"
+    ]
+  },
+  {
+    "name": "2830, rue Gilford",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "1 mai"
+    ]
+  },
+  {
+    "name": "2905, place Louis-R. renaud",
+    "addresses": [
+      "Laval"
+    ],
+    "contacts": [
+      "En attente d'achat de nouveaux tapis."
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "2910, Edouard Montpetit",
+    "addresses": [
+      "Laval"
+    ],
+    "contacts": [
+      "2 grosses taches sur les tapis, 1 dans l'entrée et l'autre dans le garage"
+    ],
+    "emails": [],
+    "cities": [
+      "juin 2"
+    ]
+  },
+  {
+    "name": "300, Place Charles-Lemoyne, bureau 200",
+    "addresses": [
+      "Longueuil"
+    ],
+    "contacts": [
+      "Au 1245 Bleury vous pouvez vous stationner dans la cour intérieure."
+    ],
+    "emails": [],
+    "cities": [
+      "avr. 14"
+    ]
+  },
+  {
+    "name": "300, rue de Murano",
+    "addresses": [
+      "Sainte-Julie"
+    ],
+    "contacts": [
+      "1ere semaine d'avril"
+    ],
+    "emails": [],
+    "cities": [
+      "avr. 10"
+    ]
+  },
+  {
+    "name": "300, rue de Sarcelle",
+    "addresses": [
+      "Candiac"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "mai 14"
+    ]
+  },
+  {
+    "name": "3040, boul. Lévesque Ouest",
+    "addresses": [
+      "Laval"
+    ],
+    "contacts": [
+      "Sylvain Laliberté 514-979-9208"
+    ],
+    "emails": [],
+    "cities": [
+      "mai 16"
+    ]
+  },
+  {
+    "name": "305 rue Docteur Charles-Léonard #204, St-Jérôme",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "juin 16"
+    ]
+  },
+  {
+    "name": "310, rue Rachel Est",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "3105 Place Louis R-Renaud",
+    "addresses": [
+      "Laval"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "mai 9"
+    ]
+  },
+  {
+    "name": "3111, rue Victoria",
+    "addresses": [
+      "Lachine"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "2 mai"
+    ]
+  },
+  {
+    "name": "3155, boul. Michel-Ange",
+    "addresses": [
+      "Laval"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "avr. 17"
+    ]
+  },
+  {
+    "name": "325 Rue du Docteur-Charles-Léonard,",
+    "addresses": [
+      "St-Jérôme"
+    ],
+    "contacts": [
+      "Marie-Gabrielle Beaudry : 514-293-9923 : Stationnement payant sur place"
+    ],
+    "emails": [],
+    "cities": [
+      "avr. 11"
+    ]
+  },
+  {
+    "name": "325, boul. Bouchard",
+    "addresses": [
+      "Dorval"
+    ],
+    "contacts": [
+      "Changement de dates , prevu le 18 avril mais fermé pour paques"
+    ],
+    "emails": [],
+    "cities": [
+      "mai 12"
+    ]
+  },
+  {
+    "name": "325, chemin de la Pointe-Sud, île des Soeurs",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "325, rue Docteur Charles-Léonard, St-Jérôme",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "330, Honorious-Charbonneau",
+    "addresses": [
+      "St-Hilaire"
+    ],
+    "contacts": [
+      "Prendre une photo du tapis qui gondole dans le corridor qui mêne aux bureaux administratifs"
+    ],
+    "emails": [],
+    "cities": [
+      "avr. 26"
+    ]
+  },
+  {
+    "name": "3310, 100e Avenue",
+    "addresses": [
+      "Laval"
+    ],
+    "contacts": [
+      "M. Serge Boyer. Vous pouvez le rejoindre au (514) 793-2540."
+    ],
+    "emails": [],
+    "cities": [
+      "avr. 11"
+    ]
+  },
+  {
+    "name": "3333, 100e Avenue, 2e étage",
+    "addresses": [
+      "Laval"
+    ],
+    "contacts": [
+      "TRES TÔT LE MATIN OU LE VENDREDI EN APRÈS-MIDI"
+    ],
+    "emails": [],
+    "cities": [
+      "mai 16"
+    ]
+  },
+  {
+    "name": "3333, 100e Avenue, 3e étage",
+    "addresses": [
+      "Laval"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "mai 16"
+    ]
+  },
+  {
+    "name": "3333, 100e Avenue, RDC",
+    "addresses": [
+      "Laval"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "mai 16"
+    ]
+  },
+  {
+    "name": "335 Place d'Youville",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "avr. 14"
+    ]
+  },
+  {
+    "name": "3475, Montée Gagnon",
+    "addresses": [
+      "Terrebonne"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "avr. 11"
+    ]
+  },
+  {
+    "name": "35, rue Port-Royal Est, Montréal",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "350, Place Royale",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [
+      "Pas de nettoyage de tapis: Stationnement la rue de la commune livraison\nPersonne responsable Suleyman (demandez à la sécurité)"
+    ],
+    "emails": [],
+    "cities": [
+      "avr. 14"
+    ]
+  },
+  {
+    "name": "3510 boul. St-Laurent",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "avr. 23"
+    ]
+  },
+  {
+    "name": "3530 boul. St-Laurent",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "avr. 23"
+    ]
+  },
+  {
+    "name": "3625, rue Jean-Gascon",
+    "addresses": [
+      "Saint-Laurent"
+    ],
+    "contacts": [
+      "1ere semaine d'avril au 12 avril"
+    ],
+    "emails": [],
+    "cities": [
+      "avr. 7"
+    ]
+  },
+  {
+    "name": "3655, des Grandes Tourelles",
+    "addresses": [
+      "Boisbriand"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "3655, rue Jean Gascon",
+    "addresses": [
+      "Saint-Laurent"
+    ],
+    "contacts": [
+      "1ere semaine d'avril au 12 avril"
+    ],
+    "emails": [],
+    "cities": [
+      "avr. 7"
+    ]
+  },
+  {
+    "name": "3705, rue Saint-Patrick",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [
+      "Remplir le formulaire demande d'autorisation d'accès du Site - OBLIGATOIRE"
+    ],
+    "emails": [],
+    "cities": [
+      "3 avril"
+    ]
+  },
+  {
+    "name": "376 Redfern",
+    "addresses": [
+      "376 Redfern, Westmount"
+    ],
+    "contacts": [
+      "Mark"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "3822, ave de Courtrai",
+    "addresses": [
+      "Outremont"
+    ],
+    "contacts": [
+      "APRÈS LE 1ER AVRIL ET NE PAS FAIRE LES VENDREDIS"
+    ],
+    "emails": [],
+    "cities": [
+      "mai 8"
+    ]
+  },
+  {
+    "name": "400, rue Atlantic",
+    "addresses": [
+      "Outremont"
+    ],
+    "contacts": [
+      "Personne responsable sur place ou code d'accès   INTERCOM :  la touche no 2---- Luis Tampan 514-206.7118\nAvons-nous accès à un stationnement  non"
+    ],
+    "emails": [],
+    "cities": [
+      "avr. 28"
+    ]
+  },
+  {
+    "name": "400, rue Serge Pépin",
+    "addresses": [
+      "Beloeil"
+    ],
+    "contacts": [
+      "C'est parfait pour le 13 à 13h00, louis sera sur place pour vous accueillir, 438-498-7024, vous pourrez aussi au besoin, communiquez avec Philippe au 514-250-5456. _ PS SVP ne pas retiré le tapis du hall d'entré,(entre les deux portes) nous tenons à le conservé, vous pourrez discuté des formalités avec Philippe."
+    ],
+    "emails": [],
+    "cities": [
+      "mai 13"
+    ]
+  },
+  {
+    "name": "4025 Route Transcanadienne",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "4120, Ontario Est",
+    "addresses": [
+      "Montréal-Est"
+    ],
+    "contacts": [
+      "jour et heure exacte  a venir  (Lundi, jeudi et vendredi ouvre a midi - mardi et mercredi à 10h00)"
+    ],
+    "emails": [],
+    "cities": [
+      "1 mai"
+    ]
+  },
+  {
+    "name": "4127, rue Cousens, Saint-Laurent",
+    "addresses": [
+      "Richard Ross"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "juill. 11"
+    ]
+  },
+  {
+    "name": "4176, boulevard Grand Montréal",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "mai 14"
+    ]
+  },
+  {
+    "name": "425, Viger Ouest",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [
+      "ajout laize centrale +918Pc"
+    ],
+    "emails": [],
+    "cities": [
+      "avr. 9"
+    ]
+  },
+  {
+    "name": "4250 boul. Dagenais - Salle d'attente",
+    "addresses": [
+      "4250, boul. Dagenais, Laval"
+    ],
+    "contacts": [
+      "Marie-Claude Lavoie"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "4300, rue Garand, Saint-Laurent",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "mai 8"
+    ]
+  },
+  {
+    "name": "4305, chemin du Crépuscule",
+    "addresses": [
+      "Beloeil"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "avr. 10"
+    ]
+  },
+  {
+    "name": "4396 St-Laurent",
+    "addresses": [
+      "4396, boul. St-Laurent, Montréal"
+    ],
+    "contacts": [
+      "Luc Beaulieu"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "4396, boul. St-Laurent, Montréal",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "4400 Côte de Liesse",
+    "addresses": [
+      "4401 Côte de Liesse"
+    ],
+    "contacts": [
+      "Nancy Hamilton"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "4400, rue Jean-Talon Est",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [
+      "Personne responsable : Nathalie GagnonStationnement : oui : 438-403-1760"
+    ],
+    "emails": [],
+    "cities": [
+      "2 mai"
+    ]
+  },
+  {
+    "name": "4446, boul. St-Laurent, suite 501",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "mai 21"
+    ]
+  },
+  {
+    "name": "460, rue du Champ de Mars",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "mai 16"
+    ]
+  },
+  {
+    "name": "4647 rue Coloniale",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [
+      "Il faut sonner au numéro 204 qui vous ouvrira. (adresse de l'immeuble 4647 av coloniale, Montreal, H2t1W1)\nNous n’avons pas de stationnement, c’est dans la rue directement."
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "4650, desserte S, Autoroute 440",
+    "addresses": [
+      "Laval"
+    ],
+    "contacts": [
+      "4650 déserte +4670 déserte suite 110. 15:00 à 16:00\n***** le 4670 n'était pas à l'horaire mais confirmé avec cliente et Guylaine,  total 230 pieds carrés ****   // charge 3176  CRÉDITER SUR FATURE 3187 _ les tapis ont ete retirer a la suite reno , ne sais ou sont les tapis"
+    ],
+    "emails": [],
+    "cities": [
+      "juin 16",
+      "mai 16"
+    ]
+  },
+  {
+    "name": "4655 Boul St-Jean, suite 202",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "12 mai"
+    ]
+  },
+  {
+    "name": "4670, desserte Sud 440, local 110",
+    "addresses": [
+      "Laval"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "juin 16"
+    ]
+  },
+  {
+    "name": "47 321",
+    "addresses": [
+      "20348,03"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "18928,4"
+    ]
+  },
+  {
+    "name": "4800 rue Contrecoeur, Montréal",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "mai 16"
+    ]
+  },
+  {
+    "name": "4801, 2e avenue",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "1 mai"
+    ]
+  },
+  {
+    "name": "4820, 4e Avenue",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [
+      "la personne sur place sera Manuel que vous pourrez contacter au : 514 546 9643\nOu récupérer les clés situées dans la boite à clés à l’entrée de l’immeuble : code 2308"
+    ],
+    "emails": [],
+    "cities": [
+      "1 mai"
+    ]
+  },
+  {
+    "name": "4975 rue Jean-Talon Ouest",
+    "addresses": [
+      "Outremont"
+    ],
+    "contacts": [
+      "Luc Vincelette : (438) 778-7076"
+    ],
+    "emails": [],
+    "cities": [
+      "mai 8"
+    ]
+  },
+  {
+    "name": "509 chemin de la Grande Côte, Saint-Eustache",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "5290, boul. des Laurentides",
+    "addresses": [
+      "Laval"
+    ],
+    "contacts": [
+      "La personne responsable sera Mme Patrizia à la réception."
+    ],
+    "emails": [],
+    "cities": [
+      "avr. 17"
+    ]
+  },
+  {
+    "name": "5445 de Gaspé, Montréal",
+    "addresses": [
+      "Outremont"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "avr. 28"
+    ]
+  },
+  {
+    "name": "5455 de Gaspé, Montréal",
+    "addresses": [
+      "Outremont"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "avr. 28"
+    ]
+  },
+  {
+    "name": "555, boul. Rolan-Therrien",
+    "addresses": [
+      "Longueuil"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "avr. 29"
+    ]
+  },
+  {
+    "name": "60 rue William-Paul, Verdun",
+    "addresses": [
+      "60 rue William-Paul, Verdun"
+    ],
+    "contacts": [
+      "Brigitte côté"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "6000 ch. Deacon",
+    "addresses": [
+      "Outremont"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "6000 Deacon",
+    "addresses": [
+      "6000 ch. Deacon",
+      "6000, ch. Deacon"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Outremont"
+    ]
+  },
+  {
+    "name": "6080, Place des Cageux, Sainte-Catherine (rue Léo)",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "mai 21"
+    ]
+  },
+  {
+    "name": "61 54e avenue Est",
+    "addresses": [
+      "Blainville"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "mai 9"
+    ]
+  },
+  {
+    "name": "6111, du Boisé",
+    "addresses": [
+      "Outremont"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "6150 du Boisé",
+    "addresses": [
+      "Outremont"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "avr. 29"
+    ]
+  },
+  {
+    "name": "6300 ave du Parc",
+    "addresses": [
+      "6300 ave du Parc",
+      "6300, ave du Parc",
+      "Outremont"
+    ],
+    "contacts": [
+      "Personne responsable sur place ou code d'accès  Lafleche Tougas 514-928.0577\nAvons-nous accès à un stationnement  oui",
+      "Luc Beaulieu"
+    ],
+    "emails": [],
+    "cities": [
+      "Outremont",
+      "avr. 28"
+    ]
+  },
+  {
+    "name": "6300 rue Northcrest",
+    "addresses": [
+      "Outremont"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "6 mai"
+    ]
+  },
+  {
+    "name": "6301 rue Northcrest",
+    "addresses": [
+      "Outremont"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "6 mai"
+    ]
+  },
+  {
+    "name": "6400 ave Monkland",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [
+      "A FAIRE"
+    ],
+    "emails": [],
+    "cities": [
+      "mai 14"
+    ]
+  },
+  {
+    "name": "651, rue de la Montagne",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "avr. 10"
+    ]
+  },
+  {
+    "name": "6767. route de l'aéroport",
+    "addresses": [
+      "Saint-Hubert"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "avr. 26"
+    ]
+  },
+  {
+    "name": "680 de Courcelle",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [
+      "CODE D'ACCÈS:  01723"
+    ],
+    "emails": [],
+    "cities": [
+      "mai 15"
+    ]
+  },
+  {
+    "name": "682, rue Jarry Est",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "mai 21"
+    ]
+  },
+  {
+    "name": "6900 boul. Décarie",
+    "addresses": [
+      "6900 boul. Décarie"
+    ],
+    "contacts": [
+      "Nina Ladenheim"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "6900 du Square Décarie, Montréal",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "7, boul. des Promenades",
+    "addresses": [
+      "St-Bruno"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "avr. 10"
+    ]
+  },
+  {
+    "name": "7, place du Commerce",
+    "addresses": [
+      "Brossard"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "avr. 25"
+    ]
+  },
+  {
+    "name": "700 rue St-Hubert",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "avr. 4"
+    ]
+  },
+  {
+    "name": "700 rue St-Hubert, Montréal",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "avr. 4"
+    ]
+  },
+  {
+    "name": "700, rue de la Gauchetière",
+    "addresses": [],
+    "contacts": [
+      "Pas pu retirer tapis ascenseurs A,H,G,F,M,N,P,J hors d'usage car ils changent les panneaux de contrôle à l'intérieur."
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "700, rue Docteur Chevrier",
+    "addresses": [
+      "Saint-Lambert"
+    ],
+    "contacts": [
+      "À la demande du nouveau responsable Bruno forget, les tapis escaliers A et B laissés sur place et ne feront plus partie du contrat. Total 60 pieds carré en moins"
+    ],
+    "emails": [],
+    "cities": [
+      "avr. 25"
+    ]
+  },
+  {
+    "name": "7227 boul. Newman",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "14 mai"
+    ]
+  },
+  {
+    "name": "7227 boul. Newman SDC",
+    "addresses": [
+      "7227 boul. Newman",
+      "7227, boul. Newman"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "7275, rue Sherbrooke Est, Montréal",
+    "addresses": [
+      "Montréal-Est"
+    ],
+    "contacts": [
+      "jour et heure exacte  a venir"
+    ],
+    "emails": [],
+    "cities": [
+      "mai 2"
+    ]
+  },
+  {
+    "name": "755, rue Berri",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [
+      "il faut rajouter le 268pc à l’adresse du 755 Berri  (nouvelle quantité 895pc)"
+    ],
+    "emails": [],
+    "cities": [
+      "avr. 4"
+    ]
+  },
+  {
+    "name": "7695, avenue Papineau",
+    "addresses": [
+      "Montreal"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "mai 21"
+    ]
+  },
+  {
+    "name": "780, ave Dollard",
+    "addresses": [
+      "Outremont"
+    ],
+    "contacts": [
+      "CONGÉS DU 21 AU 28 AVRIL - Le tapis de l'entrée McEachcran sera jeté par le collège Personne responsable : Nicholas Goodman 438-520-4328\nIl y a un stationnement côté parc de la rue Van Horne, au bout des bâtiments."
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "800 du Square Victoria, 16e et 17e étages",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "11 avr."
+    ]
+  },
+  {
+    "name": "800 rue du Square Victoria",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [
+      "Furna à la réception"
+    ],
+    "emails": [],
+    "cities": [
+      "11 avr."
+    ]
+  },
+  {
+    "name": "800 Square Victoria",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "800, rue du Square Victoria",
+    "addresses": [
+      "Montréal",
+      "Montré"
+    ],
+    "contacts": [
+      "Personne sur place : Agents de sécurité (Sinon : Jennifer au 514-966-7588)\nStationnement : il y a un stationnement intérieur payant pour les voitures des travailleurs. Sinon, une place est réservée au quai de marchandises pour le camion pour samedi (svp préciser les heures) Hauteur maximale quai 11 pi 4 po."
+    ],
+    "emails": [],
+    "cities": [
+      "avr. 14"
+    ]
+  },
+  {
+    "name": "8065, rue St-Laurent",
+    "addresses": [
+      "Brossard"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "avr. 26"
+    ]
+  },
+  {
+    "name": "8265 Boul. Langelier",
+    "addresses": [
+      "St-Léonard"
+    ],
+    "contacts": [
+      "Melanie Hattem will be on location,Yes there is parking"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "8844, rue Notre-Dame Est",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [
+      "Personne responsable sur place ou code d'accès : Sylvain Langlois 514-961-2176\nAvons-nous accès à un stationnement oui"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "900 de Maisonneuve O",
+    "addresses": [
+      "Montréal"
+    ],
+    "contacts": [
+      "Il a planifié l'entretien ménager"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "900 peel  ?$",
+    "addresses": [
+      "Livrsaison et déposé tapis"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "917, avenue Mont-Royal Est",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "9170 rie Airlie, LaSalle",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "95 rue de l'Église, Longueuil",
+    "addresses": [
+      "95 rue de l'Église, Longueuil"
+    ],
+    "contacts": [
+      "Raphael Dionne"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "950 rue Champagneur",
+    "addresses": [
+      "950 rue Champagneur"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "970, ave McEachran",
+    "addresses": [
+      "Outremont"
+    ],
+    "contacts": [
+      "Code boit à clefs : 2029"
+    ],
+    "emails": [],
+    "cities": [
+      "avr. 29"
+    ]
+  },
+  {
+    "name": "9852-G",
+    "addresses": [
+      "Tong Sheng, suite 101"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "855, boul. Décarie"
+    ]
+  },
+  {
+    "name": "9917-G",
+    "addresses": [
+      "La Cité des Tours"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "190, rue St-Paul"
+    ]
+  },
+  {
+    "name": "9923-G",
+    "addresses": [
+      "Le Floréa"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "4800, rue Opinaca"
+    ]
+  },
+  {
+    "name": "9938-G",
+    "addresses": [
+      "Alexander II"
+    ],
+    "contacts": [],
+    "emails": [
+      "saltman@devimco.com"
+    ],
+    "cities": [
+      "2255, boul. Rene Levesque O"
+    ]
+  },
+  {
+    "name": "9948-G",
+    "addresses": [
+      "CHSLD Valéo"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "700, rue Docteur-Chevrier"
+    ]
+  },
+  {
+    "name": "9969-G",
+    "addresses": [
+      "SDC Quintessense"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "3720, boul. St-Elzéar Ouest"
+    ]
+  },
+  {
+    "name": "9981-G",
+    "addresses": [
+      "Rubis par Marquis"
+    ],
+    "contacts": [],
+    "emails": [
+      "johanne.chamoun@bentallgreenoak.com"
+    ],
+    "cities": [
+      "3659, Jean-Berault"
+    ]
+  },
+  {
+    "name": "9988-G",
+    "addresses": [
+      "Le Canal 2"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "1450, rue Island"
+    ]
+  },
+  {
+    "name": "999 av Émile-Journault, Montréal",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "999, rue Dupuis",
+    "addresses": [
+      "Verdun"
+    ],
+    "contacts": [
+      "Remplir le formulaire demande d'autorisation d'accès du Site - OBLIGATOIRE"
+    ],
+    "emails": [],
+    "cities": [
+      "3 avril"
+    ]
+  },
+  {
+    "name": "ABB",
+    "addresses": [
+      "1811, boulevard Hymus, Dorval",
+      "4025 Route Transcanadienne"
+    ],
+    "contacts": [
+      "Peng Boudthalath",
+      "Jean-Sébastien Ouimet"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Académie de Danse de Montréal",
+    "addresses": [
+      "8265 Boul. Langelier",
+      "8265, Boul. Langelier"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "St-Léonard"
+    ]
+  },
+  {
+    "name": "Académie Lavalloise",
+    "addresses": [
+      "5290, boul. des Laurentides",
+      "5290 boul. des Laurentdes, Laval"
+    ],
+    "contacts": [
+      "Anthony Lacopo"
+    ],
+    "emails": [],
+    "cities": [
+      "Laval"
+    ]
+  },
+  {
+    "name": "Adresse",
+    "addresses": [
+      "Ville"
+    ],
+    "contacts": [
+      "Commentaires - Printemps 2025"
+    ],
+    "emails": [],
+    "cities": [
+      "BLEU : JOUR   GRIS : SOIR        DATE Réinstallation"
+    ]
+  },
+  {
+    "name": "Agence Spaciale  Canadienne",
+    "addresses": [
+      "6767. route de l'aéroport"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Saint-Hubert"
+    ]
+  },
+  {
+    "name": "Agence Spaciale Canadienne",
+    "addresses": [
+      "6767, route de l'aéroport"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Saint-Hubert"
+    ]
+  },
+  {
+    "name": "Alexandre Srougi (Solution Condo)",
+    "addresses": [
+      "alexandre.srougi@solutioncondo.com"
+    ],
+    "contacts": [
+      "x"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Allied",
+    "addresses": [
+      "425, Viger, Montréal"
+    ],
+    "contacts": [
+      "Daniel Martos"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Allied - 1010 Sherbrooke Est",
+    "addresses": [
+      "1010, Sherbrooke Ouest",
+      "1010 Sherbrooke Est"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Allied - 700 rue St-Hubert",
+    "addresses": [
+      "700 rue St-Hubert",
+      "700, rue St-Hubert"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Allied - Atlantic",
+    "addresses": [
+      "400, rue Atlantic"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Outremont"
+    ]
+  },
+  {
+    "name": "Allied - Viger *tape vert*",
+    "addresses": [
+      "425, Viger Ouest"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Allied - Édifice 3530 St-Laurent",
+    "addresses": [
+      "3530 boul. St-Laurent"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Allied - Édifice 3530 St-Laurent (SS1, SS\" + asc.)",
+    "addresses": [
+      "3530 boul. St-Laurent"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Allied 5480 rue St-Domnique",
+    "addresses": [
+      "5480, rue St-Dominique"
+    ],
+    "contacts": [
+      "Jean-François Plante"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Allied Properties",
+    "addresses": [
+      "755, rue Berri"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Allied Property",
+    "addresses": [
+      "755, rue Berri, Montréal",
+      "700, rue St-Hubert"
+    ],
+    "contacts": [
+      "Nick Prockow"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Allied- Édifice 3510 St-Laurent",
+    "addresses": [
+      "3510 boul. St-Laurent"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Anas Awil",
+    "addresses": [
+      "aawil@devimco.com"
+    ],
+    "contacts": [
+      "X"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Anne Rouleau",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Annie Pigeon",
+    "addresses": [
+      "annie.pigeon@montreal.ca"
+    ],
+    "contacts": [
+      "x"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Assocciation 6000 Deacon",
+    "addresses": [
+      "6000 Deacon"
+    ],
+    "contacts": [
+      "Linda St-Onge"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Association 5955 Wilderton",
+    "addresses": [
+      "5955, ave Wilderton, Outremont"
+    ],
+    "contacts": [
+      "Marie Heisler"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Association 6100 Deacon",
+    "addresses": [
+      "6100, ave Deacon, Outremont"
+    ],
+    "contacts": [
+      "Marie Heisler"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "association 6111 du Boisé",
+    "addresses": [
+      "6111 du Boisé, Montréal"
+    ],
+    "contacts": [
+      "Chantale DeGranpré"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Atelier Monarque",
+    "addresses": [
+      "200-63 rue des Brésoles, Montréal"
+    ],
+    "contacts": [
+      "Adrian Scateni"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Audacio",
+    "addresses": [
+      "280, voie de Dessert de la route 132, St-Constant"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Axces Trigone Brossard I",
+    "addresses": [
+      "7215, De Lunan, Brossard"
+    ],
+    "contacts": [
+      "Taulant Dedja"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Axces Trigone Brossard II",
+    "addresses": [
+      "7165 De Lunan, Brossard"
+    ],
+    "contacts": [
+      "Taulant Dedja"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Axces Trigone Octa 1",
+    "addresses": [
+      "4175, rue Legault, Longueuil"
+    ],
+    "contacts": [
+      "Hasniz Rezaigula"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Axces Trigone Octa 2",
+    "addresses": [
+      "4155, rue Legault, Longueuil"
+    ],
+    "contacts": [
+      "Hasniz Rezaigula"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Aziz Moyane",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Banque de Montréal",
+    "addresses": [
+      "129, St-Jacques O",
+      "129 rue St-Jacques O, Montréal"
+    ],
+    "contacts": [
+      "Julie Lachapelle"
+    ],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Banque Financière Montréal",
+    "addresses": [
+      "1155, rue Metcalfe"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Bastium Construction",
+    "addresses": [
+      "1300 rue Olier, Montréal"
+    ],
+    "contacts": [
+      "Shane Vézina"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Bella Vista II",
+    "addresses": [
+      "3655, Jean-Gascon, Ville Saint-Laurent"
+    ],
+    "contacts": [
+      "Jean-Pierre Rayes"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Bella Vista Phase I",
+    "addresses": [
+      "3625, rue Jean-Gascon"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Saint-Laurent"
+    ]
+  },
+  {
+    "name": "Bella Vista Phase II",
+    "addresses": [
+      "3655, rue Jean Gascon"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Saint-Laurent"
+    ]
+  },
+  {
+    "name": "Bernard et Brassard",
+    "addresses": [
+      "2265 boul. Fernand-Lafontaine #300, Longueuil"
+    ],
+    "contacts": [
+      "Geneviève Picard"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Bernard et Brassard #300 *tape vert*",
+    "addresses": [
+      "2265, boul. Fernand-Lafontaine"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Longueuil"
+    ]
+  },
+  {
+    "name": "Bibliotheque de Maisonneuve",
+    "addresses": [
+      "4135, place Ernest-Gendreau, Montréal"
+    ],
+    "contacts": [
+      "Marie-Eve Leprohon"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Bibliothèque Maisonneuve",
+    "addresses": [
+      "4135, place Ernest-Gendreau, Montréal",
+      "4120, Ontario Est"
+    ],
+    "contacts": [
+      "Marie-Eve Lepron"
+    ],
+    "emails": [],
+    "cities": [
+      "Montréal-Est"
+    ]
+  },
+  {
+    "name": "BLEU : mettre à l'horaire",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "VERT : courriel à envoyer"
+    ]
+  },
+  {
+    "name": "BLEU : mettre à l'horaire Couriel",
+    "addresses": [
+      "Date"
+    ],
+    "contacts": [
+      "Heure"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "BMO",
+    "addresses": [
+      "119, St- Jacques O",
+      "1250, Rné Levesque O, 46e étage, Montréal"
+    ],
+    "contacts": [
+      "Vincent Blais"
+    ],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Buzz fit",
+    "addresses": [
+      "1100 Boulevard Crémazie E, Montréal QC H2P 2X2"
+    ],
+    "contacts": [
+      "Robert"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Bé +",
+    "addresses": [
+      "3100 Boulevard de la Concorde E, Laval QC H7E 2B8",
+      "3100 Blvd. de la Concorde E local 50E, Laval,"
+    ],
+    "contacts": [
+      "Marie-Josée"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Bédard Ressources #310",
+    "addresses": [
+      "1575, boul. de l'Avenir"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Laval"
+    ]
+  },
+  {
+    "name": "C.S.I.L.",
+    "addresses": [
+      "5560, boul. des Laurentides, Laval"
+    ],
+    "contacts": [
+      "Loubna Zidane"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Carmichael",
+    "addresses": [
+      "3822, ave de Courtrai"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Outremont"
+    ]
+  },
+  {
+    "name": "Caroline Gagnon",
+    "addresses": [
+      "dg@lesresidencesdumarche.com"
+    ],
+    "contacts": [
+      "x"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Caroline Rousseau",
+    "addresses": [
+      "crousseau@ciot.com"
+    ],
+    "contacts": [
+      "X"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Caserne place d'Youville",
+    "addresses": [
+      "335 Place d'Youville"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "CCRL (we et 3e étage)",
+    "addresses": [
+      "325, rue Docteur Charles-Léonard, St-Jérôme"
+    ],
+    "contacts": [
+      "Marilyn Croizer"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "CCRL des Laurentides",
+    "addresses": [
+      "325, rue du Docteur Charles Léonard, St-Jérôme"
+    ],
+    "contacts": [
+      "Marie-Gabrielle Beaudry"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "CCRL Laurentides",
+    "addresses": [
+      "325, rue du Docteur-Charles-Léonard",
+      "325 Rue du Docteur-Charles-Léonard,"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "St-Jérôme"
+    ]
+  },
+  {
+    "name": "Cegep L'Assomption",
+    "addresses": [
+      "180 rue Dorval, L'Assomption"
+    ],
+    "contacts": [
+      "Valérie Ouellette"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Centre administratif PRAIDA",
+    "addresses": [
+      "35, rue Port-Royal Est, Montréal"
+    ],
+    "contacts": [
+      "Khadija Roummane"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Centre Bell",
+    "addresses": [
+      "1225, rue St-Antoine Ouest, Montréal",
+      "1225, rue St-Antoine O, Montréal",
+      "1225 St-Antoine, Montréal"
+    ],
+    "contacts": [
+      "Sylvain Plante"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Centre Bell (Entrée des loges B et 9,4,10",
+    "addresses": [
+      "1225, rue St-Antoine O, Montréal"
+    ],
+    "contacts": [
+      "Sylvain Plante"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Centre Bell - CIBC escaliers de secours",
+    "addresses": [
+      "1225, rue St-Antoine O., Montréal"
+    ],
+    "contacts": [
+      "Chrystine Gélinas"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Centre communautaire Greene",
+    "addresses": [
+      "1090 avenue Greene",
+      "1090, avenue Greene"
+    ],
+    "contacts": [
+      "Jason"
+    ],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Centre culturel NDG",
+    "addresses": [
+      "6400 ave Monkland",
+      "6400, ave Monkland"
+    ],
+    "contacts": [
+      "Irinel-Maria Stingaciu"
+    ],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Centre d'intégration Scolaire",
+    "addresses": [
+      "8844, rue Notre-Dame Est"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Centre de médecine sportive",
+    "addresses": [
+      "4650, desserte S, Autoroute 440"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Laval"
+    ]
+  },
+  {
+    "name": "Centre de vaccination Décarie",
+    "addresses": [
+      "6900 du Square Décarie, Montréal"
+    ],
+    "contacts": [
+      "Jacob Maman"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "CEOM",
+    "addresses": [
+      "4670, desserte Sud 440, Laval",
+      "4670, desserte Sud 440, local 110"
+    ],
+    "contacts": [
+      "Charles-Olivier Moreau"
+    ],
+    "emails": [],
+    "cities": [
+      "Laval"
+    ]
+  },
+  {
+    "name": "CEOM (suite 100-145)",
+    "addresses": [
+      "4650, desserte S, Autoroute 440"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Laval"
+    ]
+  },
+  {
+    "name": "CEOM suite 104-145",
+    "addresses": [
+      "4650, dessert Sud 440, Laval"
+    ],
+    "contacts": [
+      "Danièle Lanthiter"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Charles Fréchette",
+    "addresses": [
+      "ca5000cn3@gmail.com"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Christina Passarelli",
+    "addresses": [
+      "christina.passarelli@ssense.com"
+    ],
+    "contacts": [
+      "X"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "CHSLD Dr. Chevrier",
+    "addresses": [
+      "700, rue Docteur Chevrier"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Saint-Lambert"
+    ]
+  },
+  {
+    "name": "CHSLD Val des Brises",
+    "addresses": [
+      "3155, boul. Michel-Ange"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Laval"
+    ]
+  },
+  {
+    "name": "CHU Ste-Justine",
+    "addresses": [
+      "3175, chemin de la Côte Ste-Catherine, Montréal"
+    ],
+    "contacts": [
+      "Jean-Edouard Saint-Germain"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "CIUSSS - clinique IPS",
+    "addresses": [
+      "5165, ch. Queen-Mary, 4e étage"
+    ],
+    "contacts": [
+      "Mark"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Clinique Chirurgicale de Laval",
+    "addresses": [
+      "4650, desserte S, Autoroute 440"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Laval"
+    ]
+  },
+  {
+    "name": "Clinique Dentaire Carpentier",
+    "addresses": [
+      "170, chemin des Anglais, Mascouche"
+    ],
+    "contacts": [
+      "Carolane"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Clinique Dr. Barolet",
+    "addresses": [
+      "3333, 100e Avenue, 2e étage"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Laval"
+    ]
+  },
+  {
+    "name": "Clinique Dr. Barolet, 2e étage",
+    "addresses": [
+      "ajout de 12PL pour accès escalier",
+      "3333, 100e Avenue, Laval"
+    ],
+    "contacts": [
+      "Madame St-Arnault"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Clinique médicale Lacroix",
+    "addresses": [
+      "1105, Hyman, DDO"
+    ],
+    "contacts": [
+      "Pierre-André Guindon"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Clinique Quatuor MD - 27e étage",
+    "addresses": [
+      "800 rue du Square Victoria"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Clinique Uniderma",
+    "addresses": [
+      "1575, boul. de l'Avenir"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Laval"
+    ]
+  },
+  {
+    "name": "Clniique Dr. Lacoste",
+    "addresses": [
+      "3333, 100e Avenue, 3e étage"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Laval"
+    ]
+  },
+  {
+    "name": "Clnique Dr. Lacoste",
+    "addresses": [
+      "3333, 100e Avenue, 3e étage"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Laval"
+    ]
+  },
+  {
+    "name": "Cloria Beloeil",
+    "addresses": [
+      "400, rue Serge Pépin",
+      "400, rue Serge Pépin, Beloeil"
+    ],
+    "contacts": [
+      "Normand St-Denis",
+      "allonger Laize jusqu'a tapis"
+    ],
+    "emails": [],
+    "cities": [
+      "Beloeil"
+    ]
+  },
+  {
+    "name": "Cloria cité",
+    "addresses": [
+      "3475, Montée Gagnon"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Terrebonne"
+    ]
+  },
+  {
+    "name": "Cloria Vallée du Richelieu",
+    "addresses": [
+      "4305, chemin du Crépuscule"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Beloeil"
+    ]
+  },
+  {
+    "name": "CLSC Côte des Neiges",
+    "addresses": [
+      "5700 Chem. de la Côte-des-Neiges"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "CLSC Laval",
+    "addresses": [
+      "4250 boul. Dagenais Ouest, Laval"
+    ],
+    "contacts": [
+      "Karine Lalonde"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "CLSC Metro",
+    "addresses": [
+      "1801, de Maisonneuve O, Montréal"
+    ],
+    "contacts": [
+      "Lesley Findlay"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "CLSC Outremont",
+    "addresses": [
+      "1271, rue Van Horne",
+      "1271, ave Van Horne, Outremont"
+    ],
+    "contacts": [
+      "Huguette St-Pierre"
+    ],
+    "emails": [],
+    "cities": [
+      "Outremont"
+    ]
+  },
+  {
+    "name": "Club MAA",
+    "addresses": [
+      "2070, rue Peel",
+      "2070, rue Peel, Montréal"
+    ],
+    "contacts": [
+      "Dolores Abreu"
+    ],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "CMCL (clinique médico-chirurgicale des Laurentides",
+    "addresses": [
+      "305 rue Docteur Charles-Léonard #204",
+      "305, rue Docteur Charles-Léonard #204"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "St-Jérôme"
+    ]
+  },
+  {
+    "name": "CMCR",
+    "addresses": [
+      "305 rue Docteur Charles-Léonard #204, St-Jérôme"
+    ],
+    "contacts": [
+      "Marie-Gabrielle Beaudry"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Collège ASFC",
+    "addresses": [
+      "475, ch. de la Grande-Ligne, Rigaud"
+    ],
+    "contacts": [
+      "Isabelle Charest"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Collège Mont St-Louis",
+    "addresses": [
+      "1700, boul. Henri-Bourassa Est. Montréal"
+    ],
+    "contacts": [
+      "Martine Desrosiers"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Collège Stanislas",
+    "addresses": [
+      "775 McEachcran, Outremont",
+      "780, ave Dollard"
+    ],
+    "contacts": [
+      "Sylvie Marie",
+      "Sylvie Bourdois"
+    ],
+    "emails": [],
+    "cities": [
+      "Outremont"
+    ]
+  },
+  {
+    "name": "Complexe Guy Favreau (inclus tous les étages)",
+    "addresses": [
+      "200, René-Levesque O"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Complexe Guy Favreau etages tour est/ouest",
+    "addresses": [
+      "200, René-Levesque O"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Complexe Guy Favreau RDC Tout PC inclus",
+    "addresses": [
+      "200, René-Levesque O"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Contact",
+    "addresses": [
+      "Ville",
+      "Courriel"
+    ],
+    "contacts": [
+      "H/ins",
+      "Commande"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Coop Montagne verte",
+    "addresses": [
+      "1285, St-Jacques"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montreal"
+    ]
+  },
+  {
+    "name": "Copropriété 4647 Coloniale",
+    "addresses": [
+      "4647, rue Coloniale",
+      "4647 rue Coloniale"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Cours Centrale Phase 2",
+    "addresses": [
+      "2910, Edouard Montpetit"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Laval"
+    ]
+  },
+  {
+    "name": "CPE Coeur de l'Île",
+    "addresses": [
+      "2830, rue Gilford"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "CPE Familigarde",
+    "addresses": [
+      "9170 rie Airlie, LaSalle"
+    ],
+    "contacts": [
+      "Josée Guidi"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "CPE Pierre-Boucher",
+    "addresses": [
+      "1450 Curé-Poirier E",
+      "1450, Curé-Poirier E",
+      "2070, rue Marie-Victorin"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Longueuil"
+    ]
+  },
+  {
+    "name": "CPNF",
+    "addresses": [
+      "509 chemin de la Grande Côte, Saint-Eustache"
+    ],
+    "contacts": [
+      "Lucie Vagaiova"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "CSSL (Horizon-Jeunesse)",
+    "addresses": [
+      "155 boulevard St-Rose, Laval",
+      "155, boulevard Ste-Rose, Laval"
+    ],
+    "contacts": [
+      "Amélie Madore"
+    ],
+    "emails": [],
+    "cities": [
+      "Laval"
+    ]
+  },
+  {
+    "name": "CSSS Vaudreuil",
+    "addresses": [
+      "3031, boul. de la Gare, Vaudreuil"
+    ],
+    "contacts": [
+      "Jackie Dinar"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Danny Leblond",
+    "addresses": [
+      "cse@residencestationest.com"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Dolores Abreu",
+    "addresses": [
+      "dabreu@clubsportifmaa.com"
+    ],
+    "contacts": [
+      "X"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Dominic Gauthier",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Domtar",
+    "addresses": [
+      "395, boul. de Maisonneuve O., Montréal"
+    ],
+    "contacts": [
+      "Donald Leblanc"
+    ],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Dr. Éric Lacoste, 3e étage",
+    "addresses": [
+      "3333, 100e Avenue, Laval"
+    ],
+    "contacts": [
+      "Louis-Philippe Lebire"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Dylan Despres",
+    "addresses": [
+      "ddespres@cogir.net"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Dynatherm",
+    "addresses": [
+      "4127, rue Cousens, Saint-Laurent"
+    ],
+    "contacts": [
+      "Tomasso Bianco"
+    ],
+    "emails": [],
+    "cities": [
+      "Richard Ross"
+    ]
+  },
+  {
+    "name": "E2IP",
+    "addresses": [
+      "1455 32e avenue Lachine, Québec"
+    ],
+    "contacts": [
+      "Jérôme Pomi"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Eclipse",
+    "addresses": [
+      "4543, boul. Robert-Bourassa, Laval"
+    ],
+    "contacts": [
+      "Radinka Ranieri"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Ecole des Grands-êtres",
+    "addresses": [
+      "1150, rue Deguire, Ville Saint-Laurent"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Edelman",
+    "addresses": [
+      "4446, boul. St-Laurent, suite 501",
+      "4446, boul. St-Laurent, 5e étage, Montréal"
+    ],
+    "contacts": [
+      "Sylvie Mota"
+    ],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Edifice 1555 de l'Avenir",
+    "addresses": [
+      "1555, boul. de l'Avenir, Laval"
+    ],
+    "contacts": [
+      "Cathy Boucher"
+    ],
+    "emails": [],
+    "cities": [
+      "Laval"
+    ]
+  },
+  {
+    "name": "Edifice 1565 de l'Avenir",
+    "addresses": [
+      "1565, boul. de l'Avenir, Laval"
+    ],
+    "contacts": [
+      "Cathy Boucher"
+    ],
+    "emails": [],
+    "cities": [
+      "Laval"
+    ]
+  },
+  {
+    "name": "Edifice 1575 de l'Avenir",
+    "addresses": [
+      "1575, boul. de l'Avenir, Laval"
+    ],
+    "contacts": [
+      "Cathy Boucher"
+    ],
+    "emails": [],
+    "cities": [
+      "Laval"
+    ]
+  },
+  {
+    "name": "Edifice 3333 100e Avenue",
+    "addresses": [
+      "3333, 100e Avenue, RDC"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Laval"
+    ]
+  },
+  {
+    "name": "Edifice 3333 100e Avenue,Dr Barolet",
+    "addresses": [
+      "3333, 100e Avenue, Laval"
+    ],
+    "contacts": [
+      "Louis-Philippe Lebire"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Edifice L'Avenue",
+    "addresses": [
+      "1275, ave des-canadiens-de-Montréal"
+    ],
+    "contacts": [
+      "Pina Meranda"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Edifice SunLife",
+    "addresses": [
+      "1155, rue Metcalfe, Montréal"
+    ],
+    "contacts": [
+      "Lucie Richard"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Edifice SunLife (Banque Nationale 1er étage)",
+    "addresses": [
+      "1155, rue Metcalfe, Montreal"
+    ],
+    "contacts": [
+      "Lucie Richard"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Edifice SunLife (RDC)",
+    "addresses": [
+      "1155, rue Metcalfe, Montréal"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Eleva",
+    "addresses": [
+      "2300 rue Tupper, Montréal"
+    ],
+    "contacts": [
+      "Khorlo"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "EMD Batimo",
+    "addresses": [
+      "6485, Doris-Lussier, Boisbriand"
+    ],
+    "contacts": [
+      "Sophie Bilodeau"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "EMD Technologies",
+    "addresses": [
+      "400 du Parc, St-Eustache"
+    ],
+    "contacts": [
+      "Stéphane Lalonde"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Eric Laliberté",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Fernando Longueira",
+    "addresses": [
+      "flongueira@triovest.com"
+    ],
+    "contacts": [
+      "X"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Financière Banque Nationale",
+    "addresses": [
+      "(édifice SuLife) 1155, rue Metcalfe"
+    ],
+    "contacts": [
+      "Lucie Richard"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Gare Windsor",
+    "addresses": [
+      "1100 ave des Canadiens-de-Montréal"
+    ],
+    "contacts": [
+      "Claudiu Avram"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Gare Windsor (3 adresses)",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Gare Windsor - Etages (Niveau 1-3-4-5-9)",
+    "addresses": [
+      "1100 av Des canadiens",
+      "1100, ave Des canadiens"
+    ],
+    "contacts": [
+      "SERVICE D'ENTRETIEN POUR LES ÉTAGES"
+    ],
+    "emails": [],
+    "cities": [
+      "Montreal"
+    ]
+  },
+  {
+    "name": "Geneviève Grenier",
+    "addresses": [
+      "genevieveg@quatuormd.com"
+    ],
+    "contacts": [
+      "X"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Gestion Sandanna",
+    "addresses": [
+      "1, Westmount Square, bureau 2000"
+    ],
+    "contacts": [
+      "Nathalie Bécot"
+    ],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Globule Centre Laval",
+    "addresses": [
+      "1600, boul. le Corbusier",
+      "1600, boul. le Corbusier, Laval"
+    ],
+    "contacts": [
+      "Jean-Gauthier Kouadjo"
+    ],
+    "emails": [],
+    "cities": [
+      "Laval"
+    ]
+  },
+  {
+    "name": "Globule DIX30",
+    "addresses": [
+      "1520, ave des Lumières local 15,",
+      "1520, ave des Lumières local 15, Brossard"
+    ],
+    "contacts": [
+      "Jean-Gauthier Kouadjo"
+    ],
+    "emails": [],
+    "cities": [
+      "Brossard"
+    ]
+  },
+  {
+    "name": "Globule Place Vessailles",
+    "addresses": [
+      "7275, rue Sherbrooke Est, Montréal"
+    ],
+    "contacts": [
+      "Jean-Gauthier Kouadjo"
+    ],
+    "emails": [],
+    "cities": [
+      "Montréal-Est"
+    ]
+  },
+  {
+    "name": "GOOGLE",
+    "addresses": [
+      "425, rue Viger O., Montréal",
+      "425, Viger O, 8-9-10-11-12-13e étages",
+      "425 Viger O, 8-9-10-11-12-13e étages"
+    ],
+    "contacts": [
+      "Daniel Martos"
+    ],
+    "emails": [],
+    "cities": [
+      "MONTREAL",
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Groupe ABS",
+    "addresses": [
+      "17 rue de l'Industrie, Saint-Rémi"
+    ],
+    "contacts": [
+      "Marc Gervais"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "HEC Montréal",
+    "addresses": [
+      "3000, Côte Ste-Catherine"
+    ],
+    "contacts": [
+      "Martin Lesage"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Hilary Mone",
+    "addresses": [],
+    "contacts": [
+      "X"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Hugo Chapeau",
+    "addresses": [],
+    "contacts": [
+      "X"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Hélène Charbonneau",
+    "addresses": [
+      "hcharbonneau@upa.qc.ca"
+    ],
+    "contacts": [
+      "x",
+      "X"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Héma-Québec",
+    "addresses": [
+      "7, place du Commerce",
+      "16 993 Transcanadienne",
+      "7, place du Commerce, Brossard"
+    ],
+    "contacts": [
+      "Jean-Gauthier Kouadjo"
+    ],
+    "emails": [],
+    "cities": [
+      "Kirkland",
+      "Montréal"
+    ]
+  },
+  {
+    "name": "ICI, Institut des communications graphiques",
+    "addresses": [
+      "999 av Émile-Journault, Montréal"
+    ],
+    "contacts": [
+      "Richard Lefebvre"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Insectarium",
+    "addresses": [
+      "4581, rue Sherbrooke Est, Montréal"
+    ],
+    "contacts": [
+      "Clement Coste"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Isabelle Vermette",
+    "addresses": [
+      "isabelle.vermette@gdi.com"
+    ],
+    "contacts": [
+      "X"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Jacynte Babin",
+    "addresses": [
+      "jbabin@cogir.net"
+    ],
+    "contacts": [
+      "X"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Jean-Edouard St-Germain",
+    "addresses": [],
+    "contacts": [
+      "X"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Jean-François Bissonnette",
+    "addresses": [
+      "jean-francois.bissonnette@se.com"
+    ],
+    "contacts": [
+      "X"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Jean-Guy Tremblay",
+    "addresses": [
+      "jgtremblay@immoplex.com",
+      "jgtremblay@immoplex"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Jean-Marc Dumoulin",
+    "addresses": [
+      "jmdumoulin@ortholaval.com"
+    ],
+    "contacts": [
+      "x"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Jeff Dichter",
+    "addresses": [
+      "jeff@academiedansemontreal.com"
+    ],
+    "contacts": [
+      "x"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Jennifer Tousignant",
+    "addresses": [],
+    "contacts": [
+      "X"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "John Abbott",
+    "addresses": [
+      "2000-21275 Rue Lakeshore, Sainte-Anne-De-Bellevue QC"
+    ],
+    "contacts": [
+      "Matthew"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "John Abbott College",
+    "addresses": [
+      "21275 rue Lakeshore, Saint-Anne de Bellevue"
+    ],
+    "contacts": [
+      "Matthew"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Jubilant Pharma",
+    "addresses": [
+      "16751 Transcanadienne"
+    ],
+    "contacts": [
+      "Eric Daoust"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Julie Latulippe",
+    "addresses": [
+      "jcampbell@alliedreit.com"
+    ],
+    "contacts": [
+      "X"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Julien Char",
+    "addresses": [
+      "jchar@sunwing.ca"
+    ],
+    "contacts": [
+      "X"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Karen Simms",
+    "addresses": [
+      "karen@passionsourire.com"
+    ],
+    "contacts": [
+      "x"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "KOTV",
+    "addresses": [
+      "300, place Charles-Lemoyne, Longueuil",
+      "300, Place Charles-Lemoyne, bureau 200"
+    ],
+    "contacts": [
+      "Isabelle Martin"
+    ],
+    "emails": [],
+    "cities": [
+      "Longueuil"
+    ]
+  },
+  {
+    "name": "L'Éloi",
+    "addresses": [
+      "6250, Huchison 4e et 5e étages, Montréal"
+    ],
+    "contacts": [
+      "David Sogel"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "LDC Logistics",
+    "addresses": [
+      "1002, rue Sherbrooke O., Suite 2000"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Le 1420 BMR",
+    "addresses": [
+      "1420, boulevard Mont-Royal"
+    ],
+    "contacts": [
+      "Mélissa Boyer"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Le 1420 Boulevard Mont-Royal",
+    "addresses": [
+      "1420 boulevard Mont-Royal"
+    ],
+    "contacts": [
+      "Laurent Boublil"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Le 22 St-Sauveur",
+    "addresses": [
+      "22, rue Claude, St-Sauveur"
+    ],
+    "contacts": [
+      "Marie-Ève Forget"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Le Boréa",
+    "addresses": [
+      "61 54e avenue Est",
+      "61, 54e avenue Est"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Blainville"
+    ]
+  },
+  {
+    "name": "Le Caléo",
+    "addresses": [
+      "1030 Rue Lionel-Daunais, Boucherville, QC J4B 0L"
+    ],
+    "contacts": [
+      "Jean-Marc Corbin"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Le Canal 2",
+    "addresses": [
+      "1450 rue Island, Montréal"
+    ],
+    "contacts": [
+      "Carmen Gallegos"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Le Castelbert",
+    "addresses": [
+      "820 de Caselnau Est"
+    ],
+    "contacts": [
+      "Isabelle Loubot"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Le Cherbourg",
+    "addresses": [
+      "8160 boulevard Saint-Laurent,  Brossard"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Le Fleming sur le parc",
+    "addresses": [
+      "2151, rue Léger, Lasalle",
+      "2141, rue Léger, Lasalle"
+    ],
+    "contacts": [
+      "Jean-Guy Tremblay"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Le Flemming sur le Parc",
+    "addresses": [
+      "2151, rue Léger, Lasalle"
+    ],
+    "contacts": [
+      "Mohamed 438-866-3103"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Le Gastby",
+    "addresses": [
+      "1200 rue Drummond"
+    ],
+    "contacts": [
+      "Catherine Goulet"
+    ],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Le Gatsby",
+    "addresses": [
+      "2200, rue Drummond",
+      "1200, rue Drummond"
+    ],
+    "contacts": [
+      "Catherine Goulet"
+    ],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Le Livélia",
+    "addresses": [
+      "325, chemin de la Pointe-Sud, île des Soeurs",
+      "325 chemin de la Pointe-Sud, Île des Soeurs"
+    ],
+    "contacts": [
+      "Michel Crilly"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Le Maestria Tour B",
+    "addresses": [
+      "1210, rue Jeanne-Mance, Montréal"
+    ],
+    "contacts": [
+      "Antoine Portelance"
+    ],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Le Maritime",
+    "addresses": [
+      "3040, boul. Lévesque Ouest"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Laval"
+    ]
+  },
+  {
+    "name": "Le Milebrooke",
+    "addresses": [
+      "1201 de la Famille Dubreuil, Pointe-aux-Trembles"
+    ],
+    "contacts": [
+      "rémi Mailloux"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Le Molière",
+    "addresses": [
+      "75 rue Molière, Montréal"
+    ],
+    "contacts": [
+      "Mme Claude Benoit"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Le Nordelec",
+    "addresses": [
+      "1751, rue Richardson"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Le Novia",
+    "addresses": [
+      "300, place Charles Lemoyne"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Longueuil"
+    ]
+  },
+  {
+    "name": "Le Sanctuaire,  phase 4",
+    "addresses": [
+      "6111, du Boisé"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Outremont"
+    ]
+  },
+  {
+    "name": "Le Savignon",
+    "addresses": [
+      "3111, rue Victoria"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Lachine"
+    ]
+  },
+  {
+    "name": "Le Seva",
+    "addresses": [
+      "300, rue de Sarcelle"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Candiac"
+    ]
+  },
+  {
+    "name": "Le Sherbrooke",
+    "addresses": [
+      "1518, rue Sherbrooke O, Montréal"
+    ],
+    "contacts": [
+      "Sadri Daou"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Le Wiliam A, B et C",
+    "addresses": [
+      "1811, rue William, Montréal"
+    ],
+    "contacts": [
+      "Jalal Belayane"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Le William",
+    "addresses": [
+      "1811, rue William"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Les Cours d'Outremont",
+    "addresses": [
+      "970, ave McEachran"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Outremont"
+    ]
+  },
+  {
+    "name": "Les Jardins Windsor PH4",
+    "addresses": [
+      "651, rue de la Montagne"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Les Pignons sur le Fleuve",
+    "addresses": [
+      "8065, rue St-Laurent"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Brossard"
+    ]
+  },
+  {
+    "name": "Les Tours St-Martin",
+    "addresses": [
+      "2976 boul Saint-Martin Ouest Laval"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Les verrières du Golf",
+    "addresses": [
+      "2400, rue des Nations, Saint-Laurent"
+    ],
+    "contacts": [
+      "Sylvain Tremblay"
+    ],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "LIB Hymus",
+    "addresses": [
+      "325, boul. Hymus, Pointe-Claire  H9R 1G6"
+    ],
+    "contacts": [
+      "Julie Archambault"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Lightspeed",
+    "addresses": [
+      "700, rue St-Antoine Est, Montréal",
+      "700, rue Saint-Antoine"
+    ],
+    "contacts": [
+      "Angelo Facciabene"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Lilo",
+    "addresses": [
+      "105, boul. Don Quichotte"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Île Perrot"
+    ]
+  },
+  {
+    "name": "Loisirs du Parc",
+    "addresses": [
+      "7920 boulevard Saint-Laurent"
+    ],
+    "contacts": [
+      "Mamadou"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Louise Desroches",
+    "addresses": [
+      "condogestioninc@gmail.com"
+    ],
+    "contacts": [
+      "X"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Louise Lapierre danse",
+    "addresses": [
+      "1460 avenue Mont-Royal",
+      "1460 Mont-Royal Est, Montréal"
+    ],
+    "contacts": [
+      "Aimée Simard"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Madame Chilaru",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Maestria Tour A",
+    "addresses": [
+      "1245, rue Bleury, Montréal"
+    ],
+    "contacts": [
+      "Antoine Portelance"
+    ],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Maestria Tour A & B (locatif)",
+    "addresses": [
+      "1235, rue Bleury, Montréal"
+    ],
+    "contacts": [
+      "Katherine Rayna"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Maestria Tour B",
+    "addresses": [
+      "1200 rue Jeanne-Mance, Montréal",
+      "1210, rue Jeanne-Mance, Montréal"
+    ],
+    "contacts": [
+      "Katherine Rayna"
+    ],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Maisons Outremont",
+    "addresses": [
+      "11 Côte du Vésinet, Outremont",
+      "11, Côte du Vézinet, Outremont"
+    ],
+    "contacts": [
+      "Maxime Richard"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Manuvie",
+    "addresses": [
+      "900 de Maisonneuve O.",
+      "900, boul de Maisonneuve O",
+      "900 de Maisonneuve O"
+    ],
+    "contacts": [
+      "SYlvain Côte"
+    ],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Marc Deschamps",
+    "addresses": [
+      "marc.deschamps@ssense.com"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Mark Anthony Group",
+    "addresses": [
+      "1155 Metcalfe Street, suite 2150"
+    ],
+    "contacts": [
+      "Lucie Richard"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Martin Lesage",
+    "addresses": [
+      "martin.lesage.hsj@ssss.gouv.qc.ca"
+    ],
+    "contacts": [
+      "x"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Masestria Tour A et B",
+    "addresses": [
+      "1245, rue Bleury, Montréal"
+    ],
+    "contacts": [
+      "Katherine Reyna"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Mat Tech  Opsis",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Mat Tech / 11080-Q-1 1370-ET-2",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Mat tech / gare winsor",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Megan Allard",
+    "addresses": [
+      "megan.allard@solutioncondo.com"
+    ],
+    "contacts": [
+      "x"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "MELLEM",
+    "addresses": [
+      "2820, rue Ontario Est, Montréal"
+    ],
+    "contacts": [
+      "Carol-Ann Brochu"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Moment Factory",
+    "addresses": [
+      "6250, ave du Parc, Montréal"
+    ],
+    "contacts": [
+      "Alexandre Spadounis"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Montreal Cowork",
+    "addresses": [
+      "4388 Rue St-Denis"
+    ],
+    "contacts": [
+      "Nathalie Dubreuil"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Montréal CoWork",
+    "addresses": [
+      "4388, rue St-Denis, 1er étage"
+    ],
+    "contacts": [
+      "Nathalie Dubreuil"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "MTL Pilates",
+    "addresses": [
+      "1440 rue Peel, Montréal"
+    ],
+    "contacts": [
+      "Véronique Lefort"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Musée Pointe-à-Callière",
+    "addresses": [
+      "350, Place Royale"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Médifice CMDL3  (RDC)",
+    "addresses": [
+      "325, rue Docteur Charles-Léonard, St-Jérôme"
+    ],
+    "contacts": [
+      "Raphael Guerra"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Mélanie Brière",
+    "addresses": [
+      "Melanie.Briere@brebeuf.qc.ca"
+    ],
+    "contacts": [
+      "X"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Nancy Canuel",
+    "addresses": [
+      "nancycanuel@cloriacite.ca"
+    ],
+    "contacts": [
+      "X"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Nathalie Bédard",
+    "addresses": [
+      "nathalie@westspa.ca"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Neolia 1",
+    "addresses": [
+      "30, ave Joseph-Laflèche, Pincourt"
+    ],
+    "contacts": [
+      "Yann Maloney"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Nick Prockow",
+    "addresses": [
+      "nprockow@alliedreit.com"
+    ],
+    "contacts": [
+      "X"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Nordelec",
+    "addresses": [
+      "1741, rue Richardson, Montréal"
+    ],
+    "contacts": [
+      "Daniel Martos"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Normand Paradis",
+    "addresses": [
+      "normand.paradis@videotron.ca"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Northcrest - SDC6300 (tapis pluie?)",
+    "addresses": [
+      "6300 rue Northcrest"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Outremont"
+    ]
+  },
+  {
+    "name": "Northcrest - SDC6301 (tapis pluie?)",
+    "addresses": [
+      "6301 rue Northcrest"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Outremont"
+    ]
+  },
+  {
+    "name": "Novartis",
+    "addresses": [
+      "700, rue St-Hubert, Montréal",
+      "700 rue St-Hubert, Montréal"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Olga Cauia",
+    "addresses": [
+      "ocauia@albertimmobilier.ca"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Oliver Parenteau",
+    "addresses": [],
+    "contacts": [
+      "X"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "OMHM La tannerie",
+    "addresses": [
+      "4650 rue St-Jacques O, Montréal"
+    ],
+    "contacts": [
+      "Fouad"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "OPSIS",
+    "addresses": [
+      "Terminus Montmorency",
+      "Terminus Métro Cartier",
+      "Terminus Carrefour Laval"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "OPSIS - Laval",
+    "addresses": [
+      "Appelez Stephane L'Esperance au 438-860-5315"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Orchard House",
+    "addresses": [
+      "4176, boulevard Grand Montréal"
+    ],
+    "contacts": [
+      "Maddy Weidner"
+    ],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Orchard House sous-sol",
+    "addresses": [
+      "4180 Grand Blvd. #4176-4178, Montréal, QC H4B 2X4"
+    ],
+    "contacts": [
+      "Yasmine"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Ordre des dentistes du Québec",
+    "addresses": [
+      "800, boul. René Levesque O"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Ortho-Laval - Dr. Emmanuel Suissa",
+    "addresses": [
+      "1575, boul. de l'Avenir, 3e étage"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Laval"
+    ]
+  },
+  {
+    "name": "Ortho-Laval - Dr. Jean-Marc Dumoulin",
+    "addresses": [
+      "1575 boul. de l'Avenir, 3e étage"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Laval"
+    ]
+  },
+  {
+    "name": "Palais des Congrès",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Pensionnat Notre-Dame-des Anges",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Place Charles Lemoyne",
+    "addresses": [
+      "100, place St-Charles"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Longueuil"
+    ]
+  },
+  {
+    "name": "Place St-Charles",
+    "addresses": [
+      "100, place Charles-Lemoyne, Longueuil"
+    ],
+    "contacts": [
+      "Kevin Fuentes"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "PLACE VICTORIA",
+    "addresses": [
+      "800, Place Victoria"
+    ],
+    "contacts": [
+      "Jennifer Tousignant 514‑966‑7588"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Place Victoria (tapis d'hiver)",
+    "addresses": [
+      "800, rue du Square Victoria"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal",
+      "Montré"
+    ]
+  },
+  {
+    "name": "Place Victoria (tapis de pluie retrait )",
+    "addresses": [
+      "800, rue du Square Victoria"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Place Victoria (tapis de pluie Réinstallation )",
+    "addresses": [
+      "800, rue du Square Victoria"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Polo Ralph Lauren",
+    "addresses": [
+      "19001, chemin Notre-Dame, Mirabel"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Polo Store MIrabel",
+    "addresses": [
+      "19001, chemin Notre-Dame, Mirabel"
+    ],
+    "contacts": [
+      "Nagat Ayari"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Promenade du Parc",
+    "addresses": [
+      "1920, rue Adoncour"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Longueuil"
+    ]
+  },
+  {
+    "name": "PRÊT POUR LA NOUVELLE INSTALLATION",
+    "addresses": [
+      "25 oct."
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Pôle Ste-Catherine",
+    "addresses": [
+      "6080, Place des Cageux, Sainte-Catherine (rue Léo)",
+      "ajout de 44PL Sorti déménagement ( permanent)"
+    ],
+    "contacts": [
+      "Geneviève Leduc"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Quartier Mont Saint-Hilaire",
+    "addresses": [
+      "330, Honorious-Charbonneau"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "St-Hilaire"
+    ]
+  },
+  {
+    "name": "Radinka Ranieri",
+    "addresses": [
+      "rranieri@bralexo.com"
+    ],
+    "contacts": [
+      "X"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Richard Dubé",
+    "addresses": [
+      "direction@lechateau1321.com"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Richard Parket",
+    "addresses": [],
+    "contacts": [
+      "X"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "rosedale / entrepot Deloitte",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Résidence du marché",
+    "addresses": [
+      "25, rue du Marché"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Ste-Thérèse"
+    ]
+  },
+  {
+    "name": "Résidence LE22",
+    "addresses": [
+      "4400, rue Jean-Talon Est",
+      "4400, rue Jean-Talon Est, Montréal"
+    ],
+    "contacts": [
+      "Nathalie",
+      "Benoit Arsenault"
+    ],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Résidence Les Jardins Millen",
+    "addresses": [
+      "10800, ave Millen, Ahuntsic"
+    ],
+    "contacts": [
+      "Sylvain Boucher"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Résidence Lilo",
+    "addresses": [
+      "105, boul. Don Quichotte, Ile-Perrot"
+    ],
+    "contacts": [
+      "Alain Harrisson"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Résidence Ora (ascenseurs)",
+    "addresses": [
+      "1500 rue Jacques-Cassault, Montréal"
+    ],
+    "contacts": [
+      "Luc Dunas"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Résidence Station Est",
+    "addresses": [
+      "4800 rue Contrecoeur, Montréal",
+      "4800, rue Contrecoeur, Montréal"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Résidence Vast (tapis pluie?)",
+    "addresses": [
+      "300, rue de Murano"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Sainte-Julie"
+    ]
+  },
+  {
+    "name": "S",
+    "addresses": [
+      "1111 avenue Atwater, Montréal"
+    ],
+    "contacts": [
+      "Khorlo"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Sadri Daou",
+    "addresses": [
+      "sadri.daou@solutioncondo.com"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Sam Agostino",
+    "addresses": [
+      "info@salonaugustin.com"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Santé sourire",
+    "addresses": [
+      "5773 rue Bannantyne, Verdun"
+    ],
+    "contacts": [
+      "Jouhaina"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "SDC  Le Crescent",
+    "addresses": [
+      "1400, rue Merit, Ville Mont-Royal"
+    ],
+    "contacts": [
+      "Jean-Marcel Rozier"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "SDC 1075-1085 Yves-Blais",
+    "addresses": [
+      "1075-1085 Yves-Blais Terrebonne"
+    ],
+    "contacts": [
+      "Ginette Colette (514) 604-1158"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "SDC 1095-1105 Yves-Blais Terrebonne",
+    "addresses": [
+      "803-1105 Yves Blais Terrebonne"
+    ],
+    "contacts": [
+      "Raymond Paquet"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "SDC 1800 Angrignon",
+    "addresses": [
+      "1800, boul. Angrignon",
+      "1800 Angrignon"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "SDC 1869 Bassins",
+    "addresses": [
+      "1869, rue des Bassins, Montréal"
+    ],
+    "contacts": [
+      "Sarah Bentazi"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "SDC 2200 Terry Fox",
+    "addresses": [
+      "2200 Ave Terry-Fox Laval",
+      "2200, rue Terry Fox, Laval"
+    ],
+    "contacts": [
+      "Jocelyne Aswad"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "SDC 5000 de l'Assomption",
+    "addresses": [
+      "5000, boul. de l'Assomption"
+    ],
+    "contacts": [
+      "Charles Fréchette"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "SDC 5201 Jeanne d'Arc",
+    "addresses": [
+      "5201 Jeanne d'Arc, Montréal"
+    ],
+    "contacts": [
+      "Simon 514-246-8747"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "SDC 6150 du Boisé",
+    "addresses": [
+      "6150 du Boisé, Montréal",
+      "6150 du Boisé",
+      "6150, ave du Boisé"
+    ],
+    "contacts": [
+      "Mme Chilaru"
+    ],
+    "emails": [],
+    "cities": [
+      "Outremont"
+    ]
+  },
+  {
+    "name": "SDC 6300 Northcrest",
+    "addresses": [
+      "6300 ave Northcrest, Outremont"
+    ],
+    "contacts": [
+      "M. Paul"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "SDC 7227 Newman",
+    "addresses": [
+      "7227 boul. Newman, LaSalle"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "SDC 8 Dufferin",
+    "addresses": [
+      "8 rue Dufferin, Montréal"
+    ],
+    "contacts": [
+      "Thelma Martinez"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "SDC 9280 Dubuisson PH3",
+    "addresses": [
+      "9280, ave Dubuisson"
+    ],
+    "contacts": [
+      "Megan Allard"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "SDC Boisé de la Colline",
+    "addresses": [
+      "24, rue Bates, Outremont"
+    ],
+    "contacts": [
+      "Choucri Craissati"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "SDC Cité Acadie",
+    "addresses": [
+      "10650 Place de l'Acadie Montréal"
+    ],
+    "contacts": [
+      "Cristan Cojanu"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "SDC Cité de l'Acadie",
+    "addresses": [
+      "10650 place de l'Acadie"
+    ],
+    "contacts": [
+      "Cristian"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "SDC Condo Rêve",
+    "addresses": [
+      "4975, rue Jean-Talon Ouest",
+      "4975 rue Jean-Talon Ouest"
+    ],
+    "contacts": [
+      "Anthony Goisbault"
+    ],
+    "emails": [],
+    "cities": [
+      "Outremont"
+    ]
+  },
+  {
+    "name": "SDC du Boisé de la Colline",
+    "addresses": [
+      "24, rue Bates"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Outremont"
+    ]
+  },
+  {
+    "name": "SDC du Club Marin II",
+    "addresses": [
+      "201, chemin du Club Marin, Ile-des--Soeurs"
+    ],
+    "contacts": [
+      "Thelma Martinez"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "SDC Dubuisson PH2",
+    "addresses": [
+      "9290, dubuisson"
+    ],
+    "contacts": [
+      "Megan Allard"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "SDC La chancellerie du Vieux-Montréal",
+    "addresses": [
+      "460, rue du Champ de Mars"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "SDC La Tannerie",
+    "addresses": [
+      "680 de Courcelle"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "SDC Le William",
+    "addresses": [
+      "1850, rue William"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "SDC Station Sud",
+    "addresses": [
+      "100-40 rue St-Sylvestre, Longueuil"
+    ],
+    "contacts": [
+      "Marcel Lagacé"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "SDC Ste-Anne",
+    "addresses": [
+      "1310, rue Ottawa, Montréal"
+    ],
+    "contacts": [
+      "Mathieu Bélanger"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "SDC Vue Phase 1",
+    "addresses": [
+      "7501 Mountain Sights"
+    ],
+    "contacts": [
+      "Jimmy Ginnou"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "SDC Vue Phase 2",
+    "addresses": [
+      "7525 Mountain Sights"
+    ],
+    "contacts": [
+      "Jimmy Ginnou"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Sean Altman",
+    "addresses": [
+      "saltman@devimco.com"
+    ],
+    "contacts": [
+      "x"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "SFM",
+    "addresses": [
+      "325, boul. Bouchard"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Dorval"
+    ]
+  },
+  {
+    "name": "sgomez@devimco.com",
+    "addresses": [],
+    "contacts": [
+      "5 jan"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Shona Thep",
+    "addresses": [
+      "step@alliedreit.com"
+    ],
+    "contacts": [
+      "X"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Solatheque",
+    "addresses": [
+      "Transport Mat Tech HEC 4 rlx vinyle +2 rlx fleming",
+      "Éric Guilbault (livraison)"
+    ],
+    "contacts": [
+      "ric Guilbault (livraison)"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Sommet Groupe Financier",
+    "addresses": [
+      "11900 Rue de l'avenir, Mirabel Québec J7J, Canada)"
+    ],
+    "contacts": [
+      "Jean Francois"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Sophie Tellis",
+    "addresses": [
+      "maude.frenette-roy@montreal.ca"
+    ],
+    "contacts": [
+      "X"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "SSENSE",
+    "addresses": [
+      "333, rue Chabanel, 9e étage"
+    ],
+    "contacts": [
+      "Christina Passarelli"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Stephanie Pugliese",
+    "addresses": [
+      "stephanie.pugliese@bollore.com"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Stéphanie Constantin",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Sunlife",
+    "addresses": [
+      "1155 Metcalfe"
+    ],
+    "contacts": [
+      "Lucie"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Sunwing",
+    "addresses": [
+      "3105 Place Louis R-Renaud",
+      "3105, Place Louis R-Renaud"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Laval"
+    ]
+  },
+  {
+    "name": "Sylvie Ranger",
+    "addresses": [
+      "sylvie.ranger@mnp.ca"
+    ],
+    "contacts": [
+      "x"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Syndicat Solar Centre 1",
+    "addresses": [
+      "3400, rue de l'Eclipse, Brossard"
+    ],
+    "contacts": [
+      "Audrey Allanore"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "TAK phase 1",
+    "addresses": [
+      "4820, 4e Avenue"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "TAK Phase 6",
+    "addresses": [
+      "4801, 2e avenue"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "The Alexander 2",
+    "addresses": [
+      "1180 Rue du Sussex, Montréal"
+    ],
+    "contacts": [
+      "Anas Awil"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Thelma Martinez",
+    "addresses": [
+      "thelmam@gestiontl.ca"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Théâtre La Licorne",
+    "addresses": [
+      "4559 Av. Papineau, Montréal, QC H2H 1V4"
+    ],
+    "contacts": [
+      "François Martel"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "TMX",
+    "addresses": [
+      "1115, St-Antoine , 17e et 18e étages"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Tour Alta",
+    "addresses": [
+      "1800 boul. Angrignon"
+    ],
+    "contacts": [
+      "Michel Inacio"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Tour Deloitte",
+    "addresses": [
+      "1115 St-Antoine",
+      "1190, ave des canadiens-de-Montréal",
+      "1115, rue St-Antoine O"
+    ],
+    "contacts": [
+      "Claudiu Avram"
+    ],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Tour Deloitte ÉTAGES 5-6-7-8-9-10 et 11",
+    "addresses": [
+      "1190, ave des canadiens-de-Montréal"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Tour Frontenac",
+    "addresses": [
+      "1850, rue Bercy, Montréal"
+    ],
+    "contacts": [
+      "Jean-François Fournier"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Tour Optimum",
+    "addresses": [
+      "1500 rue Montgolfièr"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Laval"
+    ]
+  },
+  {
+    "name": "Traditours",
+    "addresses": [
+      "1575, de l'Avenir"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Laval"
+    ]
+  },
+  {
+    "name": "Transition Centre-Sud",
+    "addresses": [
+      "1819, boul. Rosemont"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal-Est"
+    ]
+  },
+  {
+    "name": "transport Mat Tech",
+    "addresses": [
+      "ORD00069894,ORD00069911",
+      "OR00070098"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Transport Mat Tech / 10 Dura dot Stock",
+    "addresses": [
+      "250$"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Transport Mat tech / Masestria Tour A et B",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "transport Mat Tech 250$",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Transport Mat tech Centre Bell",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "upa longeuil",
+    "addresses": [
+      "555, boul. Rolan-Therrien"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Longueuil"
+    ]
+  },
+  {
+    "name": "Usine Atwater",
+    "addresses": [
+      "999, rue Dupuis",
+      "999, rue Dupuis, Montréal"
+    ],
+    "contacts": [
+      "Patrick Vallée"
+    ],
+    "emails": [],
+    "cities": [
+      "Verdun"
+    ]
+  },
+  {
+    "name": "UV Quartier Villeray",
+    "addresses": [
+      "682, rue Jarry Est"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Uvée optpometriste",
+    "addresses": [
+      "681, rue Jarry Est, Montréal"
+    ],
+    "contacts": [
+      "Oliver Parenteau"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Uvée- Optométriste de Quartier",
+    "addresses": [
+      "1668, rue Laurier Est"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Vacances Sunwing",
+    "addresses": [
+      "3105 Place Louis R-Renaud",
+      "3105, Place Louis R-Renaud"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Laval"
+    ]
+  },
+  {
+    "name": "valerie.vandaele@ssense.com",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Victoria sur le Parc",
+    "addresses": [
+      "720, rue St-Jacques O., Montréal"
+    ],
+    "contacts": [
+      "Benjamin Combeaud"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Villa Opale",
+    "addresses": [
+      "650, 32e avenue",
+      "650, 32e avenue, Lachine"
+    ],
+    "contacts": [
+      "Chantal Pelletier"
+    ],
+    "emails": [],
+    "cities": [
+      "Lachine"
+    ]
+  },
+  {
+    "name": "Villa Rive-Sud",
+    "addresses": [
+      "3460, chemin Chambly, Longueuil"
+    ],
+    "contacts": [
+      "Pedro de Alcantara"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Ville de Montréal",
+    "addresses": [
+      "3705, rue Saint-Patrick"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Vincent Blais",
+    "addresses": [],
+    "contacts": [
+      "X"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Viva Cité Longueuil 1",
+    "addresses": [
+      "235, rue Cuvillier Ouest, Longueuil"
+    ],
+    "contacts": [
+      "Hasniz Rezaigula"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Viva Cité Longueuil 2",
+    "addresses": [
+      "245, rue Cuvillier Ouest, Longueuil"
+    ],
+    "contacts": [
+      "Hasniz Rezaigula"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Viva Cité Saint-Hubert",
+    "addresses": [
+      "6000, rue de la Tourbière, St-Hubert"
+    ],
+    "contacts": [
+      "Joanie Chagnon"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Viva Cité Saint-Lambert",
+    "addresses": [
+      "60 cartier saint-lambert"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Viva-Cité Brossard 1",
+    "addresses": [
+      "9145, Lennon, Brossard"
+    ],
+    "contacts": [
+      "Taulant Dedja"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Viva-Cité Brossard 2",
+    "addresses": [
+      "9155, Lennon, Brossard"
+    ],
+    "contacts": [
+      "Taulant Dedja"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Viva-Cité Brossard 3",
+    "addresses": [
+      "9165 Lennon, Brossard"
+    ],
+    "contacts": [
+      "Taulant Dedja"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "VOXDATA",
+    "addresses": [
+      "1155, rue Metcalfe, 18e étage, Montréal"
+    ],
+    "contacts": [
+      "Lucie Richard"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "WADA",
+    "addresses": [
+      "800, rue du Square Victoria, 17e étage",
+      "800, rue du Square Victoria, 16e et 17e étages",
+      "800 du Square Victoria, 16e et 17e étages"
+    ],
+    "contacts": [
+      "Stéphanie Constantin"
+    ],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "West Spa (+pas mettre sur facture Salon Augustin - ) - Salon Augustin",
+    "addresses": [
+      "4655, Boul St-Jean, suite 202",
+      "4655 Boul St-Jean, suite 202"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Windsor",
+    "addresses": [
+      "1199 Peel"
+    ],
+    "contacts": [
+      "Lucie"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Yvan Julien  514-984-7192",
+    "addresses": [
+      "elerouzes@laucandrique.ca"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Zeffy",
+    "addresses": [
+      "917, avenue Mont-Royal Est"
+    ],
+    "contacts": [
+      "Mélianne Laverdière"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "École des Grands-Êtres",
+    "addresses": [
+      "1150, rue Deguire, Ville Saint-Laurent"
+    ],
+    "contacts": [
+      "Thi Que Huong Pham"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "École Horizon-Jeunesse",
+    "addresses": [
+      "155 boulevard St-Rose, Laval"
+    ],
+    "contacts": [
+      "Julie Gauthier"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "École Immaculée-de-Marie",
+    "addresses": [
+      "1845 BD Desmarchais *Livraison seulement *"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "École Lucien Guilbault",
+    "addresses": [
+      "7695 ave Papineau, Montréal"
+    ],
+    "contacts": [
+      "David Laflamme"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "École Lucien Pagé",
+    "addresses": [
+      "Transport Mat Tech + centre bell",
+      "8200 Boulevard St-Laurent"
+    ],
+    "contacts": [
+      "Rokia Choukairi"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "École Lucien-Guilbault",
+    "addresses": [
+      "7695, avenue Papineau",
+      "7695, ave Papineau, Montréal"
+    ],
+    "contacts": [
+      "David Laflamme"
+    ],
+    "emails": [],
+    "cities": [
+      "Montreal"
+    ]
+  },
+  {
+    "name": "École Raymond",
+    "addresses": [
+      "6145, 27e avenue Laval"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Édifice 105 St-Jacques O",
+    "addresses": [
+      "105, St-Jacques O"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Édifice 1250 René Levesque O",
+    "addresses": [
+      "1250, boul. René Levesque Ouest, Montréal"
+    ],
+    "contacts": [
+      "Pina Meranda"
+    ],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Édifice 1275 ave des Canadiens de Montréal",
+    "addresses": [],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Édifice 425 Viger",
+    "addresses": [
+      "425, Viger, Montéral"
+    ],
+    "contacts": [
+      "Daniel Martos"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Édifice 5445 de Gaspé",
+    "addresses": [
+      "5445 de Gaspé, Montréal",
+      "5445, de Gaspé, Montréal"
+    ],
+    "contacts": [
+      "Luc Beaulieu"
+    ],
+    "emails": [],
+    "cities": [
+      "Outremont"
+    ]
+  },
+  {
+    "name": "Édifice 5455 de Gaspé",
+    "addresses": [
+      "5455 de Gaspé, Montréal",
+      "5455, de Gaspé, Montréal"
+    ],
+    "contacts": [
+      "Luc Beaulieu"
+    ],
+    "emails": [],
+    "cities": [
+      "Outremont"
+    ]
+  },
+  {
+    "name": "Édifice E",
+    "addresses": [
+      "3310, 100e Avenue"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Laval"
+    ]
+  },
+  {
+    "name": "Édifice E  --  120$ 2e déplacement",
+    "addresses": [
+      "3310, 100e Avenue"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Laval"
+    ]
+  },
+  {
+    "name": "Édifice Le Windsor",
+    "addresses": [
+      "1120, rue Peel",
+      "1170 Peel"
+    ],
+    "contacts": [
+      "Lucie Richard"
+    ],
+    "emails": [],
+    "cities": []
+  },
+  {
+    "name": "Édifice Le Windsor (RDC + SS)",
+    "addresses": [
+      "1170, rue Peel"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Édifice Le Windsor (étages)",
+    "addresses": [
+      "1170, rue Peel"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Édifice SunLife  21e étage",
+    "addresses": [
+      "1155, rue Metcalfe"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Édifice SunLife 7e,  8e, 9e, 23,",
+    "addresses": [
+      "1155, rue Metcalfe"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Montréal"
+    ]
+  },
+  {
+    "name": "Édifice à bureaux (Expos)",
+    "addresses": [
+      "2265, Fernand-Lafontaine"
+    ],
+    "contacts": [],
+    "emails": [],
+    "cities": [
+      "Longueuil"
+    ]
+  }
+]

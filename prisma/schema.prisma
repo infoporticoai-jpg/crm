@@ -75,6 +75,16 @@ model Company {
   notifications    Notification[]
   flooringProjects FlooringProject[]
   adminInvoices    AdminInvoice[]
+
+  // Tapis module
+  tapisClients        TapisClient[]
+  tapisJobs           TapisJob[]
+  tapisInventory      TapisInventory[]
+  tapisSupplierOrders TapisSupplierOrder[]
+  tapisPickups        TapisPickup[]
+  tapisMaintenance    TapisMaintenance[]
+  tapisPricing        TapisPricing[]
+  tapisOutreach       TapisOutreach[]
 }
 
 // ─── Auth ────────────────────────────────────────────────────────────
@@ -585,4 +595,243 @@ model AdminLog {
   targetCompanyId String?
 
   createdAt DateTime @default(now())
+}
+
+// ─── Tapis Module (Seasonal carpet service) ─────────────────────────
+
+// Master client list — 727 clients
+model TapisClient {
+  id        String @id @default(cuid())
+  companyId String
+  company   Company @relation(fields: [companyId], references: [id], onDelete: Cascade)
+
+  projectNumber String // e.g., "0690-ET", "1307-ET"
+  name          String // building/business name like "Lilo", "Collège Stanislas"
+  address       String?
+  city          String?
+  postalCode    String?
+  contact       String? // on-site contact info / hours like "7h30-11h"
+  email         String?
+  phone         String?
+  buildingType  String? // édifice, résidences, bureau, commerce, condo
+  notes         String?
+
+  // Multi-year comment history — JSON: {"printemps_2025": "comment...", "automne_2024": "comment..."}
+  seasonHistory String? @default("{}")
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  jobs     TapisJob[]
+  outreach TapisOutreach[]
+
+  @@unique([companyId, projectNumber])
+  @@index([companyId])
+}
+
+// Each seasonal job — retrait, reinstallation, nouvelle, enlevement
+model TapisJob {
+  id        String @id @default(cuid())
+  companyId String
+  company   Company @relation(fields: [companyId], references: [id], onDelete: Cascade)
+
+  clientId String
+  client   TapisClient @relation(fields: [clientId], references: [id], onDelete: Cascade)
+
+  jobType       String    // "retrait" | "reinstallation" | "nouvelle_installation" | "enlevement"
+  season        String?   // "printemps" | "automne"
+  year          Int
+  scheduledDate DateTime?
+  hours         String?   // e.g., "7h30-11h", "12h-22h"
+  crewSize      Int?      // Nbr gars
+  installHours  Float?    // H/ins
+  carpetType    String?
+  orderNumber   String?
+  rollCount     Int?
+  moulurePL     Int?      // moulure quantity in PL
+  moulureToChange Boolean @default(false)
+  tapeCount     Int?
+  tapeVert      Int?
+  pc            Float?    // sq ft — main measurement
+  carreaux      Int?      // tiles
+
+  // Billing references
+  facDevisAsp                    String?
+  facDevisAspReinstallation      String?
+  facDevisAspNettEntreposage     String?
+  factNumber                     String? // Fact #
+
+  comment String? // current season comment
+
+  // Status flags
+  fdpPlan           Boolean @default(false)
+  emailSent         Boolean @default(false)
+  retraitDone       Boolean @default(false)
+  entreposage       Boolean @default(false)
+  nettoyer          Boolean @default(false)
+  rebut             Boolean @default(false)
+  pickupDone        Boolean @default(false)
+  pickupRef         String?
+  confirmation      Boolean @default(false)
+  confirmationDates Boolean @default(false)
+  fait              Boolean @default(false)
+  payer             Boolean @default(false)
+  solaFacture       Boolean @default(false)
+
+  ajustement  String? // adjustment notes
+  detailTapis String? // carpet details
+  datePrevue  String? // planned date for future work
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  outreach TapisOutreach[]
+
+  @@index([companyId])
+  @@index([clientId])
+  @@index([companyId, jobType])
+  @@index([companyId, year])
+}
+
+model TapisInventory {
+  id        String @id @default(cuid())
+  companyId String
+  company   Company @relation(fields: [companyId], references: [id], onDelete: Cascade)
+
+  date            DateTime
+  duraDot         Int @default(0)
+  empire          Int @default(0)
+  needlePin6      Int @default(0)
+  needlePin4Brun  Int @default(0)
+  needlePin4Beige Int @default(0)
+  marathon        Int @default(0)
+  moulureNoir     Int @default(0)
+  tapeEcho        Int @default(0)
+  tapeVert        Int @default(0)
+  tapeProsol      Int @default(0)
+  notes           String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([companyId])
+}
+
+// Mat Tech orders
+model TapisSupplierOrder {
+  id        String @id @default(cuid())
+  companyId String
+  company   Company @relation(fields: [companyId], references: [id], onDelete: Cascade)
+
+  orderRef       String?   // Solathèque BDC number like "0383-ET-330"
+  matTechRef     String?   // Mat Tech ref number
+  date           DateTime?
+  description    String?
+  quantity       Float?    // qty in feet/meters
+  unit           String?   // rlx, etc.
+  color          String?
+  emailSent      Boolean   @default(false)
+  pickupLocation String?
+  pickupDone     Boolean   @default(false)
+  notes          String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([companyId])
+}
+
+// Dominic pickups from Mat Tech
+model TapisPickup {
+  id        String @id @default(cuid())
+  companyId String
+  company   Company @relation(fields: [companyId], references: [id], onDelete: Cascade)
+
+  matTechRef  String?
+  orderRef    String?   // Solathèque order number
+  rollCount   Int?
+  description String?
+  project     String?   // project name
+  orderDate   DateTime?
+  pickupDate  DateTime?
+  done        Boolean   @default(false)
+  moulure     Int?      @default(0)
+  tape        Int?      @default(0)
+  notes       String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([companyId])
+}
+
+// Entretien
+model TapisMaintenance {
+  id        String @id @default(cuid())
+  companyId String
+  company   Company @relation(fields: [companyId], references: [id], onDelete: Cascade)
+
+  poNumber   String?   // P.O. number like "0383-ET-251"
+  rollNumber Int?
+  quantityPL Int?
+  location   String?
+  date       DateTime?
+  notes      String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([companyId])
+}
+
+model TapisPricing {
+  id        String @id @default(cuid())
+  companyId String
+  company   Company @relation(fields: [companyId], references: [id], onDelete: Cascade)
+
+  serviceCategory String // "service" | "neuf" | "camion_usine" | "camion_usine_entree"
+  serviceName     String // "retrait", "nettoyage", "entreposage", "transport", "reinstallation", etc.
+  pricePerUnit    Float
+  unit            String // "PC", "PL", "fixe", etc.
+  bracket         String? // for tiered pricing like "0-2000pc", "2001-10000pc"
+  notes           String?
+  year            Int
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([companyId])
+}
+
+// Email/SMS tracking
+model TapisOutreach {
+  id        String @id @default(cuid())
+  companyId String
+  company   Company @relation(fields: [companyId], references: [id], onDelete: Cascade)
+
+  clientId String
+  client   TapisClient @relation(fields: [clientId], references: [id], onDelete: Cascade)
+
+  jobId String?
+  job   TapisJob? @relation(fields: [jobId], references: [id])
+
+  channel String // "email" | "sms"
+  type    String // "confirmation_request" | "reminder" | "final_reminder" | "manual"
+  status  String @default("pending") // "pending" | "sent" | "delivered" | "confirmed" | "no_response" | "failed"
+
+  scheduledFor   DateTime
+  sentAt         DateTime?
+  confirmedAt    DateTime?
+  recipientEmail String?
+  recipientPhone String?
+  subject        String?
+  body           String?
+  notes          String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([companyId])
+  @@index([clientId])
+  @@index([jobId])
 }

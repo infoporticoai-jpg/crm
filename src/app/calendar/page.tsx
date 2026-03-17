@@ -32,6 +32,20 @@ const STATUS_LABELS: Record<string, string> = {
   cancelled: "Cancelled",
 };
 
+const TAPIS_TYPE_COLORS: Record<string, string> = {
+  retrait: "#3B82F6",           // blue
+  reinstallation: "#22C55E",    // green
+  nouvelle_installation: "#F97316", // orange
+  enlevement: "#EF4444",        // red
+};
+
+const TAPIS_TYPE_LABELS: Record<string, string> = {
+  retrait: "Retrait",
+  reinstallation: "Réinstallation",
+  nouvelle_installation: "Nouvelle Installation",
+  enlevement: "Enlèvement",
+};
+
 type ServiceTab = "commercial" | "tapis";
 type ViewMode = "calendar" | "team";
 
@@ -54,10 +68,26 @@ interface Technician {
   name: string;
 }
 
+interface TapisJob {
+  id: string;
+  jobType: string;
+  scheduledDate: string;
+  hours: string;
+  crewSize: number;
+  client: {
+    name: string;
+    address: string;
+    city: string;
+  };
+  fait: boolean;
+  confirmation: boolean;
+}
+
 export default function CalendarPage() {
   const calendarRef = useRef<any>(null);
   const [appointments, setAppointments] = useState<Appointment[]>([]);
   const [technicians, setTechnicians] = useState<Technician[]>([]);
+  const [tapisJobs, setTapisJobs] = useState<TapisJob[]>([]);
   const [loading, setLoading] = useState(true);
   const [serviceTab, setServiceTab] = useState<ServiceTab>("commercial");
   const [viewMode, setViewMode] = useState<ViewMode>("calendar");
@@ -86,10 +116,14 @@ export default function CalendarPage() {
       ]);
       if (apptRes.ok) setAppointments(await apptRes.json());
       if (techRes.ok) setTechnicians(await techRes.json());
+      if (serviceTab === "tapis") {
+        const tapisRes = await fetch(`/api/tapis/jobs?year=${new Date().getFullYear()}`);
+        if (tapisRes.ok) setTapisJobs(await tapisRes.json());
+      }
     } finally {
       setLoading(false);
     }
-  }, []);
+  }, [serviceTab]);
 
   useEffect(() => {
     fetchData();
@@ -104,8 +138,25 @@ export default function CalendarPage() {
     return !type.toLowerCase().includes("tapis") && !type.toLowerCase().includes("carpet");
   });
 
+  // Parse tapis hours string like "7h30-11h" or "8h-12h30"
+  const parseTapisHours = (dateStr: string, hours: string) => {
+    const parts = hours.split("-");
+    const parseTime = (t: string) => {
+      const m = t.match(/(\d+)h(\d+)?/);
+      if (!m) return { h: 9, m: 0 };
+      return { h: parseInt(m[1]), m: parseInt(m[2] || "0") };
+    };
+    const startT = parseTime(parts[0] || "9h");
+    const endT = parts[1] ? parseTime(parts[1]) : { h: startT.h + 2, m: startT.m };
+    const start = new Date(dateStr);
+    start.setHours(startT.h, startT.m, 0, 0);
+    const end = new Date(dateStr);
+    end.setHours(endT.h, endT.m, 0, 0);
+    return { start, end };
+  };
+
   // Convert to FullCalendar events
-  const events = filtered.map((a) => {
+  const appointmentEvents = filtered.map((a) => {
     const start = new Date(a.scheduledAt);
     const end = new Date(start);
     end.setMinutes(end.getMinutes() + (a.duration || 60));
@@ -119,6 +170,23 @@ export default function CalendarPage() {
       extendedProps: a,
     };
   });
+
+  const tapisEvents = tapisJobs.map((job) => {
+    const { start, end } = parseTapisHours(job.scheduledDate, job.hours);
+    const color = TAPIS_TYPE_COLORS[job.jobType] || "#6B7280";
+    const label = TAPIS_TYPE_LABELS[job.jobType] || job.jobType;
+    return {
+      id: `tapis-${job.id}`,
+      title: `${job.client.name} — ${job.client.address} (${job.crewSize}👷)`,
+      start: start.toISOString(),
+      end: end.toISOString(),
+      backgroundColor: color,
+      borderColor: color,
+      extendedProps: { ...job, _isTapis: true, _typeLabel: label },
+    };
+  });
+
+  const events = serviceTab === "tapis" ? [...appointmentEvents, ...tapisEvents] : appointmentEvents;
 
   // Team schedule: group by technician
   const teamSchedule = technicians.map((tech) => ({
@@ -200,17 +268,27 @@ export default function CalendarPage() {
           </div>
 
           <div className="flex items-center gap-2">
-            {/* Status legend */}
+            {/* Status / Tapis type legend */}
             <div className="hidden md:flex items-center gap-3 mr-4">
-              {Object.entries(STATUS_LABELS).map(([key, label]) => (
-                <div key={key} className="flex items-center gap-1.5">
-                  <span
-                    className="inline-block h-2.5 w-2.5 rounded-full"
-                    style={{ backgroundColor: STATUS_COLORS[key] }}
-                  />
-                  <span className="text-xs text-gray-500">{label}</span>
-                </div>
-              ))}
+              {serviceTab === "tapis"
+                ? Object.entries(TAPIS_TYPE_LABELS).map(([key, label]) => (
+                    <div key={key} className="flex items-center gap-1.5">
+                      <span
+                        className="inline-block h-2.5 w-2.5 rounded-full"
+                        style={{ backgroundColor: TAPIS_TYPE_COLORS[key] }}
+                      />
+                      <span className="text-xs text-gray-500">{label}</span>
+                    </div>
+                  ))
+                : Object.entries(STATUS_LABELS).map(([key, label]) => (
+                    <div key={key} className="flex items-center gap-1.5">
+                      <span
+                        className="inline-block h-2.5 w-2.5 rounded-full"
+                        style={{ backgroundColor: STATUS_COLORS[key] }}
+                      />
+                      <span className="text-xs text-gray-500">{label}</span>
+                    </div>
+                  ))}
             </div>
 
             <div className="flex rounded-lg border">
@@ -269,70 +347,142 @@ export default function CalendarPage() {
               slotMaxTime="22:00:00"
               height="auto"
               eventClick={(info) => {
-                const appt = info.event.extendedProps as Appointment;
-                toast.info(
-                  `${appt.customerName || "Appointment"} — ${appt.status}${
-                    appt.propertyAddress ? ` — ${appt.propertyAddress}` : ""
-                  }`
-                );
+                const props = info.event.extendedProps;
+                if (props._isTapis) {
+                  const job = props as TapisJob & { _typeLabel: string };
+                  toast.info(
+                    `${job._typeLabel}: ${job.client.name} — ${job.client.address}, ${job.client.city} (${job.crewSize} crew)${job.fait ? " ✓ Fait" : ""}`
+                  );
+                } else {
+                  const appt = props as Appointment;
+                  toast.info(
+                    `${appt.customerName || "Appointment"} — ${appt.status}${
+                      appt.propertyAddress ? ` — ${appt.propertyAddress}` : ""
+                    }`
+                  );
+                }
               }}
             />
           </div>
         ) : (
           /* Team Schedule view */
           <div className="space-y-4">
-            {teamSchedule.length === 0 ? (
-              <div className="border-2 border-dashed rounded-xl p-12 text-center">
-                <p className="text-gray-500">No team members found. Add team members in the Team page.</p>
-              </div>
-            ) : (
-              teamSchedule.map((tech) => (
-                <div key={tech.id} className="bg-white rounded-xl border shadow-sm overflow-hidden">
-                  <div className="px-4 py-3 bg-gray-50 border-b">
-                    <div className="flex items-center gap-3">
-                      <div className="w-8 h-8 rounded-full bg-[#FDE4C4] flex items-center justify-center">
-                        <span className="text-sm font-medium text-[#B8610E]">{tech.name[0]}</span>
-                      </div>
-                      <div>
-                        <p className="font-medium text-sm">{tech.name}</p>
-                        <p className="text-xs text-gray-500">
-                          {tech.appointments.length} appointment{tech.appointments.length !== 1 ? "s" : ""} this week
-                        </p>
-                      </div>
-                    </div>
+            {serviceTab === "tapis" ? (
+              /* Tapis jobs grouped by date */
+              (() => {
+                const byDate: Record<string, TapisJob[]> = {};
+                tapisJobs.forEach((job) => {
+                  const d = job.scheduledDate.split("T")[0];
+                  if (!byDate[d]) byDate[d] = [];
+                  byDate[d].push(job);
+                });
+                const sortedDates = Object.keys(byDate).sort();
+                return sortedDates.length === 0 ? (
+                  <div className="border-2 border-dashed rounded-xl p-12 text-center">
+                    <p className="text-gray-500">No tapis jobs found.</p>
                   </div>
-                  {tech.appointments.length === 0 ? (
-                    <div className="px-4 py-6 text-center text-sm text-gray-400">No appointments scheduled</div>
-                  ) : (
-                    <div className="divide-y">
-                      {tech.appointments
-                        .sort((a, b) => new Date(a.scheduledAt).getTime() - new Date(b.scheduledAt).getTime())
-                        .map((appt) => (
-                          <div key={appt.id} className="px-4 py-3 flex items-center justify-between hover:bg-gray-50">
+                ) : (
+                  sortedDates.map((date) => (
+                    <div key={date} className="bg-white rounded-xl border shadow-sm overflow-hidden">
+                      <div className="px-4 py-3 bg-gray-50 border-b">
+                        <div className="flex items-center gap-3">
+                          <div className="w-8 h-8 rounded-full bg-[#FDE4C4] flex items-center justify-center">
+                            <span className="text-sm font-medium text-[#B8610E]">📅</span>
+                          </div>
+                          <div>
+                            <p className="font-medium text-sm">{new Date(date + "T00:00:00").toLocaleDateString("fr-CA", { weekday: "long", year: "numeric", month: "long", day: "numeric" })}</p>
+                            <p className="text-xs text-gray-500">
+                              {byDate[date].length} job{byDate[date].length !== 1 ? "s" : ""}
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="divide-y">
+                        {byDate[date].map((job) => (
+                          <div key={job.id} className="px-4 py-3 flex items-center justify-between hover:bg-gray-50">
                             <div className="flex items-center gap-3">
                               <span
                                 className="inline-block h-3 w-3 rounded-full"
-                                style={{ backgroundColor: STATUS_COLORS[appt.status] || STATUS_COLORS.pending }}
+                                style={{ backgroundColor: TAPIS_TYPE_COLORS[job.jobType] || "#6B7280" }}
                               />
                               <div>
-                                <p className="text-sm font-medium">{appt.customerName || "Appointment"}</p>
-                                <p className="text-xs text-gray-500">{appt.propertyAddress}</p>
+                                <p className="text-sm font-medium">{job.client.name}</p>
+                                <p className="text-xs text-gray-500">{job.client.address}, {job.client.city}</p>
                               </div>
                             </div>
                             <div className="text-right">
-                              <p className="text-sm">{new Date(appt.scheduledAt).toLocaleDateString()}</p>
-                              <p className="text-xs text-gray-500">
-                                {new Date(appt.scheduledAt).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}
-                                {" — "}
-                                {appt.duration}min
+                              <p className="text-sm">
+                                <span className="inline-block px-2 py-0.5 rounded text-xs font-medium text-white" style={{ backgroundColor: TAPIS_TYPE_COLORS[job.jobType] || "#6B7280" }}>
+                                  {TAPIS_TYPE_LABELS[job.jobType] || job.jobType}
+                                </span>
+                              </p>
+                              <p className="text-xs text-gray-500 mt-1">
+                                {job.hours} — {job.crewSize} crew
+                                {job.fait ? " ✓" : ""}
                               </p>
                             </div>
                           </div>
                         ))}
+                      </div>
                     </div>
-                  )}
+                  ))
+                );
+              })()
+            ) : (
+              /* Commercial: group by technician */
+              teamSchedule.length === 0 ? (
+                <div className="border-2 border-dashed rounded-xl p-12 text-center">
+                  <p className="text-gray-500">No team members found. Add team members in the Team page.</p>
                 </div>
-              ))
+              ) : (
+                teamSchedule.map((tech) => (
+                  <div key={tech.id} className="bg-white rounded-xl border shadow-sm overflow-hidden">
+                    <div className="px-4 py-3 bg-gray-50 border-b">
+                      <div className="flex items-center gap-3">
+                        <div className="w-8 h-8 rounded-full bg-[#FDE4C4] flex items-center justify-center">
+                          <span className="text-sm font-medium text-[#B8610E]">{tech.name[0]}</span>
+                        </div>
+                        <div>
+                          <p className="font-medium text-sm">{tech.name}</p>
+                          <p className="text-xs text-gray-500">
+                            {tech.appointments.length} appointment{tech.appointments.length !== 1 ? "s" : ""} this week
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    {tech.appointments.length === 0 ? (
+                      <div className="px-4 py-6 text-center text-sm text-gray-400">No appointments scheduled</div>
+                    ) : (
+                      <div className="divide-y">
+                        {tech.appointments
+                          .sort((a, b) => new Date(a.scheduledAt).getTime() - new Date(b.scheduledAt).getTime())
+                          .map((appt) => (
+                            <div key={appt.id} className="px-4 py-3 flex items-center justify-between hover:bg-gray-50">
+                              <div className="flex items-center gap-3">
+                                <span
+                                  className="inline-block h-3 w-3 rounded-full"
+                                  style={{ backgroundColor: STATUS_COLORS[appt.status] || STATUS_COLORS.pending }}
+                                />
+                                <div>
+                                  <p className="text-sm font-medium">{appt.customerName || "Appointment"}</p>
+                                  <p className="text-xs text-gray-500">{appt.propertyAddress}</p>
+                                </div>
+                              </div>
+                              <div className="text-right">
+                                <p className="text-sm">{new Date(appt.scheduledAt).toLocaleDateString()}</p>
+                                <p className="text-xs text-gray-500">
+                                  {new Date(appt.scheduledAt).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}
+                                  {" — "}
+                                  {appt.duration}min
+                                </p>
+                              </div>
+                            </div>
+                          ))}
+                      </div>
+                    )}
+                  </div>
+                ))
+              )
             )}
           </div>
         )}
