@@ -3,12 +3,13 @@ import { getSession } from "@/lib/api-auth";
 import { prisma } from "@/lib/prisma";
 import { z } from "zod";
 
-export async function GET(req: NextRequest, { params }: { params: { id: string } }) {
+export async function GET(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
   const session = await getSession();
   if (!session) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
 
   const technician = await prisma.technician.findFirst({
-    where: { id: params.id, companyId: session.user.companyId },
+    where: { id, companyId: session.user.companyId },
     include: {
       appointments: { orderBy: { scheduledAt: "desc" }, take: 20 },
       jobs: { orderBy: { createdAt: "desc" }, take: 20 },
@@ -27,7 +28,8 @@ const updateSchema = z.object({
   hourlyRate: z.number().optional().nullable(),
 });
 
-export async function PATCH(req: NextRequest, { params }: { params: { id: string } }) {
+export async function PATCH(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
   const session = await getSession();
   if (!session) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
 
@@ -39,12 +41,12 @@ export async function PATCH(req: NextRequest, { params }: { params: { id: string
     }
 
     const existing = await prisma.technician.findFirst({
-      where: { id: params.id, companyId: session.user.companyId },
+      where: { id, companyId: session.user.companyId },
     });
     if (!existing) return NextResponse.json({ error: "Technician not found" }, { status: 404 });
 
     const technician = await prisma.technician.update({
-      where: { id: params.id },
+      where: { id },
       data: parsed.data,
     });
 
@@ -55,15 +57,16 @@ export async function PATCH(req: NextRequest, { params }: { params: { id: string
   }
 }
 
-export async function DELETE(req: NextRequest, { params }: { params: { id: string } }) {
+export async function DELETE(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
   const session = await getSession();
   if (!session) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
 
   const existing = await prisma.technician.findFirst({
-    where: { id: params.id, companyId: session.user.companyId },
+    where: { id, companyId: session.user.companyId },
   });
   if (!existing) return NextResponse.json({ error: "Technician not found" }, { status: 404 });
 
-  await prisma.technician.delete({ where: { id: params.id } });
+  await prisma.technician.delete({ where: { id } });
   return NextResponse.json({ success: true });
 }

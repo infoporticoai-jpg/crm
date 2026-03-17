@@ -15,7 +15,7 @@ export async function GET() {
     }),
     prisma.invoice.findMany({
       where: { companyId, status: "paid" },
-      select: { total: true, paidDate: true, createdAt: true },
+      select: { total: true, paidAt: true, createdAt: true },
     }),
   ]);
 
@@ -44,7 +44,7 @@ export async function GET() {
 
     const monthRevenue = paidInvoices
       .filter((inv) => {
-        const dt = inv.paidDate || inv.createdAt;
+        const dt = inv.paidAt || inv.createdAt;
         return dt.getFullYear() === year && dt.getMonth() === month;
       })
       .reduce((sum, inv) => sum + inv.total, 0);

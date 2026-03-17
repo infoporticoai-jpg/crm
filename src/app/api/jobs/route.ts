@@ -44,7 +44,7 @@ export async function GET(req: NextRequest) {
 
   const jobs = await prisma.job.findMany({
     where,
-    include: { customer: true, technician: true },
+    include: { customer: true, assignedTechnician: true },
     orderBy: { createdAt: "desc" },
   });
 

@@ -75,16 +75,19 @@ export async function POST(req: NextRequest) {
       if (cal) {
         const endDate = new Date(scheduledDate);
         endDate.setMinutes(endDate.getMinutes() + (rest.duration || 60));
-        const event = await cal.createEvent({
-          summary: `${rest.customerName || "Appointment"} - ${rest.damageType || "Service"}`,
-          location: rest.propertyAddress || undefined,
-          start: scheduledDate.toISOString(),
-          end: endDate.toISOString(),
+        const event = await cal.calendar.events.insert({
+          calendarId: cal.calendarId,
+          requestBody: {
+            summary: `${rest.customerName || "Appointment"} - ${rest.damageType || "Service"}`,
+            location: rest.propertyAddress || undefined,
+            start: { dateTime: scheduledDate.toISOString() },
+            end: { dateTime: endDate.toISOString() },
+          },
         });
-        if (event?.id) {
+        if (event?.data?.id) {
           await prisma.appointment.update({
             where: { id: appointment.id },
-            data: { googleEventId: event.id },
+            data: { googleEventId: event.data.id },
           });
         }
       }

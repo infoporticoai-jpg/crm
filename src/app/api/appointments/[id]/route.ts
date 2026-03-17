@@ -4,12 +4,13 @@ import { prisma } from "@/lib/prisma";
 import { z } from "zod";
 import { getCalendarClient } from "@/lib/google-calendar";
 
-export async function GET(req: NextRequest, { params }: { params: { id: string } }) {
+export async function GET(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
   const session = await getSession();
   if (!session) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
 
   const appointment = await prisma.appointment.findFirst({
-    where: { id: params.id, companyId: session.user.companyId },
+    where: { id, companyId: session.user.companyId },
     include: { customer: true, technician: true, calls: true },
   });
 
@@ -32,7 +33,8 @@ const updateSchema = z.object({
   jobId: z.string().optional().nullable(),
 });
 
-export async function PATCH(req: NextRequest, { params }: { params: { id: string } }) {
+export async function PATCH(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
   const session = await getSession();
   if (!session) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
 
@@ -44,7 +46,7 @@ export async function PATCH(req: NextRequest, { params }: { params: { id: string
     }
 
     const existing = await prisma.appointment.findFirst({
-      where: { id: params.id, companyId: session.user.companyId },
+      where: { id, companyId: session.user.companyId },
     });
     if (!existing) return NextResponse.json({ error: "Appointment not found" }, { status: 404 });
 
@@ -52,7 +54,7 @@ export async function PATCH(req: NextRequest, { params }: { params: { id: string
     if (data.scheduledAt) data.scheduledAt = new Date(data.scheduledAt);
 
     const appointment = await prisma.appointment.update({
-      where: { id: params.id },
+      where: { id },
       data,
     });
 
@@ -63,12 +65,13 @@ export async function PATCH(req: NextRequest, { params }: { params: { id: string
   }
 }
 
-export async function DELETE(req: NextRequest, { params }: { params: { id: string } }) {
+export async function DELETE(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
   const session = await getSession();
   if (!session) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
 
   const existing = await prisma.appointment.findFirst({
-    where: { id: params.id, companyId: session.user.companyId },
+    where: { id, companyId: session.user.companyId },
   });
   if (!existing) return NextResponse.json({ error: "Appointment not found" }, { status: 404 });
 
@@ -76,12 +79,12 @@ export async function DELETE(req: NextRequest, { params }: { params: { id: strin
   if (existing.googleEventId) {
     try {
       const cal = await getCalendarClient(session.user.companyId);
-      if (cal) await cal.deleteEvent(existing.googleEventId);
+      if (cal) await cal.calendar.events.delete({ calendarId: cal.calendarId, eventId: existing.googleEventId });
     } catch (err) {
       console.error("Google Calendar delete failed:", err);
     }
   }
 
-  await prisma.appointment.delete({ where: { id: params.id } });
+  await prisma.appointment.delete({ where: { id } });
   return NextResponse.json({ success: true });
 }

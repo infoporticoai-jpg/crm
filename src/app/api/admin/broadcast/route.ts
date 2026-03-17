@@ -77,11 +77,11 @@ export async function POST(req: NextRequest) {
       }
     }
 
-    await logAdminAction(
-      "broadcast",
-      session.user.email!,
-      `Broadcast "${subject}" to ${companies.length} companies (${emailsSent} emails sent)`
-    );
+    await logAdminAction({
+      action: "broadcast",
+      adminEmail: session.user.email!,
+      detail: `Broadcast "${subject}" to ${companies.length} companies (${emailsSent} emails sent)`,
+    });
 
     return NextResponse.json({
       success: true,

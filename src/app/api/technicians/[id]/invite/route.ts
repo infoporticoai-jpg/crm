@@ -10,7 +10,8 @@ const inviteSchema = z.object({
   password: z.string().min(6, "Password must be at least 6 characters"),
 });
 
-export async function POST(req: NextRequest, { params }: { params: { id: string } }) {
+export async function POST(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
   const session = await getSession();
   if (!session) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
 
@@ -22,7 +23,7 @@ export async function POST(req: NextRequest, { params }: { params: { id: string 
     }
 
     const technician = await prisma.technician.findFirst({
-      where: { id: params.id, companyId: session.user.companyId },
+      where: { id, companyId: session.user.companyId },
     });
     if (!technician) return NextResponse.json({ error: "Technician not found" }, { status: 404 });
 

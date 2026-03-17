@@ -15,8 +15,9 @@ const updateSchema = z.object({
 
 export async function PUT(
   req: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
+  const { id } = await params;
   const session = await getSession();
   if (!session) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
 
@@ -28,12 +29,12 @@ export async function PUT(
     }
 
     const existing = await prisma.tapisPricing.findFirst({
-      where: { id: params.id, companyId: session.user.companyId },
+      where: { id, companyId: session.user.companyId },
     });
     if (!existing) return NextResponse.json({ error: "Not found" }, { status: 404 });
 
     const record = await prisma.tapisPricing.update({
-      where: { id: params.id },
+      where: { id },
       data: parsed.data,
     });
 
@@ -46,16 +47,17 @@ export async function PUT(
 
 export async function DELETE(
   req: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
+  const { id } = await params;
   const session = await getSession();
   if (!session) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
 
   const existing = await prisma.tapisPricing.findFirst({
-    where: { id: params.id, companyId: session.user.companyId },
+    where: { id, companyId: session.user.companyId },
   });
   if (!existing) return NextResponse.json({ error: "Not found" }, { status: 404 });
 
-  await prisma.tapisPricing.delete({ where: { id: params.id } });
+  await prisma.tapisPricing.delete({ where: { id } });
   return NextResponse.json({ success: true });
 }

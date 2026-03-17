@@ -3,12 +3,13 @@ import { getSession } from "@/lib/api-auth";
 import { prisma } from "@/lib/prisma";
 import { z } from "zod";
 
-export async function GET(req: NextRequest, { params }: { params: { id: string } }) {
+export async function GET(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
   const session = await getSession();
   if (!session) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
 
   const quote = await prisma.quote.findFirst({
-    where: { id: params.id, companyId: session.user.companyId },
+    where: { id, companyId: session.user.companyId },
     include: { customer: true },
   });
 
@@ -28,7 +29,8 @@ const updateSchema = z.object({
   customerId: z.string().optional().nullable(),
 });
 
-export async function PATCH(req: NextRequest, { params }: { params: { id: string } }) {
+export async function PATCH(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
   const session = await getSession();
   if (!session) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
 
@@ -40,7 +42,7 @@ export async function PATCH(req: NextRequest, { params }: { params: { id: string
     }
 
     const existing = await prisma.quote.findFirst({
-      where: { id: params.id, companyId: session.user.companyId },
+      where: { id, companyId: session.user.companyId },
     });
     if (!existing) return NextResponse.json({ error: "Quote not found" }, { status: 404 });
 
@@ -48,7 +50,7 @@ export async function PATCH(req: NextRequest, { params }: { params: { id: string
     if (data.expiryDate) data.expiryDate = new Date(data.expiryDate);
 
     const quote = await prisma.quote.update({
-      where: { id: params.id },
+      where: { id },
       data,
     });
 
@@ -59,15 +61,16 @@ export async function PATCH(req: NextRequest, { params }: { params: { id: string
   }
 }
 
-export async function DELETE(req: NextRequest, { params }: { params: { id: string } }) {
+export async function DELETE(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
   const session = await getSession();
   if (!session) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
 
   const existing = await prisma.quote.findFirst({
-    where: { id: params.id, companyId: session.user.companyId },
+    where: { id, companyId: session.user.companyId },
   });
   if (!existing) return NextResponse.json({ error: "Quote not found" }, { status: 404 });
 
-  await prisma.quote.delete({ where: { id: params.id } });
+  await prisma.quote.delete({ where: { id } });
   return NextResponse.json({ success: true });
 }

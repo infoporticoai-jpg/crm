@@ -20,9 +20,15 @@ export async function GET(req: NextRequest) {
       return d.toISOString();
     })();
 
-    const result = await cal.listEvents(timeMin, timeMax);
+    const result = await cal.calendar.events.list({
+      calendarId: cal.calendarId,
+      timeMin,
+      timeMax,
+      singleEvents: true,
+      orderBy: "startTime",
+    });
 
-    return NextResponse.json(result.items || []);
+    return NextResponse.json(result.data.items || []);
   } catch (error) {
     console.error("Google events error:", error);
     return NextResponse.json({ error: "Internal server error" }, { status: 500 });

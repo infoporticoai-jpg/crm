@@ -3,13 +3,14 @@ import { getSession } from "@/lib/api-auth";
 import { prisma } from "@/lib/prisma";
 import { sendEmail } from "@/lib/email";
 
-export async function POST(req: NextRequest, { params }: { params: { id: string } }) {
+export async function POST(req: NextRequest, { params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
   const session = await getSession();
   if (!session) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
 
   try {
     const invoice = await prisma.invoice.findFirst({
-      where: { id: params.id, companyId: session.user.companyId },
+      where: { id, companyId: session.user.companyId },
       include: { customer: true, job: true },
     });
 
@@ -20,7 +21,7 @@ export async function POST(req: NextRequest, { params }: { params: { id: string 
 
     // Mark as sent
     await prisma.invoice.update({
-      where: { id: params.id },
+      where: { id },
       data: { status: "sent" },
     });
 

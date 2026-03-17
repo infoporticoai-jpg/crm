@@ -19,7 +19,7 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: parsed.error.flatten() }, { status: 422 });
     }
 
-    const cookieStore = cookies();
+    const cookieStore = await cookies();
 
     if (parsed.data.companyId) {
       // Set impersonation cookie
@@ -31,14 +31,14 @@ export async function POST(req: NextRequest) {
         maxAge: 60 * 60 * 4, // 4 hours
       });
 
-      await logAdminAction("impersonate", session.user.email!, `Started impersonating company`, parsed.data.companyId);
+      await logAdminAction({ action: "impersonate", adminEmail: session.user.email!, detail: `Started impersonating company`, targetCompanyId: parsed.data.companyId });
 
       return NextResponse.json({ success: true, message: `Impersonating company ${parsed.data.companyId}` });
     } else {
       // Clear impersonation
       cookieStore.delete("portico_impersonate");
 
-      await logAdminAction("impersonate", session.user.email!, "Stopped impersonating");
+      await logAdminAction({ action: "impersonate", adminEmail: session.user.email!, detail: "Stopped impersonating" });
 
       return NextResponse.json({ success: true, message: "Impersonation ended" });
     }
