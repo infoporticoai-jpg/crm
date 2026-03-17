@@ -1,0 +1,585 @@
+// Portico CRM — Real schema scraped from live portal.porticoai.net
+// Last synced: 2026-03-16
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ─── Multi-tenant root ──────────────────────────────────────────────
+
+model Company {
+  id      String  @id @default(cuid())
+  name    String
+  phone   String?
+  address String?
+  email   String?
+  logoUrl String? // base64 data URI or URL
+
+  // Tax (Quebec)
+  tpsNumber String?
+  tvqNumber String?
+
+  // Tax (Custom/US)
+  tax1Name   String?
+  tax1Rate   Float?
+  tax1Number String?
+  tax2Name   String?
+  tax2Rate   Float?
+  tax2Number String?
+
+  // Config
+  serviceArea   String? // JSON
+  businessHours String? // JSON per-day open/close
+  language      String  @default("en") // "en" | "fr"
+
+  // AI
+  aiGreeting String?
+  aiSettings String? // JSON
+
+  // Integrations
+  googleCalendarAccessToken  String?
+  googleCalendarRefreshToken String?
+  googleCalendarId           String?
+  retellWebhookKey           String? @unique
+  n8nWebhookKey              String? @unique
+  zapierWebhookUrl           String?
+
+  // Billing (Stripe)
+  stripeCustomerId      String?
+  stripeSubscriptionId  String?
+  subscriptionStatus    String? // "active" | "trialing" | "past_due" | "canceled"
+  subscriptionPlan      String? // "starter" | "growth" | "custom"
+  subscriptionPeriodEnd DateTime?
+
+  // Status
+  status String @default("active") // "active" | "pending" | "suspended"
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  users            User[]
+  customers        Customer[]
+  jobs             Job[]
+  quotes           Quote[]
+  invoices         Invoice[]
+  appointments     Appointment[]
+  calls            Call[]
+  technicians      Technician[]
+  costs            Cost[]
+  notifications    Notification[]
+  flooringProjects FlooringProject[]
+  adminInvoices    AdminInvoice[]
+}
+
+// ─── Auth ────────────────────────────────────────────────────────────
+
+model User {
+  id       String @id @default(cuid())
+  email    String @unique
+  password String
+  name     String
+  role     String @default("owner") // "owner" | "technician"
+
+  companyId String
+  company   Company @relation(fields: [companyId], references: [id], onDelete: Cascade)
+
+  technicianId String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([companyId])
+}
+
+// ─── CRM Core ────────────────────────────────────────────────────────
+
+model Customer {
+  id      String  @id @default(cuid())
+  name    String
+  phone   String?
+  email   String?
+  address String?
+  notes   String?
+
+  companyId String
+  company   Company @relation(fields: [companyId], references: [id], onDelete: Cascade)
+
+  calls            Call[]
+  appointments     Appointment[]
+  jobs             Job[]
+  invoices         Invoice[]
+  quotes           Quote[]
+  flooringProjects FlooringProject[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([companyId])
+}
+
+model Call {
+  id          String   @id @default(cuid())
+  callerName  String?
+  callerPhone String?
+  callerEmail String?
+  timestamp   DateTime @default(now())
+  duration    Int?
+  recordingUrl String?
+  transcript   String?
+
+  propertyAddress String?
+  damageType      String?
+  urgencyLevel    String?
+  description     String?
+  disposition     String?
+
+  aiConfidence Float?
+  callSource   String?
+
+  companyId String
+  company   Company @relation(fields: [companyId], references: [id], onDelete: Cascade)
+
+  customerId String?
+  customer   Customer? @relation(fields: [customerId], references: [id])
+
+  appointmentId String?
+  appointment   Appointment? @relation(fields: [appointmentId], references: [id])
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([companyId])
+  @@index([customerId])
+}
+
+model Appointment {
+  id              String  @id @default(cuid())
+  customerName    String?
+  customerPhone   String?
+  customerEmail   String?
+  propertyAddress String?
+  damageType      String?
+  severity        String?
+  estimatedValue  Float?
+  serviceType     String? // "commercial" | "tapis"
+
+  scheduledAt DateTime
+  duration    Int    @default(60)
+  status      String @default("pending") // "pending" | "confirmed" | "in_progress" | "completed" | "cancelled"
+
+  googleEventId String?
+
+  companyId String
+  company   Company @relation(fields: [companyId], references: [id], onDelete: Cascade)
+
+  customerId String?
+  customer   Customer? @relation(fields: [customerId], references: [id])
+
+  technicianId String?
+  technician   Technician? @relation(fields: [technicianId], references: [id])
+
+  jobId String?
+  job   Job? @relation(fields: [jobId], references: [id])
+
+  calls Call[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([companyId])
+  @@index([customerId])
+}
+
+model Job {
+  id              String  @id @default(cuid())
+  title           String
+  description     String?
+  propertyAddress String?
+  damageType      String? // "water" | "fire" | "mold" | "storm" | "carpet" | "ceramic" | "vinyl" | "linoleum" | "entrance_mat" | "other"
+  status          String  @default("open") // "open" | "in_progress" | "completed" | "cancelled"
+
+  laborCost         Float @default(0)
+  materialCost      Float @default(0)
+  equipmentCost     Float @default(0)
+  subcontractorCost Float @default(0)
+  estimatedValue    Float?
+
+  // Insurance (restoration)
+  insuranceCarrier      String?
+  insurancePolicyNumber String?
+  claimNumber           String?
+  claimStatus           String?
+  waterCategory         Int?   // IICRC: 1=clean, 2=grey, 3=black
+  affectedArea          Float? // sqft
+
+  photos String? @default("[]") // JSON array
+
+  companyId String
+  company   Company @relation(fields: [companyId], references: [id], onDelete: Cascade)
+
+  customerId String?
+  customer   Customer? @relation(fields: [customerId], references: [id])
+
+  technicianId String?
+  technician   Technician? @relation(fields: [technicianId], references: [id])
+
+  appointments Appointment[]
+  invoices     Invoice[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([companyId])
+  @@index([companyId, status])
+  @@index([customerId])
+}
+
+model Quote {
+  id        String    @id @default(cuid())
+  mode      String    @default("hourly") // "hourly" | "sqft"
+  lineItems String    @default("[]") // JSON
+  subtotal  Float     @default(0)
+  tax       Float     @default(0)
+  total     Float     @default(0)
+  status    String    @default("draft") // "draft" | "sent" | "accepted" | "declined" | "expired"
+  expiryDate DateTime?
+  notes     String?
+
+  companyId String
+  company   Company @relation(fields: [companyId], references: [id], onDelete: Cascade)
+
+  customerId String?
+  customer   Customer? @relation(fields: [customerId], references: [id])
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([companyId])
+  @@index([customerId])
+}
+
+model Invoice {
+  id        String    @id @default(cuid())
+  lineItems String    @default("[]") // JSON
+  subtotal  Float     @default(0)
+  tax       Float     @default(0)
+  total     Float     @default(0)
+  status    String    @default("draft") // "draft" | "sent" | "paid" | "overdue" | "cancelled"
+  dueDate   DateTime?
+  paidDate  DateTime?
+  notes     String?
+
+  companyId String
+  company   Company @relation(fields: [companyId], references: [id], onDelete: Cascade)
+
+  customerId String?
+  customer   Customer? @relation(fields: [customerId], references: [id])
+
+  jobId String?
+  job   Job? @relation(fields: [jobId], references: [id])
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([companyId])
+  @@index([customerId])
+}
+
+model Cost {
+  id       String   @id @default(cuid())
+  name     String
+  price    Float
+  date     DateTime
+  notes    String?
+  photos   String?  @default("[]") // JSON base64
+  type     String   @default("cost") // "cost" | "revenue"
+  sourceId String?  // invoice ID for revenue entries
+
+  companyId String
+  company   Company @relation(fields: [companyId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([companyId])
+}
+
+model Technician {
+  id             String  @id @default(cuid())
+  name           String
+  phone          String?
+  email          String?
+  certifications String? @default("[]") // JSON array
+  hourlyRate     Float?
+
+  companyId String
+  company   Company @relation(fields: [companyId], references: [id], onDelete: Cascade)
+
+  userId String? // linked CRM login
+
+  appointments Appointment[]
+  jobs         Job[]
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([companyId])
+}
+
+model Notification {
+  id      String  @id @default(cuid())
+  type    String  // "new_call" | "new_appointment" | "overdue" | "job_status"
+  title   String
+  message String
+  link    String?
+  read    Boolean @default(false)
+
+  companyId String
+  company   Company @relation(fields: [companyId], references: [id], onDelete: Cascade)
+
+  createdAt DateTime @default(now())
+
+  @@index([companyId])
+}
+
+// ─── Flooring Pipeline (Solathèque) ──────────────────────────────────
+// This is the core Solathèque workflow:
+// FlooringProject → LineItem (from FX Measure PDF, AI-parsed)
+// FlooringProject → Soumission → SoumissionItem
+// FlooringProject → Bdc → BdcItem
+// FlooringProject → Fdp → FdpItem
+
+model FlooringProject {
+  id        String @id @default(cuid())
+  companyId String
+  company   Company @relation(fields: [companyId], references: [id], onDelete: Cascade)
+
+  customerId String?
+  customer   Customer? @relation(fields: [customerId], references: [id])
+
+  projectNumber String  // Auto-generated: "0001", "0002", etc.
+  projectName   String
+  location      String?
+
+  // Pipeline status
+  status String @default("nouveau") // "nouveau" | "soumission" | "bdc" | "fdp" | "installation" | "complete"
+
+  // Line items parsed from FX Measure PDF by AI
+  lineItems  LineItem[]
+
+  // Document stages — each is a separate model
+  soumission Soumission?
+  bdc        Bdc?
+  fdp        Fdp?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([companyId, projectNumber])
+  @@index([companyId, status])
+  @@index([customerId])
+}
+
+// FX Measure line items — AI-parsed from uploaded PDF
+// Yellow = not yet validated, editable by PM
+model LineItem {
+  id        String @id @default(cuid())
+  projectId String
+  project   FlooringProject @relation(fields: [projectId], references: [id], onDelete: Cascade)
+
+  source    String  @default("FX_MEASURE") // "FX_MEASURE" | "MANUAL"
+  validated Boolean @default(false)        // false = yellow/editable, true = confirmed
+
+  itemCode    String?  // "CE1", "CE2M", "CS", "IT", "LVL", "MA", etc.
+  description String   // "Tapis", "CE2 Murale", "Céramique Sauna", "insertion tapis", etc.
+  unit        String?  // "pi2" (sq ft), "pi l" (linear ft)
+  quantity    Float?
+  unitPrice   Float?
+  color       String?
+  sortOrder   Int      @default(0)
+
+  @@index([projectId])
+}
+
+// ─── Soumission (Client-facing quote from FX Measure data) ───────────
+
+model Soumission {
+  id        String @id @default(cuid())
+  projectId String @unique
+  project   FlooringProject @relation(fields: [projectId], references: [id], onDelete: Cascade)
+
+  number      String   // "S-0006"
+  date        DateTime @default(now())
+  clientName  String?
+  projectName String?
+  location    String?
+  notes       String?
+
+  subtotal Float @default(0)
+  tps      Float @default(0) // TPS 5%
+  tvq      Float @default(0) // TVQ 9.975%
+  total    Float @default(0)
+
+  status String @default("draft") // "draft" | "sent" | "approved"
+  sentAt DateTime?
+
+  items SoumissionItem[]
+}
+
+model SoumissionItem {
+  id           String @id @default(cuid())
+  soumissionId String
+  soumission   Soumission @relation(fields: [soumissionId], references: [id], onDelete: Cascade)
+
+  lineItemId    String?  // Links back to the FX Measure LineItem
+  source        String   @default("FX_MEASURE")
+  itemCode      String?
+  name          String
+  manufacturer  String?
+  collection    String?
+  specification String?
+  color         String?
+  dimensions    String?
+  pattern       String?
+  notes         String?
+  price         Float    @default(0)
+  sortOrder     Int      @default(0)
+
+  @@index([soumissionId])
+}
+
+// ─── BDC — Bon de Commande (Internal purchase/work order) ────────────
+
+model Bdc {
+  id        String @id @default(cuid())
+  projectId String @unique
+  project   FlooringProject @relation(fields: [projectId], references: [id], onDelete: Cascade)
+
+  orderNumber String  // "BDC-0006"
+  projectName String?
+
+  // Supplier info
+  supplier         String?
+  supplierEmail    String?
+  supplierRef      String?
+  deliverTo        String?
+  isPickup         Boolean @default(false)
+
+  // Dates
+  orderDate        DateTime?
+  requiredDate     DateTime?
+  availabilityDate DateTime?
+
+  // Contacts
+  orderedBy    String?
+  siteContact  String?
+  cellphone    String?
+  fax          String?
+
+  // References
+  billOfLading String?
+  cotationNo   String?
+  priceGivenBy String?
+
+  // Flags
+  manualRequired   Boolean @default(false)
+  warrantyRequired Boolean @default(false)
+
+  buyer  String?
+  total  Float   @default(0)
+  status String  @default("draft") // "draft" | "sent"
+  sentAt DateTime?
+
+  items BdcItem[]
+}
+
+model BdcItem {
+  id    String @id @default(cuid())
+  bdcId String
+  bdc   Bdc @relation(fields: [bdcId], references: [id], onDelete: Cascade)
+
+  source      String  @default("FX_MEASURE")
+  quantity    Float?
+  description String
+  color       String?
+  unitPrice   Float?
+  total       Float   @default(0)
+  sortOrder   Int     @default(0)
+
+  @@index([bdcId])
+}
+
+// ─── FDP — Feuille de Pose (Installer field sheet) ───────────────────
+
+model Fdp {
+  id        String @id @default(cuid())
+  projectId String @unique
+  project   FlooringProject @relation(fields: [projectId], references: [id], onDelete: Cascade)
+
+  sheetNumber String // "0006"
+
+  // Financial calculations
+  adminFees     Float @default(0)
+  fixedCostsPct Float @default(0)
+  profitPct     Float @default(0)
+  financingPct  Float @default(0)
+  retrobilling  Float @default(0)
+  sellingPrice  Float @default(0)
+  totalReal     Float @default(0)
+
+  status String @default("draft") // "draft" | "sent"
+
+  items FdpItem[]
+}
+
+model FdpItem {
+  id    String @id @default(cuid())
+  fdpId String
+  fdp   Fdp @relation(fields: [fdpId], references: [id], onDelete: Cascade)
+
+  quantity           Float?
+  unit               String?  // "v2", "pi2", etc.
+  installation       String?  // "Tapis rouleau", "Céramique", etc.
+  subcontractor      String?
+  estimatedUnitPrice Float?
+  estimatedTotal     Float?
+  realTotal          Float?
+  invoiceNumber      String?
+  sortOrder          Int      @default(0)
+
+  @@index([fdpId])
+}
+
+// ─── Admin (Platform-level) ──────────────────────────────────────────
+
+model AdminInvoice {
+  id        String @id @default(cuid())
+  companyId String
+  company   Company @relation(fields: [companyId], references: [id], onDelete: Cascade)
+
+  amount   Float
+  status   String    @default("draft") // "draft" | "sent" | "paid"
+  dueDate  DateTime?
+  paidDate DateTime?
+  notes    String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([companyId])
+}
+
+model AdminLog {
+  id              String  @id @default(cuid())
+  action          String  // "impersonate" | "approve" | "suspend" | "delete" | "config_edit" | "broadcast"
+  detail          String?
+  adminEmail      String
+  targetCompanyId String?
+
+  createdAt DateTime @default(now())
+}
